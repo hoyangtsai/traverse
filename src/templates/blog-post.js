@@ -1,8 +1,8 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
+import { kebabCase } from "lodash"
 import Bio from "../components/bio"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import Seo from "../components/seo"
 
 const BlogPostTemplate = ({ data, location }) => {
@@ -22,7 +22,7 @@ const BlogPostTemplate = ({ data, location }) => {
         itemType="http://schema.org/Article"
       >
         <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
+          <h1 itemProp="headline" style={{ color: 'var(--textTitle)' }}>{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
         </header>
         <section
@@ -31,7 +31,17 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <hr />
         <footer>
-          <Bio />
+          {/* <Bio /> */}
+          <div className="page-tag">
+            {post.frontmatter.tags &&
+              post.frontmatter.tags.map((tag) => (
+                <div key={tag}>
+                  <Link className="tag" to={`/tags/${kebabCase(tag)}/`}>
+                    #{tag}
+                  </Link>
+                </div>
+              ))}
+          </div>
         </footer>
       </article>
       <nav className="blog-post-nav">
@@ -85,6 +95,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
