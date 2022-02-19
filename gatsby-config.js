@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Hoyang's memo`,
+    title: `Hoyangverse`,
     author: {
       name: `Hoyang Tsai`,
       summary: `What comes up the mind make it happen.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://hoyangtsai.github.io/`,
+    description: `Dev, Life-style`,
+    siteUrl: `https://hoyangtsai.github.io/blog`,
     social: {
       twitter: `hoyangtsai`,
     },
@@ -123,7 +123,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Hoyang's Blog RSS Feed",
           },
         ],
       },

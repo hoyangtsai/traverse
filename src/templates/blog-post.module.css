@@ -1,0 +1,7 @@
+.postTag {
+  display: flex;
+}
+
+.postTagItem {
+  margin-right: 1em;
+}

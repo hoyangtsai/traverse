@@ -1,9 +1,10 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 import { kebabCase } from "lodash"
-import Bio from "../components/bio"
 import Layout from "../components/Layout"
 import Seo from "../components/seo"
+
+import * as styles from './blog-post.module.css';
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -31,14 +32,11 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <hr />
         <footer>
-          {/* <Bio /> */}
-          <div className="page-tag">
+          <div className={styles.postTag}>
             {post.frontmatter.tags &&
               post.frontmatter.tags.map((tag) => (
-                <div key={tag}>
-                  <Link className="tag" to={`/tags/${kebabCase(tag)}/`}>
-                    #{tag}
-                  </Link>
+                <div className={styles.postTagItem} key={tag}>
+                  <Link className="tag" to={`/tags/${kebabCase(tag)}/`}>#{tag}</Link>
                 </div>
               ))}
           </div>

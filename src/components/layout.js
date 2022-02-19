@@ -8,6 +8,21 @@ import { DEFAULT_CONFIG } from './Config'
 
 import * as styles from './Layout.module.css';
 
+const inTouches = [
+  {
+    name: 'Twitter',
+    url: 'https://twitter.com/hoyangtsai'
+  },
+  {
+    name: 'Github',
+    url: 'https://github.com/hoyangtsai'
+  },
+  {
+    name: 'Linkedin',
+    url: 'https://www.linkedin.com/in/hoyangtsai/'
+  }
+]
+
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
@@ -81,9 +96,12 @@ const Layout = ({ location, title, children }) => {
 
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <div className={styles.rss}>
+          <a href="/rss.xml" target="_blank" rel="noreferrer">RSS</a>
+        </div>
+        <ul className={styles.inTouches}>
+          {inTouches.map((info, index) => <li className={styles.inTouchesItem} key={index}><a href={info.url} target="_blank" rel="noreferrer">{info.name}</a></li>)}
+        </ul>
       </footer>
     </div>
   )

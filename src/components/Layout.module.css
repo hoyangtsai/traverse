@@ -4,3 +4,21 @@
   align-items: center;
   margin-bottom: 2.625rem;
 }
+
+.rss {
+  float: right;
+}
+
+.inTouches {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.inTouchesItem + .inTouchesItem:before {
+  content: "•";
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 4px;
+}

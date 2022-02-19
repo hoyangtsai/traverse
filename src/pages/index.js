@@ -5,6 +5,8 @@ import Bio from "../components/bio"
 import Layout from "../components/Layout"
 import Seo from "../components/seo"
 
+import * as styles from "./index.module.css";
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
@@ -12,7 +14,7 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <Seo title="All posts" />
+        <Seo title="Posts" />
         <Bio />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
@@ -25,16 +27,15 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
-      <Bio />
-      <ol style={{ listStyle: `none` }}>
+      <Seo title="Home" />
+      {/* <Bio /> */}
+      <ol className={styles.post}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
-            <li key={post.fields.slug}>
+            <li className={styles.article} key={post.fields.slug}>
               <article
-                className="post-list-item"
                 itemScope
                 itemType="http://schema.org/Article"
               >
