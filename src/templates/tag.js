@@ -5,7 +5,6 @@ import PropTypes from "prop-types"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/Layout"
-import Seo from "../components/seo"
 
 const Tags = ({ data, location, pageContext }) => {
   const { tag } = pageContext
@@ -14,13 +13,8 @@ const Tags = ({ data, location, pageContext }) => {
 
   const siteTitle = data.site.siteMetadata?.title || `Tag`
 
-  console.log('pageContext :>> ', pageContext);
-  console.log('data :>> ', data);
-  console.log('location :>> ', location);
-
   return (
     <Layout title={siteTitle} location={location}>
-
       <h1>{tagHeader}</h1>
       <ul>
         {edges.map(({ node }) => {
