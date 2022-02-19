@@ -23,7 +23,7 @@ const inTouches = [
   }
 ]
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ data, location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header
@@ -97,7 +97,7 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
       <footer>
         <div className={styles.rss}>
-          <a href="/rss.xml" target="_blank" rel="noreferrer">RSS</a>
+          <a href={`${data.site.pathPrefix}/rss.xml`} target="_blank" rel="noreferrer">RSS</a>
         </div>
         <ul className={styles.inTouches}>
           {inTouches.map((info, index) => <li className={styles.inTouchesItem} key={index}><a href={info.url} target="_blank" rel="noreferrer">{info.name}</a></li>)}
