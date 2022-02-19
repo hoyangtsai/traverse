@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   siteMetadata: {
     title: `Hoyangverse`,
@@ -127,6 +129,14 @@ module.exports = {
           },
         ],
       },
+    },
+    {
+      resolve: 'gatsby-plugin-root-import',
+      options: {
+        "components": path.join(__dirname, "src/components"),
+        "templates": path.join(__dirname, "src/templates"),
+        "src": path.join(__dirname, 'src'),
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
