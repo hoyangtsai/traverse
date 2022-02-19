@@ -5,6 +5,7 @@ import Toggle from './Toggle'
 // import moon from '../images/moon.png'
 // import sun from '../images/sun.png'
 import { DEFAULT_CONFIG } from './Config'
+import { useStaticQuery, graphql } from "gatsby"
 
 import * as styles from './Layout.module.css';
 
@@ -28,15 +29,23 @@ const Layout = ({ data, location, title, children }) => {
   const isRootPath = location.pathname === rootPath
   let header
 
+  const { site } = useStaticQuery(
+    graphql`
+      query {
+        site {
+          pathPrefix
+        }
+      }
+    `
+  )
+
   const [state, setState] = React.useState({theme: null});
   // this.state = {
   //   theme: null,
   // };
 
-  // console.log('DEFAULT_CONFIG =>', DEFAULT_CONFIG);
   const { colorMode } = DEFAULT_CONFIG;
-  const { switchConfig } = colorMode;
-  // console.log('switchConfig =>', switchConfig);
+  const { switchConfig } = colorMode;  
 
   React.useEffect(() => {
     setState({ theme: window.__theme });
@@ -97,7 +106,7 @@ const Layout = ({ data, location, title, children }) => {
       <main>{children}</main>
       <footer>
         <div className={styles.rss}>
-          <a href={`${data.site.pathPrefix}/rss.xml`} target="_blank" rel="noreferrer">RSS</a>
+          <a href={`${site.pathPrefix}/rss.xml`} target="_blank" rel="noreferrer">RSS</a>
         </div>
         <ul className={styles.inTouches}>
           {inTouches.map((info, index) => <li className={styles.inTouchesItem} key={index}><a href={info.url} target="_blank" rel="noreferrer">{info.name}</a></li>)}
