@@ -2,18 +2,19 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: `Hoyangverse`,
+    title: `Traverse`,
     author: {
       name: `Hoyang Tsai`,
       summary: `What comes up the mind make it happen.`,
     },
     description: `Dev, Life-style`,
-    siteUrl: `https://hoyangtsai.github.io/blog`,
+    siteUrl: `https://hoyangtsai.github.io/traverse`,
     social: {
       twitter: `hoyangtsai`,
     },
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -125,7 +126,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Hoyang's Blog RSS Feed",
+            title: "RSS Feed",
           },
         ],
       },

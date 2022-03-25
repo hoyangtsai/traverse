@@ -538,7 +538,6 @@ pre[data-line] {
   min-width: 100%;
 }
 
-
 .gatsby-code-title {
   margin-bottom: -0.5em;
   padding: 0.5em 1em 1em;
@@ -551,4 +550,8 @@ pre[data-line] {
   z-index: 0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+.hi-red {
+  color: #FF2600;
 }
