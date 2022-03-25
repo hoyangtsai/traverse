@@ -1,8 +1,8 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 import { kebabCase } from "lodash"
-import Layout from "../components/Layout"
-import Seo from "../components/seo"
+import Layout from "../components/layout"
+import Seo from "components/seo"
 
 import * as styles from './blog-post.module.css';
 

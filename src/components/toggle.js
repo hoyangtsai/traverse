@@ -1,6 +1,6 @@
 
 import clsx from 'clsx';
-import * as styles from './Toggle.module.css';
+import * as styles from './toggle.module.css';
 
 import React, { useState, useRef, memo } from 'react';
 

@@ -7,7 +7,7 @@ import { kebabCase } from "lodash"
 // Components
 import { Link, graphql } from "gatsby"
 
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const TagsPage = ({ data, location }) => {

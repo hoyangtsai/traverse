@@ -1,10 +1,10 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import Helmet from 'react-helmet';
-import Toggle from './Toggle'
+import Toggle from './toggle'
 // import moon from '../images/moon.png'
 // import sun from '../images/sun.png'
-import { DEFAULT_CONFIG } from './Config'
+import { DEFAULT_CONFIG } from './config'
 
 import * as styles from './Layout.module.css';
 
