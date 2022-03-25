@@ -521,7 +521,6 @@ pre[data-line] {
 }
 
 .gatsby-highlight {
-  border-radius: 10px;
   background: #011627;
   -webkit-overflow-scrolling: touch;
   overflow: auto;
@@ -545,11 +544,11 @@ pre[data-line] {
     'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
     'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
     monospace;
-  background-color: rgba(2, 42, 75, 0.8);
+  background-color: rgb(88, 91, 255);
   color: white;
   z-index: 0;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .hi-red {
