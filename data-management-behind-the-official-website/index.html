@@ -1,0 +1,590 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta data-react-helmet="true" name="twitter:description" content="官網 SEO 搜索引擎優化，數據靜態化管理"/><meta data-react-helmet="true" name="twitter:title" content="產品官網背後的數據管理"/><meta data-react-helmet="true" name="twitter:creator" content="hoyangtsai"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="og:description" content="官網 SEO 搜索引擎優化，數據靜態化管理"/><meta data-react-helmet="true" property="og:title" content="產品官網背後的數據管理"/><meta data-react-helmet="true" name="description" content="官網 SEO 搜索引擎優化，數據靜態化管理"/><meta data-react-helmet="true" name="theme-color" content="#282c35"/><meta name="generator" content="Gatsby 4.10.3"/><style data-href="/styles.67b4bfbe0e1c2a36b836.css" data-identity="gatsby-global-css">@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100-8d7d79679b70dbe27172b6460e7a7910.woff2) format("woff2"),url(/static/montserrat-latin-100-ec38980a9e0119a379e2a9b3dbb1901a.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic-e279051046ba1286706adc886cf1c96b.woff2) format("woff2"),url(/static/montserrat-latin-100italic-3b325a3173c8207435cd1b76e19bf501.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200-9d266fbbfa6cab7009bd56003b1eeb67.woff2) format("woff2"),url(/static/montserrat-latin-200-2d8ba08717110d27122e54c34b8a5798.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic-6e5b3756583bb2263eb062eae992735e.woff2) format("woff2"),url(/static/montserrat-latin-200italic-a0d6f343e4b536c582926255367a57da.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300-00b3e893aab5a8fd632d6342eb72551a.woff2) format("woff2"),url(/static/montserrat-latin-300-ea303695ceab35f17e7d062f30e0173b.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic-56f34ea368f6aedf89583d444bbcb227.woff2) format("woff2"),url(/static/montserrat-latin-300italic-54b0bf2c8c4c12ffafd803be2466a790.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400-b71748ae4f80ec8c014def4c5fa8688b.woff2) format("woff2"),url(/static/montserrat-latin-400-0659a9f4e90db5cf51b50d005bff1e41.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic-6eed6b4cbb809c6efc7aa7ddad6dbe3e.woff2) format("woff2"),url(/static/montserrat-latin-400italic-7583622cfde30ae49086d18447ab28e7.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500-091b209546e16313fd4f4fc36090c757.woff2) format("woff2"),url(/static/montserrat-latin-500-edd311588712a96bbf435fad264fff62.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic-c90ced68b46050061d1a41842d6dfb43.woff2) format("woff2"),url(/static/montserrat-latin-500italic-5146cbfe02b1deea5dffea27a5f2f998.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600-0480d2f8a71f38db8633b84d8722e0c2.woff2) format("woff2"),url(/static/montserrat-latin-600-b77863a375260a05dd13f86a1cee598f.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic-cf46ffb11f3a60d7df0567f8851a1d00.woff2) format("woff2"),url(/static/montserrat-latin-600italic-c4fcfeeb057724724097167e57bd7801.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700-7dbcc8a5ea2289d83f657c25b4be6193.woff2) format("woff2"),url(/static/montserrat-latin-700-99271a835e1cae8c76ef8bba99a8cc4e.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic-c41ad6bdb4bd504a843d546d0a47958d.woff2) format("woff2"),url(/static/montserrat-latin-700italic-6779372f04095051c62ed36bc1dcc142.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800-db9a3e0ba7eaea32e5f55328ace6cf23.woff2) format("woff2"),url(/static/montserrat-latin-800-4e3c615967a2360f5db87d2f0fd2456f.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic-bf45bfa14805969eda318973947bc42b.woff2) format("woff2"),url(/static/montserrat-latin-800italic-fe82abb0bcede51bf724254878e0c374.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900-e66c7edc609e24bacbb705175669d814.woff2) format("woff2"),url(/static/montserrat-latin-900-8211f418baeb8ec880b80ba3c682f957.woff) format("woff")}@font-face{font-display:swap;font-family:Montserrat;font-style:italic;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic-4454c775e48152c1a72510ceed3603e2.woff2) format("woff2"),url(/static/montserrat-latin-900italic-efcaa0f6a82ee0640b83a0916e6e8d68.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:normal;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300-fc117160c69a8ea0851b26dd14748ee4.woff2) format("woff2"),url(/static/merriweather-latin-300-58b18067ebbd21fda77b67e73c241d3b.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:italic;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic-fe29961474f8dbf77c0aa7b9a629e4bc.woff2) format("woff2"),url(/static/merriweather-latin-300italic-23c3f1f88683618a4fb8d265d33d383a.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:normal;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400-d9479e8023bef9cbd9bf8d6eabd6bf36.woff2) format("woff2"),url(/static/merriweather-latin-400-040426f99ff6e00b86506452e0d1f10b.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:italic;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic-2de7bfeaf08fb03d4315d49947f062f7.woff2) format("woff2"),url(/static/merriweather-latin-400italic-79db67aca65f5285964ab332bd65f451.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:normal;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700-4b08e01d805fa35d7bf777f1b24314ae.woff2) format("woff2"),url(/static/merriweather-latin-700-22fb8afba4ab1f093b6ef9e28a9b6e92.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:italic;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic-cd92541b177652fffb6e3b952f1c33f1.woff2) format("woff2"),url(/static/merriweather-latin-700italic-f87f3d87cea0dd0979bfc8ac9ea90243.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:normal;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900-f813fc6a4bee46eda5224ac7ebf1b7be.woff2) format("woff2"),url(/static/merriweather-latin-900-5d4e42cb44410674acd99153d57df032.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:italic;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic-b7901d85486871c1779c0e93ddd85656.woff2) format("woff2"),url(/static/merriweather-latin-900italic-9647f9fdab98756989a8a5550eb205c3.woff) format("woff")}
+
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{-webkit-text-size-adjust:100%;line-height:1.15}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden]{display:none}:root{--maxWidth-none:"none";--maxWidth-xs:20rem;--maxWidth-sm:24rem;--maxWidth-md:28rem;--maxWidth-lg:32rem;--maxWidth-xl:36rem;--maxWidth-2xl:42rem;--maxWidth-3xl:48rem;--maxWidth-4xl:56rem;--maxWidth-full:"100%";--maxWidth-wrapper:var(--maxWidth-2xl);--spacing-px:"1px";--spacing-0:0;--spacing-1:0.25rem;--spacing-2:0.5rem;--spacing-3:0.75rem;--spacing-4:1rem;--spacing-5:1.25rem;--spacing-6:1.5rem;--spacing-8:2rem;--spacing-10:2.5rem;--spacing-12:3rem;--spacing-16:4rem;--spacing-20:5rem;--spacing-24:6rem;--spacing-32:8rem;--fontFamily-sans:Montserrat,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--fontFamily-serif:"Merriweather","Georgia",Cambria,"Times New Roman",Times,serif;--font-body:var(--fontFamily-serif);--font-heading:var(--fontFamily-sans);--fontWeight-normal:400;--fontWeight-medium:500;--fontWeight-semibold:600;--fontWeight-bold:700;--fontWeight-extrabold:800;--fontWeight-black:900;--fontSize-root:16px;--lineHeight-none:1;--lineHeight-tight:1.1;--lineHeight-normal:1.5;--lineHeight-relaxed:1.625;--fontSize-0:0.833rem;--fontSize-1:1rem;--fontSize-2:1.2rem;--fontSize-3:1.44rem;--fontSize-4:1.728rem;--fontSize-5:2.074rem;--fontSize-6:2.488rem;--fontSize-7:2.986rem;--color-primary:#005b99;--color-text:#2e353f;--color-text-light:#4f5969;--color-heading:#1a202c;--color-heading-black:#000;--color-accent:#d1dce5;--pink:#ffa7c4;--yellow:#e9ff1e}*,:after,:before{box-sizing:border-box}html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:var(--fontSize-root);line-height:var(--lineHeight-normal)}body{color:var(--color-text);font-family:var(--font-body);font-size:var(--fontSize-1)}footer{padding:var(--spacing-6) var(--spacing-0)}hr{background:var(--color-accent);border:0;height:1px}h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);letter-spacing:-.025em;line-height:var(--lineHeight-tight);margin-bottom:var(--spacing-6);margin-top:var(--spacing-12)}h2,h3,h4,h5,h6{color:var(--color-heading);font-weight:var(--fontWeight-bold)}h1{color:var(--color-heading-black);font-size:var(--fontSize-6);font-weight:var(--fontWeight-black)}h2{font-size:var(--fontSize-5)}h3{font-size:var(--fontSize-4)}h4{font-size:var(--fontSize-3)}h5{font-size:var(--fontSize-2)}h6{font-size:var(--fontSize-1)}h1>a,h2>a,h3>a,h4>a,h5>a,h6>a{color:inherit;text-decoration:none}p{--baseline-multiplier:0.179;--x-height-multiplier:0.35;line-height:var(--lineHeight-relaxed);margin:var(--spacing-0) var(--spacing-0) var(--spacing-2) var(--spacing-0);padding:var(--spacing-0)}ol,ul{list-style-image:none;list-style-position:outside;margin:var(--spacing-0) var(--spacing-0) var(--spacing-8);padding-left:var(--spacing-4)}ol li,ul li{margin-bottom:calc(var(--spacing-4)/2);padding-left:var(--spacing-0)}li>p{margin-bottom:calc(var(--spacing-8)/2)}li :last-child{margin-bottom:var(--spacing-0)}li>ul{margin-left:var(--spacing-8);margin-top:calc(var(--spacing-8)/2)}blockquote{border-left:var(--spacing-1) solid var(--color-primary);color:var(--color-text-light);font-size:var(--fontSize-2);font-style:italic;margin:var(--spacing-0) var(--spacing-0) var(--spacing-8);padding:var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4)}blockquote>:last-child{margin-bottom:var(--spacing-0)}blockquote>ol,blockquote>ul{list-style-position:inside}table{border-collapse:collapse;border-spacing:.25rem;margin-bottom:var(--spacing-8);width:100%}table thead tr th{border-bottom:1px solid var(--color-accent)}a{color:var(--color-primary)}a:focus,a:hover{text-decoration:none}.global-wrapper{margin:var(--spacing-0) auto;max-width:var(--maxWidth-wrapper);padding:var(--spacing-10) var(--spacing-5)}.global-wrapper[data-is-root-path=true] .bio{margin-bottom:var(--spacing-20)}.global-header{margin-bottom:var(--spacing-12)}.main-heading{font-size:var(--fontSize-7);margin:0}.header-link-home{font-family:var(--font-heading);font-size:var(--fontSize-2);font-weight:var(--fontWeight-bold);text-decoration:none}.bio{display:flex;margin-bottom:var(--spacing-16)}.bio p,.bio-avatar{margin-bottom:var(--spacing-0)}.bio-avatar{border-radius:100%;margin-right:var(--spacing-4);min-width:50px}.blog-post header h1{margin:var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0)}.blog-post header p{font-family:var(--font-heading);font-size:var(--fontSize-2)}.blog-post-nav ul{margin:var(--spacing-0)}.gatsby-highlight{margin-bottom:var(--spacing-8)}@media (max-width:42rem){blockquote{margin-left:var(--spacing-0);padding:var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4)}ol,ul{list-style-position:inside}}body{background-color:var(--bg)}body.light{--bg:#fff;--header:var(--pink);--textNormal:#222;--textTitle:#222;--textLink:#d23669;--hr:rgba(0,0,0,.2);--inlineCode-bg:rgba(255,229,100,.2);--inlineCode-text:#1a1a1a;--form-shadow:0 2px 15px 0 rgba(210,214,220,.5);--color-primary:#005b99;--color-text:#2e353f;--color-text-light:#4f5969;--color-heading:#222;--color-heading-black:#222;--color-accent:#d1dce5}body.dark{-webkit-font-smoothing:antialiased;--bg:#282c35;--header:#fff;--textNormal:hsla(0,0%,100%,.88);--textTitle:#fff;--textLink:var(--yellow);--hr:hsla(0,0%,100%,.2);--inlineCode-bg:rgba(115,124,153,.2);--inlineCode-text:#e6e6e6;--form-shadow:0 2px 15px 0 rgba(26,26,27,.637);--color-primary:var(--yellow);--color-text:#2e353f;--color-text-light:#627188;--color-heading:hsla(0,0%,100%,.88);--color-heading-black:hsla(0,0%,100%,.88);--color-accent:#d1dce5}.command-line-prompt>span:before{color:#999}.command-line-prompt>span[data-user]:before{content:"["attr(data-user) "@"attr(data-host) "] $"}.command-line-prompt>span[data-user=root]:before{content:"["attr(data-user) "@"attr(data-host) "] #"}code[class*=language-],pre[class*=language-]{-webkit-font-feature-settings:normal;font-feature-settings:normal;word-wrap:normal;background:none;color:#fff;font-family:Consolas,Menlo,Monaco,source-code-pro,Courier New,monospace;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none;line-height:1.5;margin:0;-o-tab-size:4;tab-size:4;text-align:left;white-space:pre;word-break:normal;word-spacing:normal}pre[class*=language-]{overflow:auto;padding:1.3125rem}pre[class*=language-]::selection{background:#27292a}pre[class*=language-] ::selection,pre[class*=language-]::selection{background:hsla(0,0%,100%,.15);text-shadow:none}:not(pre)>code[class*=language-]{background:var(--inlineCode-bg);border-radius:.3em;color:var(--inlineCode-text);padding:.15em .2em .05em;white-space:normal}.token.attr-name{color:#addb67;font-style:italic}.token.comment{color:#809393}.token.string,.token.url{color:#addb67}.token.variable{color:#d6deeb}.token.number{color:#f78c6c}.token.builtin,.token.char,.token.constant,.token.function{color:#82aaff}.token.punctuation{color:#c792ea}.token.doctype,.token.selector{color:#c792ea;font-style:"italic"}.token.class-name{color:#ffcb8b}.token.keyword,.token.operator,.token.tag{color:#ffa7c4}.token.boolean{color:#ff5874}.token.property{color:#80cbc4}.token.namespace{color:#b2ccd6}pre[data-line]{padding:1em 0 1em 3em;position:relative}.gatsby-highlight-code-line{background-color:#022a4b;border-left:.25em solid #93f38b;display:block;margin-left:-1.3125rem;margin-right:-1.3125rem;padding-left:1em;padding-right:1em}.gatsby-highlight{-webkit-overflow-scrolling:touch;background:#011627;overflow:auto}@media (max-width:672px){.gatsby-highlight{border-radius:0}}.gatsby-highlight pre[class*=language-]{float:left;min-width:100%}.gatsby-code-title{background-color:#585bff;border-top-left-radius:4px;border-top-right-radius:4px;color:#fff;font-family:Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;margin-bottom:-.5em;padding:.5em 1em 1em;z-index:0}.hi-red{color:#ff2600}.table-container{overflow-y:auto;width:100%}.table-container::-webkit-scrollbar{-webkit-appearance:none;height:12px;width:12px}.table-container::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.3);border:3px solid #fff;border-radius:8px}.table-container table{min-width:660px}.table-container table .txt-center{text-align:center}.command-line-prompt{border-right:1px solid #999;display:block;float:left;font-size:100%;letter-spacing:-1px;margin-right:1em;pointer-events:none;text-align:right;-webkit-user-select:none;-ms-user-select:none;user-select:none}.command-line-prompt>span:before{content:" ";display:block;opacity:.4;padding-right:.8em}.command-line-prompt>span[data-user]:before{content:"[" attr(data-user) "@" attr(data-host) "] $"}.command-line-prompt>span[data-user=root]:before{content:"[" attr(data-user) "@" attr(data-host) "] #"}.command-line-prompt>span[data-prompt]:before{content:attr(data-prompt)}.command-line-prompt>span[data-continuation-prompt]:before{content:attr(data-continuation-prompt)}.command-line span.token.output{opacity:.7}.toggle-module--toggle--3YS0Q{-webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;background-color:transparent;border:0;cursor:pointer;display:inline-block;padding:0;position:relative;touch-action:pan-x;-webkit-user-select:none;-ms-user-select:none;user-select:none}.toggle-module--toggleScreenReader--v7oWA{clip:rect(0 0 0 0);border:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.toggle-module--toggleDisabled--hkVkL{cursor:not-allowed}.toggle-module--toggleTrack--exJsc{background-color:#0f1114;border-radius:30px;height:24px;padding:0;transition:all .2s ease;width:50px}.toggle-module--toggleTrackCheck--kae-X{bottom:0;height:10px;left:8px;margin:auto 0;opacity:0;position:absolute;top:0;transition:opacity .25s ease;width:14px}.toggle-module--toggleChecked--\+QWj2 .toggle-module--toggleTrackCheck--kae-X,.toggle-module--toggleTrackX--HY4bW,[data-theme=dark] .toggle-module--toggle--3YS0Q .toggle-module--toggleTrackCheck--kae-X{opacity:1;transition:opacity .25s ease}.toggle-module--toggleTrackX--HY4bW{bottom:0;height:10px;line-height:0;margin:auto 0;position:absolute;right:5px;top:0;width:10px}.toggle-module--toggleChecked--\+QWj2 .toggle-module--toggleTrackX--HY4bW,[data-theme=dark] .toggle-module--toggle--3YS0Q .toggle-module--toggleTrackX--HY4bW{opacity:0}.toggle-module--toggleTrackThumb--eQWhk{background-color:#fafafa;border:1px solid #4d4d4d;border-radius:50%;height:22px;left:1px;position:absolute;top:1px;transition:all .25s ease;width:22px}.toggle-module--toggleChecked--\+QWj2 .toggle-module--toggleTrackThumb--eQWhk,[data-theme=dark] .toggle-module--toggle--3YS0Q .toggle-module--toggleTrackThumb--eQWhk{left:27px}.toggle-module--toggle--3YS0Q:hover .toggle-module--toggleTrackThumb--eQWhk,.toggle-module--toggleFocused--tveXd .toggle-module--toggleTrackThumb--eQWhk{box-shadow:0 0 2px 3px var(--ifm-color-primary)}.toggle-module--toggle--3YS0Q:active:not(.toggle-module--toggleDisabled--hkVkL) .toggle-module--toggleTrackThumb--eQWhk{box-shadow:0 0 5px 5px var(--ifm-color-primary)}.toggle-module--toggleIcon--pxdsW{align-items:center;display:flex;height:10px;justify-content:center;width:10px}.layout-module--globalHeader--2CjaK{align-items:center;display:flex;justify-content:space-between;margin-bottom:2.625rem}.layout-module--rss--7QEKE{float:right}.layout-module--inTouches--8P8zK{display:flex;list-style:none;margin:0;padding:0}.layout-module--inTouchesItem--FEseU+.layout-module--inTouchesItem--FEseU:before{content:"•";display:inline-block;margin:0 4px;vertical-align:middle}.index-module--post--wl98i{list-style:none;margin:0;padding:0}.index-module--article--Fsxff{margin-bottom:var(--spacing-8);margin-top:var(--spacing-8)}.index-module--article--Fsxff p{margin-bottom:var(--spacing-0)}.index-module--article--Fsxff h2{color:var(--color-primary);font-size:var(--fontSize-4);margin-bottom:var(--spacing-2);margin-top:var(--spacing-0)}.index-module--article--Fsxff header{margin-bottom:var(--spacing-4)}.blog-post-module--postTag--Wr0k4{display:flex}.blog-post-module--postTagItem--fYOPx{margin-right:1em}</style><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/rss.xml"/><link rel="icon" href="/favicon-32x32.png?v=4a9773549091c227cd2eb82ccd9c5e3a" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><title data-react-helmet="true">產品官網背後的數據管理 | Traverse</title><link as="script" rel="preload" href="/webpack-runtime-c32d121f7c97614d45c1.js"/><link as="script" rel="preload" href="/framework-b6a20498abbb25492195.js"/><link as="script" rel="preload" href="/app-389b011363871c0db0ff.js"/><link as="script" rel="preload" href="/commons-771be576f0a6901c3678.js"/><link as="script" rel="preload" href="/e3fcc2076860498e4deed45a66207f3abfe77099-9db1250b7da5bf8e2296.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-580861ac499b2fc3d08f.js"/><link as="fetch" rel="preload" href="/page-data/data-management-behind-the-official-website/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2841359383.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body class="light"><script>
+              (function() {
+                window.__onThemeChange = function() {};
+                function setTheme(newTheme) {
+                  window.__theme = newTheme;
+                  preferredTheme = newTheme;
+                  document.body.className = newTheme;
+                  window.__onThemeChange(newTheme);
+                }
+
+                var preferredTheme;
+                try {
+                  preferredTheme = localStorage.getItem('theme');
+                } catch (err) { }
+
+                window.__setPreferredTheme = function(newTheme) {
+                  setTheme(newTheme);
+                  try {
+                    localStorage.setItem('theme', newTheme);
+                  } catch (err) {}
+                }
+
+                var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+                darkQuery.addListener(function(e) {
+                  window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+                });
+
+                setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+              })();
+            </script><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="global-wrapper" style="color:var(--textNormal);background:var(--bg);transition:color 0.2s ease-out, background 0.2s ease-out;min-height:100vh" data-is-root-path="false"><header class="layout-module--globalHeader--2CjaK"><a class="header-link-home" href="/">Traverse</a><div style="height:24px"></div></header><main><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><header><h1 itemProp="headline" style="color:var(--textTitle)">產品官網背後的數據管理</h1><p>December 10, 2021</p></header><section itemProp="articleBody"><p><a href="https://wepluscard.qq.com/mdft/index.shtml" target="_blank" rel="nofollow noopener noreferrer">騰訊微加信用卡</a>官網是一個可以在手機、平板和桌面等多終端上瀏覽的產品官網，除了留言反饋的地方沒有其他與用戶的數據交互，所以在沒用後端資源的情況下，希望網站內容可以根據信用卡的合作內容彈性的修改。</p>
+<!-- more -->
+<p>網站第一版用的是之前開發常用的公司內部 Qzone 配置系統，它可以自定義數據結構，但請求時返回的檔案是固定的模版，只能是異步 callback 或 CMD 模式引用取得配置內容。</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token punctuation">;</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> params <span class="token operator">=</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 自定義數據結構</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">typeof</span> callback_168_config1 <span class="token operator">===</span> <span class="token string">"function"</span> <span class="token operator">&amp;&amp;</span> <span class="token function">callback_168_config1</span><span class="token punctuation">(</span>params<span class="token punctuation">)</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>define <span class="token operator">&amp;&amp;</span> <span class="token function">define</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">require<span class="token punctuation">,</span> exports<span class="token punctuation">,</span> module</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> params
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre></div>
+<h2 id="搜尋引擎優化" style="position:relative;"><a href="#%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E%E5%84%AA%E5%8C%96" aria-label="搜尋引擎優化 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>搜尋引擎優化</h2>
+<p>產品官網的搜尋引擎優化 (SEO) 是必備的需求之一，所以開發完之後給 SEO 方案提供商進行審核，列出一些需要優化的點，如：</p>
+<ol>
+<li>
+<p>網址層級</p>
+<p>wepluscard.qq.com<span class="hi-red">/mdft/</span>index.shtml 權重比 wepluscard.qq.com<span class="hi-red">/mdft/web/</span>index.shtml 高，最好是只有 host 後面接模塊名，如 wepluscard.qq.com/index.shtml 或 wepluscard.qq.com/feature.shtml … 等</p>
+</li>
+<li>
+<p>完善 meta 標籤和描述</p>
+</li>
+<li>
+<p>標籤語義化</p>
+</li>
+<li>
+<p>標籤規範，如 img 加 alt 屬性…等</p>
+</li>
+<li>
+<p>靜態內容</p>
+</li>
+</ol>
+<p>靜態內容的部分，第一版網站中需要配置的地方，如 <a href="https://wepluscard.qq.com/mdft/feature.shtml" target="_blank" rel="nofollow noopener noreferrer">騰訊微加信用卡權益</a> 除了 banner 以外，其他區域都是當前訪問頁面，再請求配置系統的 JS 檔案動態 render 權益的分類集和 Vue 的點擊事件綁定。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/ba61e8300ffab8042366e060195d94ba/8ad1b/feature.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 156.96202531645568%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAfCAYAAADnTu3OAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEyElEQVRIx5VWb2hbVRQPEwdu9oPYD9uouLkh2qKwTZibww0d2olYPwlKpzjsJorglM0J6hdhCMo++GEwRBzKVHQISm3aNZndOtesXbulc03aLn+a/0nzkpc/7+X9ybs/OTfvJunWTLxwcu+557zfO/ec37l5DgBgjKFqWVwsW2hNI5/Pw+/349q1a5Blme+Z1SqXarUKVrVgVS1GGABUh71oORRFRTqdRiqVgWFWW7kxOzDVQYtoUsLp/jH8MjSJM8NenHFNo3/Ujzm/D5patB9RMe1x44J7GCd//A3Hjn+Nk9+cxvXBCdz49SLLL2RqEdLv5esRvHL0Z7z5+R/oOzaAvi+cOHLiAgZdbszfuATAwKT7e/Q+twUfvPMWOra+gBWbnsH9m3Zhc/sWPNu2jU0OX24ABhIyTvTfwLdnZ/HDuXmccs3h9ytxnPryOL779D0kb47iq8/exY6uB3H0w0PYuPsg7tu2D2tfOoy2p1/FXRu3s8GRSw3AcCKLnwb+xl+eaZyf8mHMt4D5dAEfvbEPDzgc6N7che5d27FhbTvePnAQD+3swz1dPVjT8zHa1j+Flfd2sqGz7gZgajEH1+gExqe8+HPkCs5P/IO0JOPI671Y43Bgz7p2PL/jCTy8oQMH9u9HR+derHqsF21de3H3qvVYsbqLDTiHGoDxtITz414ONO7145xnGnOhKA71voa9a9vx4iMb0L1zK17e8yQ+Ofw+Oh7djdWdPVjd8ThWrloHx8r1zDl4rgFY0XTMBSOYDSwgEo1ByhegVHTM+f0YGXTC5XRiwjOG+Vkf4rEoLlwcw/DZIbjdLoxeHMPk1HUmy4UGIGMWQqEQMrGbyEanoSt5zhRN0xBPJiBnwlCkcJ102WwWuUwcRikJS128nYemWUU8kUAkEkEymYQkSahoGpRyGeFwmL8sFAoiEAhAVVUkEgn4fD74Zmbg9XqJ+I1OoV9qNdM0YRgGByej2NN1ne/XbCZvNwItFovI5XK8HU3TXAooAMQshPTl5NZhWdZSwP8aywHd8gJhVB2VSgV3EioMHZuE1i38mD2rDkVRIKRcLnMRa8oVVfTq1avweDz81qE94dMkzJ5rgOSkGzpMo1YYERWt6c2lUokXgfZFoZqLZRgGI4wlgLwFsykUS8V6vuRcBnlpsZ43TSlDzkl2IRhMvYJkjPOTVSpNgBQFcS8QDCASjUBVFE6JWCyKyMICCoUCPxrxcdbv53qxWEI8HkMwECBfnsMlgMQvwTM6huCh2BPSbCNd17m+/JHVisofIEexf6vQy5fRbwektwYjQaRSqTrg/xBm4zSOTP9uyUQSi4uL9ehaRbmMMHtuRFjLh17v6Vb8vFOE/MiC7a1yRdwTBaG1sLXsFEFS0VqC1Hw2dE6RYDDIrzEieN221J/ZGKqj2UhXl+gUEqtqoSAX+N03MzODgizXIyUx9NqVpmkas/cagDTKJRm6rkFcLKpWa0kxTItBrTTpVRNykX+eMDuoGiAJJT0UmEMmneZRkh6OhhGLx6BpOhSljGg8iYVonNspl5lsBoFwgG52ZgfWiJCaX5JyPGekU75yUo7TiXyoitSeuZzE7aSTL9nLywE2X5iUl2ad8mbZX2NC519ejZu+fuR/AVwD0RtLGr9nAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="feature"
+        title="feature"
+        src="/static/ba61e8300ffab8042366e060195d94ba/f058b/feature.png"
+        srcset="/static/ba61e8300ffab8042366e060195d94ba/c26ae/feature.png 158w,
+/static/ba61e8300ffab8042366e060195d94ba/6bdcf/feature.png 315w,
+/static/ba61e8300ffab8042366e060195d94ba/f058b/feature.png 630w,
+/static/ba61e8300ffab8042366e060195d94ba/40601/feature.png 945w,
+/static/ba61e8300ffab8042366e060195d94ba/78612/feature.png 1260w,
+/static/ba61e8300ffab8042366e060195d94ba/8ad1b/feature.png 2320w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/d01509982dce6f286a7a8f6d7c824370/34e83/feature_detail.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50.632911392405056%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABxUlEQVQoz22S227aQBiE8y6R0qte9zZ9IMiNsdc2IKiISxMB6rNRJFCBpBxMMXYMPoBNkL5qVzEtVVYa7b/2znhG4yvbtvkfFcNCM2wFXdgYwkIXJsK0L/Ae98qyLDVYlk3NtqhYTT47E27bC26dZz59eea6MuFa+8mNeOKDeOJG/OKjNeHO+kbdNhVX6kicBZvNJsI0cL62+TH1mG0ygj2sE3BjWEbwO4VVAus9LHfQ7X3H0DUajSbVavWvoDxIlO/KNBoNfG9FfkiItgGhvyYKPeKtz/EQc8oSTnnKKd/z+PBAuVxShmq12qWgfGCaJo7j4K5WxElCELzguiu8jU+SpMRxwksYkmU5r68nOp0uhmFQr9cvHRaRDSFot9ssFgviOGaz2TAej5nNZvi+r87r9VrNu92ObreLEOIsdi6liFwql5TT4/GIXPP5nH6/z3Q6VaKe53E4HMiyjDRN6XQ6yuG7LUvb8mutVksR5HJdl8FgwHA4ZDQaKeHlcqlchmFIr9dD1/W3v+St5UK5sC0Ft9steZ6rWEEQKHIURWqXceUu70iHReSzQxmxQFGOFJW4v79X0DSNSqWiZlmahHz/L6fAHz+pSQJ2lSLlAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="feature detail"
+        title="feature detail"
+        src="/static/d01509982dce6f286a7a8f6d7c824370/f058b/feature_detail.png"
+        srcset="/static/d01509982dce6f286a7a8f6d7c824370/c26ae/feature_detail.png 158w,
+/static/d01509982dce6f286a7a8f6d7c824370/6bdcf/feature_detail.png 315w,
+/static/d01509982dce6f286a7a8f6d7c824370/f058b/feature_detail.png 630w,
+/static/d01509982dce6f286a7a8f6d7c824370/40601/feature_detail.png 945w,
+/static/d01509982dce6f286a7a8f6d7c824370/78612/feature_detail.png 1260w,
+/static/d01509982dce6f286a7a8f6d7c824370/34e83/feature_detail.png 2852w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>如果把整個用卡權益頁做成靜態的，這樣會變成開發的維護成本高，所以需要在開發的維護性和產品運營能力中取得平衡。</p>
+<p>要實現靜態內容網站可能會先想到後台直出，但如開頭說的這是一個沒使用後台的項目，用在這個地方也有殺雞焉用牛刀的感覺，不在考慮方案內。</p>
+<p>如 Vue SSR 介紹</p>
+<blockquote>
+<p>如果你調研服務器端渲染 (SSR) 只是用來改善少數營銷頁面（例如 /, /about, /contact 等）的 SEO，那麼你可能需要預渲染。無需使用 web 服務器實時動態編譯 HTML，而是使用預渲染方式，在構建時 (build time) 簡單地生成針對特定路由的靜態 HTML 文件。優點是設置預渲染更簡單，並可以將你的前端作為一個完全靜態的站點。</p>
+</blockquote>
+<p><a href="https://ssr.vuejs.org/zh/#%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E6%B8%B2%E6%9F%93-vs-%E9%A2%84%E6%B8%B2%E6%9F%93-ssr-vs-prerendering" target="_blank" rel="nofollow noopener noreferrer">服務器端渲染-vs-預渲染-ssr-vs-prerendering</a></p>
+<p>像 React 和 Vue 這些 Web 框架為了解決 SPA 這類的問題，開發社群已提供預渲染的插件，但是預渲染通常只輸出一個頁面的初始狀態，而且需基於 Webpack 開發構建。</p>
+<p>這個項目不使用 Webpack 開發，預期不只是預渲染一個頁面的初始狀態，而是一個頁面所有可能性操作狀態，這樣才能全面覆蓋所有靜態內容。</p>
+<h2 id="vtools-數據管理平台" style="position:relative;"><a href="#vtools-%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0" aria-label="vtools 數據管理平台 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>vTools 數據管理平台</h2>
+<p>借助於另外一個公司內部配置系統 vTools 數據工具管理平台，提供更好的解決方案，相較 Qzone 配置系統提供更彈性的配置能力，把數據源和返回內容格式拆分。</p>
+<p>除了支持基本數據類型，如單行輸入框、多行輸入框、下拉列表、圖片、日期、富文本輸入框…等。</p>
+<p>如果字段需要一個 Array 數據，可以使用自定義數據體或引用字段，自定義數據體是在現有的數據源上嵌套一層 Array 數據，只支持單行輸入框和下拉列表，所以不能嵌套兩層以上的數據；而引用字段是引用另外一個數據源，這使用上就彈性很多。</p>
+<p>使用引用字段類型，前提是兩個數據源有強烈的父子關係，否則只需要在返回的檔案模版中處理即可，模版中的數據源管理支持引用多個數據源。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/b5458ddc09fcf9f932bfb4b1b681987b/c6720/globalCfg_tmpl.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50.632911392405056%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABFklEQVQoz52SC26EMAxEuf999hR7hSIIVAWyCcsnsAkQpppIUMr2o9bSCILtZ2MnkvcOZZKi0RpmGGCt/STnHIwxeFUNpMjhjIGbpg+/dbDOomoq1HWN6HaTSNIkJA3DgHme4b3Huq770zoHkaZIhYBSKhTZ/X6FWxwuLxeou0LEKlprjOMYoBQTaEyiTdMEpXWIo+9ccPYzrm9XtH2LiAmECSEQxzGKongC8szOj0bfUYtfsCwLIlaXUobq/GXCj0kbkMFH0BlOY8fR4/EIQML4Tm0D/wl41g7kgbA8z5EkCcqyRNu2++C/Ap7tCdh1HbIsCyK0qqrQ6b+AnGHf92GT3wX+CchrwkVs1+Asfme325Z/A74DReYNdVr6M9gAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="global template config"
+        title="global template config"
+        src="/static/b5458ddc09fcf9f932bfb4b1b681987b/f058b/globalCfg_tmpl.png"
+        srcset="/static/b5458ddc09fcf9f932bfb4b1b681987b/c26ae/globalCfg_tmpl.png 158w,
+/static/b5458ddc09fcf9f932bfb4b1b681987b/6bdcf/globalCfg_tmpl.png 315w,
+/static/b5458ddc09fcf9f932bfb4b1b681987b/f058b/globalCfg_tmpl.png 630w,
+/static/b5458ddc09fcf9f932bfb4b1b681987b/40601/globalCfg_tmpl.png 945w,
+/static/b5458ddc09fcf9f932bfb4b1b681987b/78612/globalCfg_tmpl.png 1260w,
+/static/b5458ddc09fcf9f932bfb4b1b681987b/c6720/globalCfg_tmpl.png 1922w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>返回的檔案內容結合 Smarty 模版語法，可以自行構造想要的內容格式，除了像 Qzone 配置系統的檔案格式外，也可以構造成 JSON 格式或 HTML 程式碼片段等。</p>
+<p>Smarty 語法可以對數據進行更進一步的處理，如判斷、字串處理…等多樣的操作語法</p>
+<div class="gatsby-highlight" data-language="php"><pre class="language-php"><code class="language-php"><span class="token comment">// Loop</span>
+<span class="token punctuation">[</span>
+  <span class="token punctuation">{</span><span class="token comment">#foreach from=$data item="row_item"#} OR {#foreach $row as $row_item#}</span>
+  <span class="token punctuation">{</span> <span class="token operator">...</span> <span class="token punctuation">}</span><span class="token punctuation">{</span><span class="token comment">#if $row_item@last!=true#},{#/if#}</span>
+  <span class="token punctuation">{</span><span class="token comment">#/foreach#}</span>
+<span class="token punctuation">]</span>
+<span class="token punctuation">{</span><span class="token comment">#/foreach#}</span>
+
+<span class="token comment">// 條件</span>
+<span class="token punctuation">{</span><span class="token comment">#if $coupon.show != 'false'#}</span>
+<span class="token punctuation">{</span> <span class="token operator">...</span> <span class="token punctuation">}</span>
+<span class="token punctuation">{</span><span class="token comment">#/if#}</span>
+
+<span class="token comment">// 預設值</span>
+<span class="token punctuation">{</span>
+  <span class="token operator">...</span>
+  <span class="token string double-quoted-string">"route"</span><span class="token punctuation">:</span> <span class="token string double-quoted-string">"{#<span class="token interpolation"><span class="token variable">$offline</span></span>.route|default:'[]'#}"</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 字串替換 &amp; 串行操作</span>
+<span class="token punctuation">{</span><span class="token comment">#$item.rules.featureRules[0].content|replace:'\n':''|replace:'\"':'"'|replace:'\/':'/'|strip#}</span></code></pre></div>
+<p><a href="https://www.smarty.net/documentation" target="_blank" rel="nofollow noopener noreferrer">Smarty 官方說明文件</a></p>
+<p>有這樣的配置系統就可以把數據先構建，輸出成靜態檔案，最後問題就剩下如何引入</p>
+<h3 id="ssi-服務端引入" style="position:relative;"><a href="#ssi-%E6%9C%8D%E5%8B%99%E7%AB%AF%E5%BC%95%E5%85%A5" aria-label="ssi 服務端引入 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SSI 服務端引入</h3>
+<p>SSI (Server-Side Include) 是一個伺服器提供的通用功能，在檔案中訪問時可插入一段程式碼檔案，像是 HTML 或 JS 檔案透過 SSI 就可以把 pre-render 的靜態檔案引入到頁面中。</p>
+<p>因為 SSI 的特性可以把 Vue 的事件修飾符寫在模版中，透過 loop 把原本在 JS 動態生成的內容 pre-render 成靜態的 HTML 程式碼片段並做事件綁定。</p>
+<div class="gatsby-code-title">index.html</div>
+<div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>X-UA-Compatible<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>IE=edge<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+ ...
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>app<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>site-header</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>site-header</span><span class="token punctuation">></span></span>
+
+      ...
+
+      <span class="token comment">&lt;!--#include virtual="./inc/feature.html" --></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre></div>
+<div class="gatsby-code-title">feature.html</div>
+<div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html">{#foreach from=$feature item="rowItem"#}
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>feature feature-{#$rowItem.type#}{#if $rowItem.type == <span class="token punctuation">'</span>video<span class="token punctuation">'</span> || $rowItem.type == <span class="token punctuation">'</span>shopping<span class="token punctuation">'</span>#} feature-bggray{#/if#}<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>container<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>row row--list<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+        {#foreach $rowItem.list.items as $item#}
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>col col-12 col-sm-12 col-md-8 col-lg-6<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>item<span class="token punctuation">"</span></span> <span class="token attr-name">data-toggle</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>modal<span class="token punctuation">"</span></span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>showRuleModal(<span class="token punctuation">'</span>{#$item.id#}<span class="token punctuation">'</span>)<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+                    <span class="token comment">&lt;!-- 權益方框 --></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+        {#/foreach#}
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+    {#foreach $rowItem.list.items as $item#}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>modal fade feature-modal<span class="token punctuation">"</span></span> <span class="token attr-name">ref</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{#$item.id#}<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>dialog<span class="token punctuation">"</span></span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>modal-dialog modal-dialog-centered<span class="token punctuation">"</span></span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>document<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>modal-content<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+                <span class="token comment">&lt;!-- 權益細節彈窗 --></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+    {#/foreach#}
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+{#/foreach#}</code></pre></div>
+<p>總結以上敘述</p>
+<ol>
+<li>使用像 vTools 數據管理平台的配置系統，把數據源和返回檔案格式拆分，結合 Smarty 語法自行構建檔案模版。</li>
+<li>使用 SSI 服務器的功能，在不使用 Webpack pre-render 的插件，也可以插入程式碼片段到頁面中，同時綁定 JS 事件。</li>
+</ol>
+<p>補足靜態內容的缺失和其他 SEO 優化點，現在透過搜尋引擎都可以找到微加卡的官網</p>
+<p><a href="https://www.baidu.com/s?wd=%E9%A8%B0%E8%A8%8A%E5%BE%AE%E5%8A%A0%E4%BF%A1%E7%94%A8%E5%8D%A1&#x26;rsv_spt=1&#x26;rsv_iqid=0x9f4d8c31000853fe&#x26;issp=1&#x26;f=8&#x26;rsv_bp=1&#x26;rsv_idx=2&#x26;ie=utf-8&#x26;rqlang=cn&#x26;tn=baiduhome_pg&#x26;rsv_enter=1&#x26;rsv_dl=tb&#x26;oq=%25E8%2585%25BE%25E8%25AE%25AF%25E5%25BE%25AE%25E5%258A%25A0%25E4%25BF%25A1%25E7%2594%25A8%25E5%258D%25A1%25205%25E5%2580%258D%25E7%25A7%25AF%25E5%2588%2586&#x26;rsv_t=e6b1Rn9vaOCLDFUFOj7Zfp9hS33kh9NB7xmlicI9uVNmGXSeMZ7zyhs%2FohfELKRtKJVR&#x26;inputT=723&#x26;rsv_pq=80869d82000ad733&#x26;rsv_sug3=34&#x26;rsv_sug1=15&#x26;rsv_sug7=100&#x26;rsv_sug2=0&#x26;rsv_sug4=4939&#x26;rsv_sug=2" target="_blank" rel="nofollow noopener noreferrer">騰訊微加信用卡_百度搜索</a></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/ace3a7e82b502fdb9f15a75329907590/ae28e/baidu_search.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 86.70886075949367%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAC3ElEQVQ4y3WU6Y7bVgxG5/1fqED7p0WApmk8402StVmyZWuxta/WfgLJTuJpOgQ+XEkQD8lL3vtSmEcuZkhpHdH1PQfTxPM8siynKAryPJ/1/DwpTVPyLGF9rPlt0/GX3FI3HS89k43UI9hRQXpryKuSvIipqoKyLGdVVXVfH+9TAN8P6JsK6ICWrmt5YRxn5FDXVLpOqWsUzgXTqEmTe7iPrGkaur5nGJk12cv4APZVRfL6Srzd4Igyq63FQbMIDgeMwwHHdfFtm+O0JZcLSZoSJwnDw3/iTPoBvNUtkuog6z6qemGvXQh0nZOgoMo26u7M7XohmWBRSFff6Juaset+AN9l2Pou7tdPXFb/EMkajhQQaReuuwtXNaQPUygzyNO70giSCMIrY1nwoD6V7JxJ/v5MtlxhCipva5v19sxq67DZnnCOJyLP4+y4WK5LWpYEaUbf9xCHjP8F1q6Ftv2Mulug7r6iKwvsvYitShirNypNodZV4oPB1dhzu3p0ScQYBXOmvwD7IidfLSg2r8SqhiIEnLQYQ0zYCym3tJ3+gqGHcYCuhbaB+sY4DL+W3LQt5t7AMo943hXzcOJo2fhBjOf5RFFMEEWEjkN7PtOGIXGS0rQfNKXremRTQbdV4jgmisI5Yj/0tH1HNwzzzPXtlFk7OTBMM/jIbua8K7muiUSRTJFwJQtZKtjrNzS5Ql0mOPucrm3nSm5NM6/TYI9Pc/guw7hu+V3Q+Hen8sl0MQ0LSVSQ1iLalwX71yWGrqMoCrIso2kapmneu/x/wLTp+EOQWRsGf54DQsdGOotYvoVpmfhx+OERfM7y5x42A8Kmwl4dyNdL8tcF3s7F2GVIUsZuFdIECUNVUlbVfDlMF8b44dFrar5s3xB3AuJ2i7pcchZEvPUWX5AIJBlPlrFkGUVVsSxrhn73/24/x2bosHOX5JaQZhlpUTDMF9u9e9yn8P7tCTJ1+VnfAKx/DTDzl6EwAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="騰訊微加信用卡_百度搜索"
+        title="騰訊微加信用卡_百度搜索"
+        src="/static/ace3a7e82b502fdb9f15a75329907590/f058b/baidu_search.png"
+        srcset="/static/ace3a7e82b502fdb9f15a75329907590/c26ae/baidu_search.png 158w,
+/static/ace3a7e82b502fdb9f15a75329907590/6bdcf/baidu_search.png 315w,
+/static/ace3a7e82b502fdb9f15a75329907590/f058b/baidu_search.png 630w,
+/static/ace3a7e82b502fdb9f15a75329907590/40601/baidu_search.png 945w,
+/static/ace3a7e82b502fdb9f15a75329907590/78612/baidu_search.png 1260w,
+/static/ace3a7e82b502fdb9f15a75329907590/ae28e/baidu_search.png 1598w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p><a href="https://www.sogou.com/web?query=%E8%85%BE%E8%AE%AF%E5%BE%AE%E5%8A%A0%E4%BF%A1%E7%94%A8%E5%8D%A1&#x26;from=index-nologin&#x26;s_from=index&#x26;oq=%E9%A8%B0%E8%A8%8A%E5%BE%AE%E5%8A%A0&#x26;ri=0&#x26;suguuid=8d7d37be-42e0-41ed-b2ac-42ceaea60583&#x26;stj=0%3B0%3B0%3B0&#x26;stj2=0&#x26;stj0=0&#x26;stj1=0&#x26;hp=0&#x26;hp1=&#x26;suglabid=suglabId_1&#x26;sut=5061&#x26;sst0=1567531484514&#x26;lkt=0%2C0%2C0&#x26;sugsuv=1567531401947575&#x26;sugtime=1567531484514&#x26;page=1&#x26;ie=utf8&#x26;p=40040100&#x26;dp=1&#x26;w=01015002&#x26;dr=1" target="_blank" rel="nofollow noopener noreferrer">騰訊微加信用卡 - 搜狗搜索</a></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/5faf73651002bf3e87189768d4afd7ce/81315/sogou_search.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 86.70886075949367%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAADKElEQVQ4y52Uy27kVBCGs2YPz8ALILFhxRYeAIkFEjvQiD1rngCJDUsQCxbzAEijURYThSHJJJ3puC++te2OL+1Lt92+Hx9/yE7SyQw7fun3cUnWX3/5VNVR7ShYtoPn+5iWhWoYxEkMSKQU9H13RyR9LxGyQ0iJ6DratiWOYzRNI89zBhzJTiA6SVdV9PYafJcmLND1ilunYqbk6FqOpmbYdo4oK2RZ0lYVTdOMosPZdUPinqPhMcB3b3n27Vd88fln/PD9d6jLFcqNymJujOdM0VguTCLLIlFV1rqOuVohu46nOJJSji+GafDpJx/z0Ycf8M3XX2KHOnZgsA5NotQjqxPKdkee72mHcoUY3Q2GnvLgsC1L7OspzvWEwLTZJA1BWOOHNUHYsMsFjtuQF+86GvCg8Y5gLwRnz3/j5Pdf8I016jzkZuJxfbnm4rXB/GzB+Ysb1BsTz3OxLRtd0xBt+yh6EOxhyPv81x/5+adnqM4KZTXlcnmBul6ysGZsfJN2H7BNQ/xtRLzdkhUF/XsuDw6bfcbq9Qv++vMP/n75iizxiDYW+zggTwLSJKDIEtpyhyh2iGwHbU1fFgexO4f3l9LfOrTHx3B+RnL5Fudsye35AuefOevzOfbplGhmknku+8CnikP2YQAbD4aWOQjeq1ehx3x6xlxVeGvMmBoKC1vF8C1mC4XENEk9l9uNj2lbhFFMOdxyugUh/isoIp/UmJF7FmngEvohsRuSRil7L0D6Hv1mQ5vkHH7cgG1M34knJfd3JQvfJTw+xnt1wuz8iusLhflkyexaZTm5wby6wpxM0BUV3VhhOQ67vIB0O3ZI/37bVKHLypxgOgtMa4rtKEThisDTWDsLfGtFuU2okpB94NEkEZQFhB7Ih958WnJVsjE1uv0ORAN1BWUJZXXP8pHD3JclfZ6Pcy1lP7KXTwSbVnJ6mnBykvHmTcXabYliyWLZoBsNlt2S7ns0/T627mLbbtHVCk2tCDfto+CQYZdIolCQxMOcSv4Pjh6GelgSTVNS18W4B4clUBTFuJqqqqaqqpF1Xd/HNWU5fN+QZdm4KIQQ/Av60v6C8RqzgwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="騰訊微加信用卡 - 搜狗搜索"
+        title="騰訊微加信用卡 - 搜狗搜索"
+        src="/static/5faf73651002bf3e87189768d4afd7ce/f058b/sogou_search.png"
+        srcset="/static/5faf73651002bf3e87189768d4afd7ce/c26ae/sogou_search.png 158w,
+/static/5faf73651002bf3e87189768d4afd7ce/6bdcf/sogou_search.png 315w,
+/static/5faf73651002bf3e87189768d4afd7ce/f058b/sogou_search.png 630w,
+/static/5faf73651002bf3e87189768d4afd7ce/40601/sogou_search.png 945w,
+/static/5faf73651002bf3e87189768d4afd7ce/78612/sogou_search.png 1260w,
+/static/5faf73651002bf3e87189768d4afd7ce/81315/sogou_search.png 1656w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<h3 id="合併請求" style="position:relative;"><a href="#%E5%90%88%E4%BD%B5%E8%AB%8B%E6%B1%82" aria-label="合併請求 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>合併請求</h3>
+<p>Qzone 配置系統還有另外一個問題是限制配置檔案大小，當如果一個配置內容過多時必須拆分成多個檔案，如 <a href="https://wepluscard.qq.com/mdft/qa.shtml" target="_blank" rel="nofollow noopener noreferrer">幫助中心 - 騰訊微加信用卡官網</a></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/cea7b4a24b9eaeb32da30ba0c00e8c80/b18c4/qzone_faq.jpg"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 47.46835443037975%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHjXNQg/8QAFhAAAwAAAAAAAAAAAAAAAAAAARAg/9oACAEBAAEFAkY//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhABAQEAAAAAAAAAAAAAAAAAAAEg/9oACAEBAAY/AlTH/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAEQQRFxsf/aAAgBAQABPyEaWBwimOtH/9oADAMBAAIAAwAAABAP7//EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oACAEDAQE/EEf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAZEAEBAAMBAAAAAAAAAAAAAAABACExQbH/2gAIAQEAAT8QNEDEYTkQ0Nbl6Xkv/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Qzone 常見問題配置"
+        title="Qzone 常見問題配置"
+        src="/static/cea7b4a24b9eaeb32da30ba0c00e8c80/828fb/qzone_faq.jpg"
+        srcset="/static/cea7b4a24b9eaeb32da30ba0c00e8c80/ff44c/qzone_faq.jpg 158w,
+/static/cea7b4a24b9eaeb32da30ba0c00e8c80/a6688/qzone_faq.jpg 315w,
+/static/cea7b4a24b9eaeb32da30ba0c00e8c80/828fb/qzone_faq.jpg 630w,
+/static/cea7b4a24b9eaeb32da30ba0c00e8c80/0ede0/qzone_faq.jpg 945w,
+/static/cea7b4a24b9eaeb32da30ba0c00e8c80/3ac88/qzone_faq.jpg 1260w,
+/static/cea7b4a24b9eaeb32da30ba0c00e8c80/b18c4/qzone_faq.jpg 2186w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>這會造成過多的網路請求，如果我們用上面的方法，一樣可以把常見問題的數據透過模版 pre-render 生成單一 HTML 檔案程式碼片段</p>
+<div class="gatsby-code-title">help.html</div>
+<div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>X-UA-Compatible<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>IE=edge<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+ ...
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>app<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>site-header</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>site-header</span><span class="token punctuation">></span></span>
+
+      ...
+
+      <span class="token comment">&lt;!--#include virtual="./inc/faq.html" --></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre></div>
+<div class="gatsby-code-title">faq.html</div>
+<div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>row<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>col col-24 col-sm-7 col-md-4 qa-list-row<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>qa-list<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+        {#foreach from=$qa item="item"#}
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>qa-{#$item.name#}<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>item<span class="token punctuation">"</span></span> <span class="token attr-name">:class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>current == <span class="token punctuation">'</span>{#$item.name#}<span class="token punctuation">'</span> ? <span class="token punctuation">'</span>active<span class="token punctuation">'</span> : <span class="token punctuation">'</span><span class="token punctuation">'</span><span class="token punctuation">"</span></span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>activeCateg(<span class="token punctuation">'</span>{#$item.name#}<span class="token punctuation">'</span>)<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+                <span class="token comment">&lt;!-- 分類側標題 --></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+        {#/foreach#}
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>col col-24 col-sm-17 col-md-20<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>qa-content<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+        {#foreach from=$qa item="item"#}
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>accordion<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>qa{#$item.name#}<span class="token punctuation">"</span></span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>current == <span class="token punctuation">'</span>{#$item.name#}<span class="token punctuation">'</span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+            {#foreach from=$item.qlist.question item="q" key="index"#}
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>item<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>item-header<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+                        <span class="token comment">&lt;!-- 問題標題 --></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{#$item.name#}{#$index+1#}<span class="token punctuation">"</span></span> <span class="token attr-name">data-parent</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#qa{#$item.name#}<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>collapse<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>item-body<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+                            {#$q.ans|replace:'\n':''|replace:'\"':'"'|replace:'\/':'/'|strip#}
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+            {#/foreach#}
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+        {#/foreach#}
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre></div>
+<h2 id="微加信用卡移動端" style="position:relative;"><a href="#%E5%BE%AE%E5%8A%A0%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%A7%BB%E5%8B%95%E7%AB%AF" aria-label="微加信用卡移動端 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>微加信用卡移動端</h2>
+<h3 id="減少請求" style="position:relative;"><a href="#%E6%B8%9B%E5%B0%91%E8%AB%8B%E6%B1%82" aria-label="減少請求 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>減少請求</h3>
+<p>SSI 還可以用來優化頁面載入</p>
+<p>假設可以自定義返回的檔案格式就能更彈性的配置，像是 JSON 格式或 HTML 程式碼片段，再透過服務器的 SSI 能力嵌入 UI 模塊中，如全局配置 (錯誤碼轉義、灰度路由和下線路由)</p>
+<p>透過測速監測，一個全局配置大概在 150ms 左右的請求耗時</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/909807b7b83c86812a1c43f611e12ad8/8dcca/globalCfg_speed_test.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 33.54430379746836%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVQoz02Ru04EMQxF08NOHk5sJ5lZhASClgbRQM3//9BF8SbLFEfXtm4UP1w5dtD7K+TYjSiMSITWOwozQkxgEctHTDlbPrS2BlYF+YD89QH5/YFrby/Q70/k5yfQdQf1Bh8jNh/gQ0CI0dTyGd/491j9smF7eITLlJF9QMl5UqyzMzy1ikJE7jU++0QQU4IbracBkY06SCdutQQiQmdBLXz3LW+Z70e3bv0kzOiihsyasmDXijbqOupiXbbpW7pIMcE1rfaoa7VxBiPuUlFZbAVSGJXVJimF0ZaXBcwC4mJqI9vCJ2vhF++Rc7HL7tfDtPaG43rYvrZ1iBjtaOEU/wGG3q667vY3mQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="全域配置測速"
+        title="全域配置測速"
+        src="/static/909807b7b83c86812a1c43f611e12ad8/f058b/globalCfg_speed_test.png"
+        srcset="/static/909807b7b83c86812a1c43f611e12ad8/c26ae/globalCfg_speed_test.png 158w,
+/static/909807b7b83c86812a1c43f611e12ad8/6bdcf/globalCfg_speed_test.png 315w,
+/static/909807b7b83c86812a1c43f611e12ad8/f058b/globalCfg_speed_test.png 630w,
+/static/909807b7b83c86812a1c43f611e12ad8/40601/globalCfg_speed_test.png 945w,
+/static/909807b7b83c86812a1c43f611e12ad8/78612/globalCfg_speed_test.png 1260w,
+/static/909807b7b83c86812a1c43f611e12ad8/8dcca/globalCfg_speed_test.png 2888w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<h3 id="數據上下架" style="position:relative;"><a href="#%E6%95%B8%E6%93%9A%E4%B8%8A%E4%B8%8B%E6%9E%B6" aria-label="數據上下架 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>數據上下架</h3>
+<p>大部分配置系統，數據上下架是直接刪除某筆數據，但是產品/運營需要額外維護一套所有的數據，因為數據刪除了就無法復原。</p>
+<p>在數據源的地方增加一個上下架開關的欄位，並在 Smarty 模版中判斷數據是否下架，這樣不但前端不用做修改，還可以讓數據保留在配置系統中，便可以維護下架的數據。</p>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+    <span class="token property">"coupons"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"items"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>#foreach from=$wecard_coupon item=<span class="token string">"coupon"</span>#<span class="token punctuation">}</span>
+        <span class="token punctuation">{</span>#if $coupon.show != '<span class="token boolean">false</span>'#<span class="token punctuation">}</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"couponId"</span><span class="token operator">:</span> <span class="token string">"{#$coupon.couponId#}"</span><span class="token punctuation">,</span>
+            <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"{#$coupon.name#}"</span><span class="token punctuation">,</span>
+            ...
+        <span class="token punctuation">}</span><span class="token punctuation">{</span>#if $coupon@last!=<span class="token boolean">true</span>#<span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">{</span>#/if#<span class="token punctuation">}</span>
+        <span class="token punctuation">{</span>#/if#<span class="token punctuation">}</span>
+        <span class="token punctuation">{</span>#/foreach#<span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h3 id="批量發佈" style="position:relative;"><a href="#%E6%89%B9%E9%87%8F%E7%99%BC%E4%BD%88" aria-label="批量發佈 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>批量發佈</h3>
+<p>另外一個場景微信移動端的優惠專區，有列表和詳情兩個頁面。</p>
+<p>可以透過外部的連結直接進入某一個優惠詳情頁，所以頁面承載各種優惠詳情。如果詳情只是一個配置檔案，當優惠券數量多的時候，那詳情的檔案大小會非常可觀。</p>
+<p>這時候，使用 vTools 數據管理平台的逐條發佈功能，就可以把每一個優惠詳情拆分成獨立一個配置檔案發佈出去，做到瀏覽某一個優惠詳情的時候只讀取該優惠券的配置信息。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/7b3c85e6210288a45aaaed7c91b476d8/3a4f1/wecard_detail_2.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 70.88607594936708%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAABwElEQVQ4y52T23KbMBCGef/36BP0qre5jePWGdekBnMKNScDoqADJ/+dlUcMk9TTNpr5h5W0+63Qrqw0SWD7Zzy5GXZRjWcvx0tc4Tmq8dUv4bxeoJRE3/daSqnFXktKqWV1QsHNOMZpBtlcKnChoNQAKXuYYWDjOGo1TYOqqsAYQ13Xem8YBlg0KcsSjNVaVVUijCI87m18c1x8+vwFDw+PKIoc+aXSoKK4IE1T5HmOLMsQxzHO57OWRVSimwz0lVKhYAxVw/D95YjAj9EPPVQ/LCdd/7rruthut7BtG9b6btaO4zDoBDSu1/m2/sbH2JxzCCH0VVjrhdvp5GKThJDLvoGYAhhRYoLRvj4hBdDGNE06gO4pTGtwNSIMX+F7Pn61HYQaME3jktQAkyRBEAQIwxDW9XpdKvnWXs/v+dA4nU7Y7XbY7/ew5nlegv+kNfyeCEiw/wbeg1PbOI6D4/H4d+C/iIAEe3eHHx1RFOFwOMDzvFtjmzah0tO8bVt0nKPpOFLWoG5bXc1xmrB+CKaNqMoE830fFjlqQNfpIPrSG/2Z5wjTDNsfDvw4QMMadILaRGh/E0Oil0IF2Ww2+A3xDzcQz8+2+AAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="逐條發佈"
+        title="逐條發佈"
+        src="/static/7b3c85e6210288a45aaaed7c91b476d8/f058b/wecard_detail_2.png"
+        srcset="/static/7b3c85e6210288a45aaaed7c91b476d8/c26ae/wecard_detail_2.png 158w,
+/static/7b3c85e6210288a45aaaed7c91b476d8/6bdcf/wecard_detail_2.png 315w,
+/static/7b3c85e6210288a45aaaed7c91b476d8/f058b/wecard_detail_2.png 630w,
+/static/7b3c85e6210288a45aaaed7c91b476d8/40601/wecard_detail_2.png 945w,
+/static/7b3c85e6210288a45aaaed7c91b476d8/78612/wecard_detail_2.png 1260w,
+/static/7b3c85e6210288a45aaaed7c91b476d8/3a4f1/wecard_detail_2.png 2588w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p>
+<p>勾選使用詳情發佈之後，透過選取單一數據進行發佈</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/8adb9/batch_publish.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB9UlEQVQ4y61S2W7bMBDk/7/3ta/9hPaxbpq4SFwDPVxHsk7acSSZEnRZh3VMsCvLVRqgQNASGC05ws7sLinmN9dYLBZY3N3BdV0opRAEwavg+z7iOMZ8PocI1QF1XaNtW/zr2u52EPQJw5CJvu/RdR1HMiCjKdc0DWPkCEPiEBzbhvA8D1mW43Q6scgIEiOjKVeWJfMk1LQNC8lUYqVWLGibBgTNIE1TFiTnqTtVM62Y+b57Vl1YhnjIdkOFrgshpUSSJEyMyWP741zZaOxrPJNx3z2boXQlxH6/5wopeVohtRZF0aWyvusRFRGW/vKZKBt3gzG9EnFQIZI8R3Y8oqxPqKqK2x9Fp4JZncFKrBeCY/ssuDM22Gpr2L9WkNo9HMdBWRSXJJr8mPhny8xRPAtK6UJsF1/grb7B19eoXZMfatO2KOoGx6rhybU8ryE2dCk9LiDu1A6CtuNCuI7ErbZlzH46+GT6+Lh5xMzwcGUGuDJ9xmczwGzj4doKMHcUbmWEH36G1eGItSpgpS3uDQtiryKYcQU9PEJTObQgxdpLsFEZ9EOGjcph0L9DxqCzft6b0RFuXGKbVHgsemgkGIbqPJju95N/sf7G0wyHW36QDkSe5/gfy4573Hw3IJbLJQzDgK7rDNq/FpZp4O2Hr3jz7j2eADabfVZkpzR6AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Batch publish"
+        title="Batch publish"
+        src="/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/f058b/batch_publish.png"
+        srcset="/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/c26ae/batch_publish.png 158w,
+/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/6bdcf/batch_publish.png 315w,
+/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/f058b/batch_publish.png 630w,
+/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/40601/batch_publish.png 945w,
+/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/78612/batch_publish.png 1260w,
+/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/8adb9/batch_publish.png 1638w"
+        sizes="(max-width: 630px) 100vw, 630px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+  </a>
+    </span></p></section><hr/><footer><div class="blog-post-module--postTag--Wr0k4"><div class="blog-post-module--postTagItem--fYOPx"><a class="tag" href="/tags/seo/">#<!-- -->SEO</a></div><div class="blog-post-module--postTagItem--fYOPx"><a class="tag" href="/tags/front-end/">#<!-- -->front-end</a></div></div></footer></article><nav class="blog-post-nav"><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/develop-super-easy-chatbot-release-online/">← <!-- -->開發超簡單聊天機器人發布線上</a></li><li><a rel="next" href="/css-class-naming-mothodology/">CSS Class 命名方法論<!-- --> →</a></li></ul></nav></main><footer><div class="layout-module--rss--7QEKE"><a href="./rss.xml" target="_blank" rel="noreferrer">RSS</a></div><ul class="layout-module--inTouches--8P8zK"><li class="layout-module--inTouchesItem--FEseU"><a href="https://twitter.com/hoyangtsai" target="_blank" rel="noreferrer">Twitter</a></li><li class="layout-module--inTouchesItem--FEseU"><a href="https://github.com/hoyangtsai" target="_blank" rel="noreferrer">Github</a></li><li class="layout-module--inTouchesItem--FEseU"><a href="https://www.linkedin.com/in/hoyangtsai/" target="_blank" rel="noreferrer">Linkedin</a></li></ul></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/data-management-behind-the-official-website/";window.___webpackCompilationHash="32bc2546779825a4948a";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-9a2e2f3f476bc05161e6.js"],"app":["/app-389b011363871c0db0ff.js"],"component---src-pages-404-js":["/component---src-pages-404-js-2941336bf9c73052e958.js"],"component---src-pages-index-js":["/component---src-pages-index-js-be1dccecf7d5f74a2d43.js"],"component---src-pages-tags-js":["/component---src-pages-tags-js-94f7774eb7d4157e5ecf.js"],"component---src-pages-using-typescript-tsx":["/component---src-pages-using-typescript-tsx-820acdaeeb4334b5d4a2.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-580861ac499b2fc3d08f.js"],"component---src-templates-tag-js":["/component---src-templates-tag-js-79ab40239aff7b079b7d.js"]};/*]]>*/</script><script src="/polyfill-9a2e2f3f476bc05161e6.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-580861ac499b2fc3d08f.js" async=""></script><script src="/e3fcc2076860498e4deed45a66207f3abfe77099-9db1250b7da5bf8e2296.js" async=""></script><script src="/commons-771be576f0a6901c3678.js" async=""></script><script src="/app-389b011363871c0db0ff.js" async=""></script><script src="/framework-b6a20498abbb25492195.js" async=""></script><script src="/webpack-runtime-c32d121f7c97614d45c1.js" async=""></script></body></html>

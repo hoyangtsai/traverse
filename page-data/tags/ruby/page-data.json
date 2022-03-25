@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/tags/ruby/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/github-setting-up-jekyll-site/"},"frontmatter":{"title":"GitHub 架設 Jekyll 網站","date":"December 04, 2015"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"ruby"}},
+    "staticQueryHashes": []}
