@@ -7,8 +7,8 @@ import { kebabCase } from "lodash"
 // Components
 import { Link, graphql } from "gatsby"
 
-import Layout from "components/Layout"
-import Seo from "components/seo"
+import Layout from "../components/Layout"
+import Seo from "../components/seo"
 
 const TagsPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Tags`
