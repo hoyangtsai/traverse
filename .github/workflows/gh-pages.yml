@@ -27,18 +27,16 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install Project Dependencies
+      - name: Install dependencies
         run: npm ci
-
-      - name: Install Gatsby CLI
-        run: npm install -g gatsby-cli
 
       - run: npm run format
       - run: npm run test
+      - run: npm run clean
       - run: npm run build
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3.7.3
+        uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
