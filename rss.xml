@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev, Life-style]]></description><link>https://hoyangtsai.github.io/traverse</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Mar 2022 16:33:15 GMT</lastBuildDate><item><title><![CDATA[Javascript algorithm: Quickselect]]></title><description><![CDATA[When I saw the article Javascript Algorithms: Quicksort inspires me to write a similar article of quickselect, because quickselect is…]]></description><link>https://hoyangtsai.github.io/traverse/javascript-algorithm-quickselect/</link><guid isPermaLink="false">https://hoyangtsai.github.io/traverse/javascript-algorithm-quickselect/</guid><pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When I saw the article &lt;a href=&quot;https://wsvincent.com/javascript-algorithms-quicksort/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Javascript Algorithms: Quicksort&lt;/a&gt; inspires me to write a similar article of quickselect, because quickselect is related to quicksort sorting algorithm.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev, Life-style]]></description><link>https://hoyangtsai.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Mar 2022 17:02:47 GMT</lastBuildDate><item><title><![CDATA[Javascript algorithm: Quickselect]]></title><description><![CDATA[When I saw the article Javascript Algorithms: Quicksort inspires me to write a similar article of quickselect, because quickselect is…]]></description><link>https://hoyangtsai.github.io/javascript-algorithm-quickselect/</link><guid isPermaLink="false">https://hoyangtsai.github.io/javascript-algorithm-quickselect/</guid><pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When I saw the article &lt;a href=&quot;https://wsvincent.com/javascript-algorithms-quicksort/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Javascript Algorithms: Quicksort&lt;/a&gt; inspires me to write a similar article of quickselect, because quickselect is related to quicksort sorting algorithm.&lt;/p&gt;
 &lt;p&gt;Quicksort was developed by Tony Hoars, thus quickselect is known as Hoare’s selection algorithm.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Quickselect is a selection algorithm to find the kth smallest element in an unordered list&lt;/p&gt;
@@ -80,7 +80,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/kth-largest-element-in-an-array/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Kth Largest Element in an Array&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/top-k-frequent-elements/description/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Top K Frequent Elements&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[CSS Class 命名方法論]]></title><description><![CDATA[身為Compass框架創建人，Sass核心團隊成員的 Chris Eppstein 曾這麼說過。 CSS is simple. It’s simple to understand. But CSS is not simple to use or maintain. CSS…]]></description><link>https://hoyangtsai.github.io/traverse/css-class-naming-mothodology/</link><guid isPermaLink="false">https://hoyangtsai.github.io/traverse/css-class-naming-mothodology/</guid><pubDate>Thu, 23 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;身為Compass框架創建人，Sass核心團隊成員的 Chris Eppstein 曾這麼說過。&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[CSS Class 命名方法論]]></title><description><![CDATA[身為Compass框架創建人，Sass核心團隊成員的 Chris Eppstein 曾這麼說過。 CSS is simple. It’s simple to understand. But CSS is not simple to use or maintain. CSS…]]></description><link>https://hoyangtsai.github.io/css-class-naming-mothodology/</link><guid isPermaLink="false">https://hoyangtsai.github.io/css-class-naming-mothodology/</guid><pubDate>Thu, 23 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;身為Compass框架創建人，Sass核心團隊成員的 Chris Eppstein 曾這麼說過。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;CSS is simple. It’s simple to understand. But CSS is not simple to use or maintain.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -205,7 +205,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/2111b7083c216779e2382ea2fc2cf099/ef6b9/oocss-demo-1-code.png&quot;
+    href=&quot;/traverse/static/2111b7083c216779e2382ea2fc2cf099/ef6b9/oocss-demo-1-code.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -218,11 +218,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;OOCSS demo1 code&quot;
         title=&quot;OOCSS demo1 code&quot;
-        src=&quot;/static/2111b7083c216779e2382ea2fc2cf099/f058b/oocss-demo-1-code.png&quot;
-        srcset=&quot;/static/2111b7083c216779e2382ea2fc2cf099/c26ae/oocss-demo-1-code.png 158w,
-/static/2111b7083c216779e2382ea2fc2cf099/6bdcf/oocss-demo-1-code.png 315w,
-/static/2111b7083c216779e2382ea2fc2cf099/f058b/oocss-demo-1-code.png 630w,
-/static/2111b7083c216779e2382ea2fc2cf099/ef6b9/oocss-demo-1-code.png 832w&quot;
+        src=&quot;/traverse/static/2111b7083c216779e2382ea2fc2cf099/f058b/oocss-demo-1-code.png&quot;
+        srcset=&quot;/traverse/static/2111b7083c216779e2382ea2fc2cf099/c26ae/oocss-demo-1-code.png 158w,
+/traverse/static/2111b7083c216779e2382ea2fc2cf099/6bdcf/oocss-demo-1-code.png 315w,
+/traverse/static/2111b7083c216779e2382ea2fc2cf099/f058b/oocss-demo-1-code.png 630w,
+/traverse/static/2111b7083c216779e2382ea2fc2cf099/ef6b9/oocss-demo-1-code.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -236,7 +236,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/965cb4dcc665c6873687670fda67f5d2/ef6b9/oocss-demo-1-img.png&quot;
+    href=&quot;/traverse/static/965cb4dcc665c6873687670fda67f5d2/ef6b9/oocss-demo-1-img.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -249,11 +249,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;OOCSS demo1 illustration&quot;
         title=&quot;OOCSS demo1 illustration&quot;
-        src=&quot;/static/965cb4dcc665c6873687670fda67f5d2/f058b/oocss-demo-1-img.png&quot;
-        srcset=&quot;/static/965cb4dcc665c6873687670fda67f5d2/c26ae/oocss-demo-1-img.png 158w,
-/static/965cb4dcc665c6873687670fda67f5d2/6bdcf/oocss-demo-1-img.png 315w,
-/static/965cb4dcc665c6873687670fda67f5d2/f058b/oocss-demo-1-img.png 630w,
-/static/965cb4dcc665c6873687670fda67f5d2/ef6b9/oocss-demo-1-img.png 832w&quot;
+        src=&quot;/traverse/static/965cb4dcc665c6873687670fda67f5d2/f058b/oocss-demo-1-img.png&quot;
+        srcset=&quot;/traverse/static/965cb4dcc665c6873687670fda67f5d2/c26ae/oocss-demo-1-img.png 158w,
+/traverse/static/965cb4dcc665c6873687670fda67f5d2/6bdcf/oocss-demo-1-img.png 315w,
+/traverse/static/965cb4dcc665c6873687670fda67f5d2/f058b/oocss-demo-1-img.png 630w,
+/traverse/static/965cb4dcc665c6873687670fda67f5d2/ef6b9/oocss-demo-1-img.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -270,7 +270,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a655e6dbb0661511cc71bcb50a56536d/ef6b9/oocss-demo-2-code.png&quot;
+    href=&quot;/traverse/static/a655e6dbb0661511cc71bcb50a56536d/ef6b9/oocss-demo-2-code.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -283,11 +283,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;OOCSS demo2 code&quot;
         title=&quot;OOCSS demo2 code&quot;
-        src=&quot;/static/a655e6dbb0661511cc71bcb50a56536d/f058b/oocss-demo-2-code.png&quot;
-        srcset=&quot;/static/a655e6dbb0661511cc71bcb50a56536d/c26ae/oocss-demo-2-code.png 158w,
-/static/a655e6dbb0661511cc71bcb50a56536d/6bdcf/oocss-demo-2-code.png 315w,
-/static/a655e6dbb0661511cc71bcb50a56536d/f058b/oocss-demo-2-code.png 630w,
-/static/a655e6dbb0661511cc71bcb50a56536d/ef6b9/oocss-demo-2-code.png 832w&quot;
+        src=&quot;/traverse/static/a655e6dbb0661511cc71bcb50a56536d/f058b/oocss-demo-2-code.png&quot;
+        srcset=&quot;/traverse/static/a655e6dbb0661511cc71bcb50a56536d/c26ae/oocss-demo-2-code.png 158w,
+/traverse/static/a655e6dbb0661511cc71bcb50a56536d/6bdcf/oocss-demo-2-code.png 315w,
+/traverse/static/a655e6dbb0661511cc71bcb50a56536d/f058b/oocss-demo-2-code.png 630w,
+/traverse/static/a655e6dbb0661511cc71bcb50a56536d/ef6b9/oocss-demo-2-code.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -301,7 +301,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/f6e8fd74186a42c00a0c67c62f118b74/ef6b9/oocss-demo-2-img.png&quot;
+    href=&quot;/traverse/static/f6e8fd74186a42c00a0c67c62f118b74/ef6b9/oocss-demo-2-img.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -314,11 +314,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;OOCSS demo2 illustration&quot;
         title=&quot;OOCSS demo2 illustration&quot;
-        src=&quot;/static/f6e8fd74186a42c00a0c67c62f118b74/f058b/oocss-demo-2-img.png&quot;
-        srcset=&quot;/static/f6e8fd74186a42c00a0c67c62f118b74/c26ae/oocss-demo-2-img.png 158w,
-/static/f6e8fd74186a42c00a0c67c62f118b74/6bdcf/oocss-demo-2-img.png 315w,
-/static/f6e8fd74186a42c00a0c67c62f118b74/f058b/oocss-demo-2-img.png 630w,
-/static/f6e8fd74186a42c00a0c67c62f118b74/ef6b9/oocss-demo-2-img.png 832w&quot;
+        src=&quot;/traverse/static/f6e8fd74186a42c00a0c67c62f118b74/f058b/oocss-demo-2-img.png&quot;
+        srcset=&quot;/traverse/static/f6e8fd74186a42c00a0c67c62f118b74/c26ae/oocss-demo-2-img.png 158w,
+/traverse/static/f6e8fd74186a42c00a0c67c62f118b74/6bdcf/oocss-demo-2-img.png 315w,
+/traverse/static/f6e8fd74186a42c00a0c67c62f118b74/f058b/oocss-demo-2-img.png 630w,
+/traverse/static/f6e8fd74186a42c00a0c67c62f118b74/ef6b9/oocss-demo-2-img.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -335,7 +335,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/938f31d95dd9083b9eecfd0e920205a3/ef6b9/oocss-demo-3-code.png&quot;
+    href=&quot;/traverse/static/938f31d95dd9083b9eecfd0e920205a3/ef6b9/oocss-demo-3-code.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -348,11 +348,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;OOCSS demo3 code&quot;
         title=&quot;OOCSS demo3 code&quot;
-        src=&quot;/static/938f31d95dd9083b9eecfd0e920205a3/f058b/oocss-demo-3-code.png&quot;
-        srcset=&quot;/static/938f31d95dd9083b9eecfd0e920205a3/c26ae/oocss-demo-3-code.png 158w,
-/static/938f31d95dd9083b9eecfd0e920205a3/6bdcf/oocss-demo-3-code.png 315w,
-/static/938f31d95dd9083b9eecfd0e920205a3/f058b/oocss-demo-3-code.png 630w,
-/static/938f31d95dd9083b9eecfd0e920205a3/ef6b9/oocss-demo-3-code.png 832w&quot;
+        src=&quot;/traverse/static/938f31d95dd9083b9eecfd0e920205a3/f058b/oocss-demo-3-code.png&quot;
+        srcset=&quot;/traverse/static/938f31d95dd9083b9eecfd0e920205a3/c26ae/oocss-demo-3-code.png 158w,
+/traverse/static/938f31d95dd9083b9eecfd0e920205a3/6bdcf/oocss-demo-3-code.png 315w,
+/traverse/static/938f31d95dd9083b9eecfd0e920205a3/f058b/oocss-demo-3-code.png 630w,
+/traverse/static/938f31d95dd9083b9eecfd0e920205a3/ef6b9/oocss-demo-3-code.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -366,7 +366,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9707357e5719d47bfe1ab39dac317569/ef6b9/oocss-demo-3-img.png&quot;
+    href=&quot;/traverse/static/9707357e5719d47bfe1ab39dac317569/ef6b9/oocss-demo-3-img.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -379,11 +379,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;OOCSS demo3 illustration&quot;
         title=&quot;OOCSS demo3 illustration&quot;
-        src=&quot;/static/9707357e5719d47bfe1ab39dac317569/f058b/oocss-demo-3-img.png&quot;
-        srcset=&quot;/static/9707357e5719d47bfe1ab39dac317569/c26ae/oocss-demo-3-img.png 158w,
-/static/9707357e5719d47bfe1ab39dac317569/6bdcf/oocss-demo-3-img.png 315w,
-/static/9707357e5719d47bfe1ab39dac317569/f058b/oocss-demo-3-img.png 630w,
-/static/9707357e5719d47bfe1ab39dac317569/ef6b9/oocss-demo-3-img.png 832w&quot;
+        src=&quot;/traverse/static/9707357e5719d47bfe1ab39dac317569/f058b/oocss-demo-3-img.png&quot;
+        srcset=&quot;/traverse/static/9707357e5719d47bfe1ab39dac317569/c26ae/oocss-demo-3-img.png 158w,
+/traverse/static/9707357e5719d47bfe1ab39dac317569/6bdcf/oocss-demo-3-img.png 315w,
+/traverse/static/9707357e5719d47bfe1ab39dac317569/f058b/oocss-demo-3-img.png 630w,
+/traverse/static/9707357e5719d47bfe1ab39dac317569/ef6b9/oocss-demo-3-img.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -400,7 +400,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ab4c047f31dce1b5e28889e821311397/ef6b9/oocss-properties.png&quot;
+    href=&quot;/traverse/static/ab4c047f31dce1b5e28889e821311397/ef6b9/oocss-properties.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -413,11 +413,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;OOCSS properties&quot;
         title=&quot;OOCSS properties&quot;
-        src=&quot;/static/ab4c047f31dce1b5e28889e821311397/f058b/oocss-properties.png&quot;
-        srcset=&quot;/static/ab4c047f31dce1b5e28889e821311397/c26ae/oocss-properties.png 158w,
-/static/ab4c047f31dce1b5e28889e821311397/6bdcf/oocss-properties.png 315w,
-/static/ab4c047f31dce1b5e28889e821311397/f058b/oocss-properties.png 630w,
-/static/ab4c047f31dce1b5e28889e821311397/ef6b9/oocss-properties.png 832w&quot;
+        src=&quot;/traverse/static/ab4c047f31dce1b5e28889e821311397/f058b/oocss-properties.png&quot;
+        srcset=&quot;/traverse/static/ab4c047f31dce1b5e28889e821311397/c26ae/oocss-properties.png 158w,
+/traverse/static/ab4c047f31dce1b5e28889e821311397/6bdcf/oocss-properties.png 315w,
+/traverse/static/ab4c047f31dce1b5e28889e821311397/f058b/oocss-properties.png 630w,
+/traverse/static/ab4c047f31dce1b5e28889e821311397/ef6b9/oocss-properties.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -447,7 +447,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/21bb0e0f4ca09672188682afd95c7e53/ef6b9/bem-block.png&quot;
+    href=&quot;/traverse/static/21bb0e0f4ca09672188682afd95c7e53/ef6b9/bem-block.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -460,11 +460,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;BEM block&quot;
         title=&quot;BEM block&quot;
-        src=&quot;/static/21bb0e0f4ca09672188682afd95c7e53/f058b/bem-block.png&quot;
-        srcset=&quot;/static/21bb0e0f4ca09672188682afd95c7e53/c26ae/bem-block.png 158w,
-/static/21bb0e0f4ca09672188682afd95c7e53/6bdcf/bem-block.png 315w,
-/static/21bb0e0f4ca09672188682afd95c7e53/f058b/bem-block.png 630w,
-/static/21bb0e0f4ca09672188682afd95c7e53/ef6b9/bem-block.png 832w&quot;
+        src=&quot;/traverse/static/21bb0e0f4ca09672188682afd95c7e53/f058b/bem-block.png&quot;
+        srcset=&quot;/traverse/static/21bb0e0f4ca09672188682afd95c7e53/c26ae/bem-block.png 158w,
+/traverse/static/21bb0e0f4ca09672188682afd95c7e53/6bdcf/bem-block.png 315w,
+/traverse/static/21bb0e0f4ca09672188682afd95c7e53/f058b/bem-block.png 630w,
+/traverse/static/21bb0e0f4ca09672188682afd95c7e53/ef6b9/bem-block.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -482,7 +482,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6c5163c6045b870b086f327de204519c/ef6b9/bem-element.png&quot;
+    href=&quot;/traverse/static/6c5163c6045b870b086f327de204519c/ef6b9/bem-element.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -495,11 +495,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;BEM element&quot;
         title=&quot;BEM element&quot;
-        src=&quot;/static/6c5163c6045b870b086f327de204519c/f058b/bem-element.png&quot;
-        srcset=&quot;/static/6c5163c6045b870b086f327de204519c/c26ae/bem-element.png 158w,
-/static/6c5163c6045b870b086f327de204519c/6bdcf/bem-element.png 315w,
-/static/6c5163c6045b870b086f327de204519c/f058b/bem-element.png 630w,
-/static/6c5163c6045b870b086f327de204519c/ef6b9/bem-element.png 832w&quot;
+        src=&quot;/traverse/static/6c5163c6045b870b086f327de204519c/f058b/bem-element.png&quot;
+        srcset=&quot;/traverse/static/6c5163c6045b870b086f327de204519c/c26ae/bem-element.png 158w,
+/traverse/static/6c5163c6045b870b086f327de204519c/6bdcf/bem-element.png 315w,
+/traverse/static/6c5163c6045b870b086f327de204519c/f058b/bem-element.png 630w,
+/traverse/static/6c5163c6045b870b086f327de204519c/ef6b9/bem-element.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -517,7 +517,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5dc9588817f53ac27aef11aa990f4793/ef6b9/bem-modifier.png&quot;
+    href=&quot;/traverse/static/5dc9588817f53ac27aef11aa990f4793/ef6b9/bem-modifier.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -530,11 +530,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;BEM modifier&quot;
         title=&quot;BEM modifier&quot;
-        src=&quot;/static/5dc9588817f53ac27aef11aa990f4793/f058b/bem-modifier.png&quot;
-        srcset=&quot;/static/5dc9588817f53ac27aef11aa990f4793/c26ae/bem-modifier.png 158w,
-/static/5dc9588817f53ac27aef11aa990f4793/6bdcf/bem-modifier.png 315w,
-/static/5dc9588817f53ac27aef11aa990f4793/f058b/bem-modifier.png 630w,
-/static/5dc9588817f53ac27aef11aa990f4793/ef6b9/bem-modifier.png 832w&quot;
+        src=&quot;/traverse/static/5dc9588817f53ac27aef11aa990f4793/f058b/bem-modifier.png&quot;
+        srcset=&quot;/traverse/static/5dc9588817f53ac27aef11aa990f4793/c26ae/bem-modifier.png 158w,
+/traverse/static/5dc9588817f53ac27aef11aa990f4793/6bdcf/bem-modifier.png 315w,
+/traverse/static/5dc9588817f53ac27aef11aa990f4793/f058b/bem-modifier.png 630w,
+/traverse/static/5dc9588817f53ac27aef11aa990f4793/ef6b9/bem-modifier.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -549,7 +549,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/91bded2130712da02e528d16b854e4d2/715a3/bem-file-structure.png&quot;
+    href=&quot;/traverse/static/91bded2130712da02e528d16b854e4d2/715a3/bem-file-structure.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -562,11 +562,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;BEM 檔案結構&quot;
         title=&quot;BEM 檔案結構&quot;
-        src=&quot;/static/91bded2130712da02e528d16b854e4d2/f058b/bem-file-structure.png&quot;
-        srcset=&quot;/static/91bded2130712da02e528d16b854e4d2/c26ae/bem-file-structure.png 158w,
-/static/91bded2130712da02e528d16b854e4d2/6bdcf/bem-file-structure.png 315w,
-/static/91bded2130712da02e528d16b854e4d2/f058b/bem-file-structure.png 630w,
-/static/91bded2130712da02e528d16b854e4d2/715a3/bem-file-structure.png 830w&quot;
+        src=&quot;/traverse/static/91bded2130712da02e528d16b854e4d2/f058b/bem-file-structure.png&quot;
+        srcset=&quot;/traverse/static/91bded2130712da02e528d16b854e4d2/c26ae/bem-file-structure.png 158w,
+/traverse/static/91bded2130712da02e528d16b854e4d2/6bdcf/bem-file-structure.png 315w,
+/traverse/static/91bded2130712da02e528d16b854e4d2/f058b/bem-file-structure.png 630w,
+/traverse/static/91bded2130712da02e528d16b854e4d2/715a3/bem-file-structure.png 830w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -600,7 +600,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/bc99e60d7675220d17c7ea4274f6d0e5/ef6b9/smacss-base.png&quot;
+    href=&quot;/traverse/static/bc99e60d7675220d17c7ea4274f6d0e5/ef6b9/smacss-base.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -613,11 +613,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;SMACSS Base&quot;
         title=&quot;SMACSS Base&quot;
-        src=&quot;/static/bc99e60d7675220d17c7ea4274f6d0e5/f058b/smacss-base.png&quot;
-        srcset=&quot;/static/bc99e60d7675220d17c7ea4274f6d0e5/c26ae/smacss-base.png 158w,
-/static/bc99e60d7675220d17c7ea4274f6d0e5/6bdcf/smacss-base.png 315w,
-/static/bc99e60d7675220d17c7ea4274f6d0e5/f058b/smacss-base.png 630w,
-/static/bc99e60d7675220d17c7ea4274f6d0e5/ef6b9/smacss-base.png 832w&quot;
+        src=&quot;/traverse/static/bc99e60d7675220d17c7ea4274f6d0e5/f058b/smacss-base.png&quot;
+        srcset=&quot;/traverse/static/bc99e60d7675220d17c7ea4274f6d0e5/c26ae/smacss-base.png 158w,
+/traverse/static/bc99e60d7675220d17c7ea4274f6d0e5/6bdcf/smacss-base.png 315w,
+/traverse/static/bc99e60d7675220d17c7ea4274f6d0e5/f058b/smacss-base.png 630w,
+/traverse/static/bc99e60d7675220d17c7ea4274f6d0e5/ef6b9/smacss-base.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -635,7 +635,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4c6b601c610abe5b928406fe468878b2/ef6b9/smacss-layout.png&quot;
+    href=&quot;/traverse/static/4c6b601c610abe5b928406fe468878b2/ef6b9/smacss-layout.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -648,11 +648,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;SMACSS Layout&quot;
         title=&quot;SMACSS Layout&quot;
-        src=&quot;/static/4c6b601c610abe5b928406fe468878b2/f058b/smacss-layout.png&quot;
-        srcset=&quot;/static/4c6b601c610abe5b928406fe468878b2/c26ae/smacss-layout.png 158w,
-/static/4c6b601c610abe5b928406fe468878b2/6bdcf/smacss-layout.png 315w,
-/static/4c6b601c610abe5b928406fe468878b2/f058b/smacss-layout.png 630w,
-/static/4c6b601c610abe5b928406fe468878b2/ef6b9/smacss-layout.png 832w&quot;
+        src=&quot;/traverse/static/4c6b601c610abe5b928406fe468878b2/f058b/smacss-layout.png&quot;
+        srcset=&quot;/traverse/static/4c6b601c610abe5b928406fe468878b2/c26ae/smacss-layout.png 158w,
+/traverse/static/4c6b601c610abe5b928406fe468878b2/6bdcf/smacss-layout.png 315w,
+/traverse/static/4c6b601c610abe5b928406fe468878b2/f058b/smacss-layout.png 630w,
+/traverse/static/4c6b601c610abe5b928406fe468878b2/ef6b9/smacss-layout.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -669,7 +669,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/1a72278e0a7bc08d0376432ac05ecea5/ef6b9/smacss-module.png&quot;
+    href=&quot;/traverse/static/1a72278e0a7bc08d0376432ac05ecea5/ef6b9/smacss-module.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -682,11 +682,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;SMACSS Module&quot;
         title=&quot;SMACSS Module&quot;
-        src=&quot;/static/1a72278e0a7bc08d0376432ac05ecea5/f058b/smacss-module.png&quot;
-        srcset=&quot;/static/1a72278e0a7bc08d0376432ac05ecea5/c26ae/smacss-module.png 158w,
-/static/1a72278e0a7bc08d0376432ac05ecea5/6bdcf/smacss-module.png 315w,
-/static/1a72278e0a7bc08d0376432ac05ecea5/f058b/smacss-module.png 630w,
-/static/1a72278e0a7bc08d0376432ac05ecea5/ef6b9/smacss-module.png 832w&quot;
+        src=&quot;/traverse/static/1a72278e0a7bc08d0376432ac05ecea5/f058b/smacss-module.png&quot;
+        srcset=&quot;/traverse/static/1a72278e0a7bc08d0376432ac05ecea5/c26ae/smacss-module.png 158w,
+/traverse/static/1a72278e0a7bc08d0376432ac05ecea5/6bdcf/smacss-module.png 315w,
+/traverse/static/1a72278e0a7bc08d0376432ac05ecea5/f058b/smacss-module.png 630w,
+/traverse/static/1a72278e0a7bc08d0376432ac05ecea5/ef6b9/smacss-module.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -703,7 +703,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5bb3f099ffa645977e4612497d74081b/ef6b9/smacss-state.png&quot;
+    href=&quot;/traverse/static/5bb3f099ffa645977e4612497d74081b/ef6b9/smacss-state.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -716,11 +716,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;SMACSS State&quot;
         title=&quot;SMACSS State&quot;
-        src=&quot;/static/5bb3f099ffa645977e4612497d74081b/f058b/smacss-state.png&quot;
-        srcset=&quot;/static/5bb3f099ffa645977e4612497d74081b/c26ae/smacss-state.png 158w,
-/static/5bb3f099ffa645977e4612497d74081b/6bdcf/smacss-state.png 315w,
-/static/5bb3f099ffa645977e4612497d74081b/f058b/smacss-state.png 630w,
-/static/5bb3f099ffa645977e4612497d74081b/ef6b9/smacss-state.png 832w&quot;
+        src=&quot;/traverse/static/5bb3f099ffa645977e4612497d74081b/f058b/smacss-state.png&quot;
+        srcset=&quot;/traverse/static/5bb3f099ffa645977e4612497d74081b/c26ae/smacss-state.png 158w,
+/traverse/static/5bb3f099ffa645977e4612497d74081b/6bdcf/smacss-state.png 315w,
+/traverse/static/5bb3f099ffa645977e4612497d74081b/f058b/smacss-state.png 630w,
+/traverse/static/5bb3f099ffa645977e4612497d74081b/ef6b9/smacss-state.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -736,7 +736,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/191e8121ac18cbb6130e8085ce079af7/ef6b9/smacss-theme.png&quot;
+    href=&quot;/traverse/static/191e8121ac18cbb6130e8085ce079af7/ef6b9/smacss-theme.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -749,11 +749,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;SMACSS Theme&quot;
         title=&quot;SMACSS Theme&quot;
-        src=&quot;/static/191e8121ac18cbb6130e8085ce079af7/f058b/smacss-theme.png&quot;
-        srcset=&quot;/static/191e8121ac18cbb6130e8085ce079af7/c26ae/smacss-theme.png 158w,
-/static/191e8121ac18cbb6130e8085ce079af7/6bdcf/smacss-theme.png 315w,
-/static/191e8121ac18cbb6130e8085ce079af7/f058b/smacss-theme.png 630w,
-/static/191e8121ac18cbb6130e8085ce079af7/ef6b9/smacss-theme.png 832w&quot;
+        src=&quot;/traverse/static/191e8121ac18cbb6130e8085ce079af7/f058b/smacss-theme.png&quot;
+        srcset=&quot;/traverse/static/191e8121ac18cbb6130e8085ce079af7/c26ae/smacss-theme.png 158w,
+/traverse/static/191e8121ac18cbb6130e8085ce079af7/6bdcf/smacss-theme.png 315w,
+/traverse/static/191e8121ac18cbb6130e8085ce079af7/f058b/smacss-theme.png 630w,
+/traverse/static/191e8121ac18cbb6130e8085ce079af7/ef6b9/smacss-theme.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -782,7 +782,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6494f3be77504d37c69e6330a5c2b1e5/ef6b9/atomic-config.png&quot;
+    href=&quot;/traverse/static/6494f3be77504d37c69e6330a5c2b1e5/ef6b9/atomic-config.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -795,11 +795,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Atomic 配置檔案&quot;
         title=&quot;Atomic 配置檔案&quot;
-        src=&quot;/static/6494f3be77504d37c69e6330a5c2b1e5/f058b/atomic-config.png&quot;
-        srcset=&quot;/static/6494f3be77504d37c69e6330a5c2b1e5/c26ae/atomic-config.png 158w,
-/static/6494f3be77504d37c69e6330a5c2b1e5/6bdcf/atomic-config.png 315w,
-/static/6494f3be77504d37c69e6330a5c2b1e5/f058b/atomic-config.png 630w,
-/static/6494f3be77504d37c69e6330a5c2b1e5/ef6b9/atomic-config.png 832w&quot;
+        src=&quot;/traverse/static/6494f3be77504d37c69e6330a5c2b1e5/f058b/atomic-config.png&quot;
+        srcset=&quot;/traverse/static/6494f3be77504d37c69e6330a5c2b1e5/c26ae/atomic-config.png 158w,
+/traverse/static/6494f3be77504d37c69e6330a5c2b1e5/6bdcf/atomic-config.png 315w,
+/traverse/static/6494f3be77504d37c69e6330a5c2b1e5/f058b/atomic-config.png 630w,
+/traverse/static/6494f3be77504d37c69e6330a5c2b1e5/ef6b9/atomic-config.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -814,7 +814,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/f89dd66702b705a96cf300c89138cb65/ef6b9/atomic-use.png&quot;
+    href=&quot;/traverse/static/f89dd66702b705a96cf300c89138cb65/ef6b9/atomic-use.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -827,11 +827,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Atomic 使用&quot;
         title=&quot;Atomic 使用&quot;
-        src=&quot;/static/f89dd66702b705a96cf300c89138cb65/f058b/atomic-use.png&quot;
-        srcset=&quot;/static/f89dd66702b705a96cf300c89138cb65/c26ae/atomic-use.png 158w,
-/static/f89dd66702b705a96cf300c89138cb65/6bdcf/atomic-use.png 315w,
-/static/f89dd66702b705a96cf300c89138cb65/f058b/atomic-use.png 630w,
-/static/f89dd66702b705a96cf300c89138cb65/ef6b9/atomic-use.png 832w&quot;
+        src=&quot;/traverse/static/f89dd66702b705a96cf300c89138cb65/f058b/atomic-use.png&quot;
+        srcset=&quot;/traverse/static/f89dd66702b705a96cf300c89138cb65/c26ae/atomic-use.png 158w,
+/traverse/static/f89dd66702b705a96cf300c89138cb65/6bdcf/atomic-use.png 315w,
+/traverse/static/f89dd66702b705a96cf300c89138cb65/f058b/atomic-use.png 630w,
+/traverse/static/f89dd66702b705a96cf300c89138cb65/ef6b9/atomic-use.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -865,7 +865,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/b75b6bcb572341b03ae33ae7efd9e0f9/ef6b9/atomic-result.png&quot;
+    href=&quot;/traverse/static/b75b6bcb572341b03ae33ae7efd9e0f9/ef6b9/atomic-result.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -878,11 +878,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Atomic 最終結果&quot;
         title=&quot;Atomic 最終結果&quot;
-        src=&quot;/static/b75b6bcb572341b03ae33ae7efd9e0f9/f058b/atomic-result.png&quot;
-        srcset=&quot;/static/b75b6bcb572341b03ae33ae7efd9e0f9/c26ae/atomic-result.png 158w,
-/static/b75b6bcb572341b03ae33ae7efd9e0f9/6bdcf/atomic-result.png 315w,
-/static/b75b6bcb572341b03ae33ae7efd9e0f9/f058b/atomic-result.png 630w,
-/static/b75b6bcb572341b03ae33ae7efd9e0f9/ef6b9/atomic-result.png 832w&quot;
+        src=&quot;/traverse/static/b75b6bcb572341b03ae33ae7efd9e0f9/f058b/atomic-result.png&quot;
+        srcset=&quot;/traverse/static/b75b6bcb572341b03ae33ae7efd9e0f9/c26ae/atomic-result.png 158w,
+/traverse/static/b75b6bcb572341b03ae33ae7efd9e0f9/6bdcf/atomic-result.png 315w,
+/traverse/static/b75b6bcb572341b03ae33ae7efd9e0f9/f058b/atomic-result.png 630w,
+/traverse/static/b75b6bcb572341b03ae33ae7efd9e0f9/ef6b9/atomic-result.png 832w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -905,7 +905,7 @@
 &lt;li&gt;&lt;a href=&quot;http://getbem.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;BEM&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://smacss.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;SMACSS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://acss.io&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Atomic CSS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[產品官網背後的數據管理]]></title><description><![CDATA[騰訊微加信用卡官網是一個可以在手機、平板和桌面等多終端上瀏覽的產品官網，除了留言反饋的地方沒有其他與用戶的數據交互，所以在沒用後端資源的情況下，希望網站內容可以根據信用卡的合作內容彈性的修改。 網站第一版用的是之前開發常用的公司內部 Qzone…]]></description><link>https://hoyangtsai.github.io/traverse/data-management-behind-the-official-website/</link><guid isPermaLink="false">https://hoyangtsai.github.io/traverse/data-management-behind-the-official-website/</guid><pubDate>Fri, 10 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://wepluscard.qq.com/mdft/index.shtml&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;騰訊微加信用卡&lt;/a&gt;官網是一個可以在手機、平板和桌面等多終端上瀏覽的產品官網，除了留言反饋的地方沒有其他與用戶的數據交互，所以在沒用後端資源的情況下，希望網站內容可以根據信用卡的合作內容彈性的修改。&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[產品官網背後的數據管理]]></title><description><![CDATA[騰訊微加信用卡官網是一個可以在手機、平板和桌面等多終端上瀏覽的產品官網，除了留言反饋的地方沒有其他與用戶的數據交互，所以在沒用後端資源的情況下，希望網站內容可以根據信用卡的合作內容彈性的修改。 網站第一版用的是之前開發常用的公司內部 Qzone…]]></description><link>https://hoyangtsai.github.io/data-management-behind-the-official-website/</link><guid isPermaLink="false">https://hoyangtsai.github.io/data-management-behind-the-official-website/</guid><pubDate>Fri, 10 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://wepluscard.qq.com/mdft/index.shtml&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;騰訊微加信用卡&lt;/a&gt;官網是一個可以在手機、平板和桌面等多終端上瀏覽的產品官網，除了留言反饋的地方沒有其他與用戶的數據交互，所以在沒用後端資源的情況下，希望網站內容可以根據信用卡的合作內容彈性的修改。&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;p&gt;網站第一版用的是之前開發常用的公司內部 Qzone 配置系統，它可以自定義數據結構，但請求時返回的檔案是固定的模版，只能是異步 callback 或 CMD 模式引用取得配置內容。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -944,7 +944,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ba61e8300ffab8042366e060195d94ba/8ad1b/feature.png&quot;
+    href=&quot;/traverse/static/ba61e8300ffab8042366e060195d94ba/8ad1b/feature.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -957,13 +957,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;feature&quot;
         title=&quot;feature&quot;
-        src=&quot;/static/ba61e8300ffab8042366e060195d94ba/f058b/feature.png&quot;
-        srcset=&quot;/static/ba61e8300ffab8042366e060195d94ba/c26ae/feature.png 158w,
-/static/ba61e8300ffab8042366e060195d94ba/6bdcf/feature.png 315w,
-/static/ba61e8300ffab8042366e060195d94ba/f058b/feature.png 630w,
-/static/ba61e8300ffab8042366e060195d94ba/40601/feature.png 945w,
-/static/ba61e8300ffab8042366e060195d94ba/78612/feature.png 1260w,
-/static/ba61e8300ffab8042366e060195d94ba/8ad1b/feature.png 2320w&quot;
+        src=&quot;/traverse/static/ba61e8300ffab8042366e060195d94ba/f058b/feature.png&quot;
+        srcset=&quot;/traverse/static/ba61e8300ffab8042366e060195d94ba/c26ae/feature.png 158w,
+/traverse/static/ba61e8300ffab8042366e060195d94ba/6bdcf/feature.png 315w,
+/traverse/static/ba61e8300ffab8042366e060195d94ba/f058b/feature.png 630w,
+/traverse/static/ba61e8300ffab8042366e060195d94ba/40601/feature.png 945w,
+/traverse/static/ba61e8300ffab8042366e060195d94ba/78612/feature.png 1260w,
+/traverse/static/ba61e8300ffab8042366e060195d94ba/8ad1b/feature.png 2320w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -977,7 +977,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d01509982dce6f286a7a8f6d7c824370/34e83/feature_detail.png&quot;
+    href=&quot;/traverse/static/d01509982dce6f286a7a8f6d7c824370/34e83/feature_detail.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -990,13 +990,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;feature detail&quot;
         title=&quot;feature detail&quot;
-        src=&quot;/static/d01509982dce6f286a7a8f6d7c824370/f058b/feature_detail.png&quot;
-        srcset=&quot;/static/d01509982dce6f286a7a8f6d7c824370/c26ae/feature_detail.png 158w,
-/static/d01509982dce6f286a7a8f6d7c824370/6bdcf/feature_detail.png 315w,
-/static/d01509982dce6f286a7a8f6d7c824370/f058b/feature_detail.png 630w,
-/static/d01509982dce6f286a7a8f6d7c824370/40601/feature_detail.png 945w,
-/static/d01509982dce6f286a7a8f6d7c824370/78612/feature_detail.png 1260w,
-/static/d01509982dce6f286a7a8f6d7c824370/34e83/feature_detail.png 2852w&quot;
+        src=&quot;/traverse/static/d01509982dce6f286a7a8f6d7c824370/f058b/feature_detail.png&quot;
+        srcset=&quot;/traverse/static/d01509982dce6f286a7a8f6d7c824370/c26ae/feature_detail.png 158w,
+/traverse/static/d01509982dce6f286a7a8f6d7c824370/6bdcf/feature_detail.png 315w,
+/traverse/static/d01509982dce6f286a7a8f6d7c824370/f058b/feature_detail.png 630w,
+/traverse/static/d01509982dce6f286a7a8f6d7c824370/40601/feature_detail.png 945w,
+/traverse/static/d01509982dce6f286a7a8f6d7c824370/78612/feature_detail.png 1260w,
+/traverse/static/d01509982dce6f286a7a8f6d7c824370/34e83/feature_detail.png 2852w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1024,7 +1024,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/b5458ddc09fcf9f932bfb4b1b681987b/c6720/globalCfg_tmpl.png&quot;
+    href=&quot;/traverse/static/b5458ddc09fcf9f932bfb4b1b681987b/c6720/globalCfg_tmpl.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1037,13 +1037,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;global template config&quot;
         title=&quot;global template config&quot;
-        src=&quot;/static/b5458ddc09fcf9f932bfb4b1b681987b/f058b/globalCfg_tmpl.png&quot;
-        srcset=&quot;/static/b5458ddc09fcf9f932bfb4b1b681987b/c26ae/globalCfg_tmpl.png 158w,
-/static/b5458ddc09fcf9f932bfb4b1b681987b/6bdcf/globalCfg_tmpl.png 315w,
-/static/b5458ddc09fcf9f932bfb4b1b681987b/f058b/globalCfg_tmpl.png 630w,
-/static/b5458ddc09fcf9f932bfb4b1b681987b/40601/globalCfg_tmpl.png 945w,
-/static/b5458ddc09fcf9f932bfb4b1b681987b/78612/globalCfg_tmpl.png 1260w,
-/static/b5458ddc09fcf9f932bfb4b1b681987b/c6720/globalCfg_tmpl.png 1922w&quot;
+        src=&quot;/traverse/static/b5458ddc09fcf9f932bfb4b1b681987b/f058b/globalCfg_tmpl.png&quot;
+        srcset=&quot;/traverse/static/b5458ddc09fcf9f932bfb4b1b681987b/c26ae/globalCfg_tmpl.png 158w,
+/traverse/static/b5458ddc09fcf9f932bfb4b1b681987b/6bdcf/globalCfg_tmpl.png 315w,
+/traverse/static/b5458ddc09fcf9f932bfb4b1b681987b/f058b/globalCfg_tmpl.png 630w,
+/traverse/static/b5458ddc09fcf9f932bfb4b1b681987b/40601/globalCfg_tmpl.png 945w,
+/traverse/static/b5458ddc09fcf9f932bfb4b1b681987b/78612/globalCfg_tmpl.png 1260w,
+/traverse/static/b5458ddc09fcf9f932bfb4b1b681987b/c6720/globalCfg_tmpl.png 1922w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1137,7 +1137,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ace3a7e82b502fdb9f15a75329907590/ae28e/baidu_search.png&quot;
+    href=&quot;/traverse/static/ace3a7e82b502fdb9f15a75329907590/ae28e/baidu_search.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1150,13 +1150,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;騰訊微加信用卡_百度搜索&quot;
         title=&quot;騰訊微加信用卡_百度搜索&quot;
-        src=&quot;/static/ace3a7e82b502fdb9f15a75329907590/f058b/baidu_search.png&quot;
-        srcset=&quot;/static/ace3a7e82b502fdb9f15a75329907590/c26ae/baidu_search.png 158w,
-/static/ace3a7e82b502fdb9f15a75329907590/6bdcf/baidu_search.png 315w,
-/static/ace3a7e82b502fdb9f15a75329907590/f058b/baidu_search.png 630w,
-/static/ace3a7e82b502fdb9f15a75329907590/40601/baidu_search.png 945w,
-/static/ace3a7e82b502fdb9f15a75329907590/78612/baidu_search.png 1260w,
-/static/ace3a7e82b502fdb9f15a75329907590/ae28e/baidu_search.png 1598w&quot;
+        src=&quot;/traverse/static/ace3a7e82b502fdb9f15a75329907590/f058b/baidu_search.png&quot;
+        srcset=&quot;/traverse/static/ace3a7e82b502fdb9f15a75329907590/c26ae/baidu_search.png 158w,
+/traverse/static/ace3a7e82b502fdb9f15a75329907590/6bdcf/baidu_search.png 315w,
+/traverse/static/ace3a7e82b502fdb9f15a75329907590/f058b/baidu_search.png 630w,
+/traverse/static/ace3a7e82b502fdb9f15a75329907590/40601/baidu_search.png 945w,
+/traverse/static/ace3a7e82b502fdb9f15a75329907590/78612/baidu_search.png 1260w,
+/traverse/static/ace3a7e82b502fdb9f15a75329907590/ae28e/baidu_search.png 1598w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1171,7 +1171,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5faf73651002bf3e87189768d4afd7ce/81315/sogou_search.png&quot;
+    href=&quot;/traverse/static/5faf73651002bf3e87189768d4afd7ce/81315/sogou_search.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1184,13 +1184,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;騰訊微加信用卡 - 搜狗搜索&quot;
         title=&quot;騰訊微加信用卡 - 搜狗搜索&quot;
-        src=&quot;/static/5faf73651002bf3e87189768d4afd7ce/f058b/sogou_search.png&quot;
-        srcset=&quot;/static/5faf73651002bf3e87189768d4afd7ce/c26ae/sogou_search.png 158w,
-/static/5faf73651002bf3e87189768d4afd7ce/6bdcf/sogou_search.png 315w,
-/static/5faf73651002bf3e87189768d4afd7ce/f058b/sogou_search.png 630w,
-/static/5faf73651002bf3e87189768d4afd7ce/40601/sogou_search.png 945w,
-/static/5faf73651002bf3e87189768d4afd7ce/78612/sogou_search.png 1260w,
-/static/5faf73651002bf3e87189768d4afd7ce/81315/sogou_search.png 1656w&quot;
+        src=&quot;/traverse/static/5faf73651002bf3e87189768d4afd7ce/f058b/sogou_search.png&quot;
+        srcset=&quot;/traverse/static/5faf73651002bf3e87189768d4afd7ce/c26ae/sogou_search.png 158w,
+/traverse/static/5faf73651002bf3e87189768d4afd7ce/6bdcf/sogou_search.png 315w,
+/traverse/static/5faf73651002bf3e87189768d4afd7ce/f058b/sogou_search.png 630w,
+/traverse/static/5faf73651002bf3e87189768d4afd7ce/40601/sogou_search.png 945w,
+/traverse/static/5faf73651002bf3e87189768d4afd7ce/78612/sogou_search.png 1260w,
+/traverse/static/5faf73651002bf3e87189768d4afd7ce/81315/sogou_search.png 1656w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1206,7 +1206,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/cea7b4a24b9eaeb32da30ba0c00e8c80/b18c4/qzone_faq.jpg&quot;
+    href=&quot;/traverse/static/cea7b4a24b9eaeb32da30ba0c00e8c80/b18c4/qzone_faq.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1219,13 +1219,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Qzone 常見問題配置&quot;
         title=&quot;Qzone 常見問題配置&quot;
-        src=&quot;/static/cea7b4a24b9eaeb32da30ba0c00e8c80/828fb/qzone_faq.jpg&quot;
-        srcset=&quot;/static/cea7b4a24b9eaeb32da30ba0c00e8c80/ff44c/qzone_faq.jpg 158w,
-/static/cea7b4a24b9eaeb32da30ba0c00e8c80/a6688/qzone_faq.jpg 315w,
-/static/cea7b4a24b9eaeb32da30ba0c00e8c80/828fb/qzone_faq.jpg 630w,
-/static/cea7b4a24b9eaeb32da30ba0c00e8c80/0ede0/qzone_faq.jpg 945w,
-/static/cea7b4a24b9eaeb32da30ba0c00e8c80/3ac88/qzone_faq.jpg 1260w,
-/static/cea7b4a24b9eaeb32da30ba0c00e8c80/b18c4/qzone_faq.jpg 2186w&quot;
+        src=&quot;/traverse/static/cea7b4a24b9eaeb32da30ba0c00e8c80/828fb/qzone_faq.jpg&quot;
+        srcset=&quot;/traverse/static/cea7b4a24b9eaeb32da30ba0c00e8c80/ff44c/qzone_faq.jpg 158w,
+/traverse/static/cea7b4a24b9eaeb32da30ba0c00e8c80/a6688/qzone_faq.jpg 315w,
+/traverse/static/cea7b4a24b9eaeb32da30ba0c00e8c80/828fb/qzone_faq.jpg 630w,
+/traverse/static/cea7b4a24b9eaeb32da30ba0c00e8c80/0ede0/qzone_faq.jpg 945w,
+/traverse/static/cea7b4a24b9eaeb32da30ba0c00e8c80/3ac88/qzone_faq.jpg 1260w,
+/traverse/static/cea7b4a24b9eaeb32da30ba0c00e8c80/b18c4/qzone_faq.jpg 2186w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1297,7 +1297,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/909807b7b83c86812a1c43f611e12ad8/8dcca/globalCfg_speed_test.png&quot;
+    href=&quot;/traverse/static/909807b7b83c86812a1c43f611e12ad8/8dcca/globalCfg_speed_test.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1310,13 +1310,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;全域配置測速&quot;
         title=&quot;全域配置測速&quot;
-        src=&quot;/static/909807b7b83c86812a1c43f611e12ad8/f058b/globalCfg_speed_test.png&quot;
-        srcset=&quot;/static/909807b7b83c86812a1c43f611e12ad8/c26ae/globalCfg_speed_test.png 158w,
-/static/909807b7b83c86812a1c43f611e12ad8/6bdcf/globalCfg_speed_test.png 315w,
-/static/909807b7b83c86812a1c43f611e12ad8/f058b/globalCfg_speed_test.png 630w,
-/static/909807b7b83c86812a1c43f611e12ad8/40601/globalCfg_speed_test.png 945w,
-/static/909807b7b83c86812a1c43f611e12ad8/78612/globalCfg_speed_test.png 1260w,
-/static/909807b7b83c86812a1c43f611e12ad8/8dcca/globalCfg_speed_test.png 2888w&quot;
+        src=&quot;/traverse/static/909807b7b83c86812a1c43f611e12ad8/f058b/globalCfg_speed_test.png&quot;
+        srcset=&quot;/traverse/static/909807b7b83c86812a1c43f611e12ad8/c26ae/globalCfg_speed_test.png 158w,
+/traverse/static/909807b7b83c86812a1c43f611e12ad8/6bdcf/globalCfg_speed_test.png 315w,
+/traverse/static/909807b7b83c86812a1c43f611e12ad8/f058b/globalCfg_speed_test.png 630w,
+/traverse/static/909807b7b83c86812a1c43f611e12ad8/40601/globalCfg_speed_test.png 945w,
+/traverse/static/909807b7b83c86812a1c43f611e12ad8/78612/globalCfg_speed_test.png 1260w,
+/traverse/static/909807b7b83c86812a1c43f611e12ad8/8dcca/globalCfg_speed_test.png 2888w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1352,7 +1352,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7b3c85e6210288a45aaaed7c91b476d8/3a4f1/wecard_detail_2.png&quot;
+    href=&quot;/traverse/static/7b3c85e6210288a45aaaed7c91b476d8/3a4f1/wecard_detail_2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1365,13 +1365,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;逐條發佈&quot;
         title=&quot;逐條發佈&quot;
-        src=&quot;/static/7b3c85e6210288a45aaaed7c91b476d8/f058b/wecard_detail_2.png&quot;
-        srcset=&quot;/static/7b3c85e6210288a45aaaed7c91b476d8/c26ae/wecard_detail_2.png 158w,
-/static/7b3c85e6210288a45aaaed7c91b476d8/6bdcf/wecard_detail_2.png 315w,
-/static/7b3c85e6210288a45aaaed7c91b476d8/f058b/wecard_detail_2.png 630w,
-/static/7b3c85e6210288a45aaaed7c91b476d8/40601/wecard_detail_2.png 945w,
-/static/7b3c85e6210288a45aaaed7c91b476d8/78612/wecard_detail_2.png 1260w,
-/static/7b3c85e6210288a45aaaed7c91b476d8/3a4f1/wecard_detail_2.png 2588w&quot;
+        src=&quot;/traverse/static/7b3c85e6210288a45aaaed7c91b476d8/f058b/wecard_detail_2.png&quot;
+        srcset=&quot;/traverse/static/7b3c85e6210288a45aaaed7c91b476d8/c26ae/wecard_detail_2.png 158w,
+/traverse/static/7b3c85e6210288a45aaaed7c91b476d8/6bdcf/wecard_detail_2.png 315w,
+/traverse/static/7b3c85e6210288a45aaaed7c91b476d8/f058b/wecard_detail_2.png 630w,
+/traverse/static/7b3c85e6210288a45aaaed7c91b476d8/40601/wecard_detail_2.png 945w,
+/traverse/static/7b3c85e6210288a45aaaed7c91b476d8/78612/wecard_detail_2.png 1260w,
+/traverse/static/7b3c85e6210288a45aaaed7c91b476d8/3a4f1/wecard_detail_2.png 2588w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1386,7 +1386,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/8adb9/batch_publish.png&quot;
+    href=&quot;/traverse/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/8adb9/batch_publish.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1399,20 +1399,20 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Batch publish&quot;
         title=&quot;Batch publish&quot;
-        src=&quot;/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/f058b/batch_publish.png&quot;
-        srcset=&quot;/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/c26ae/batch_publish.png 158w,
-/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/6bdcf/batch_publish.png 315w,
-/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/f058b/batch_publish.png 630w,
-/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/40601/batch_publish.png 945w,
-/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/78612/batch_publish.png 1260w,
-/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/8adb9/batch_publish.png 1638w&quot;
+        src=&quot;/traverse/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/f058b/batch_publish.png&quot;
+        srcset=&quot;/traverse/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/c26ae/batch_publish.png 158w,
+/traverse/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/6bdcf/batch_publish.png 315w,
+/traverse/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/f058b/batch_publish.png 630w,
+/traverse/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/40601/batch_publish.png 945w,
+/traverse/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/78612/batch_publish.png 1260w,
+/traverse/static/0bfc4e8a59451a6a6e8aba7686a2d3a2/8adb9/batch_publish.png 1638w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
         decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[開發超簡單聊天機器人發布線上]]></title><description><![CDATA[開發一個超簡單的聊天機器人目的是為了學習整個聊天機器人工作流 實作一個從本地開發到上線發布的完整流程 發想 這個聊天機器人只要做一件事 - 用戶輸入什麼文字就回覆什麼文字 所以直接把專案名稱叫做 parrot…]]></description><link>https://hoyangtsai.github.io/traverse/develop-super-easy-chatbot-release-online/</link><guid isPermaLink="false">https://hoyangtsai.github.io/traverse/develop-super-easy-chatbot-release-online/</guid><pubDate>Thu, 22 Jul 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;開發一個超簡單的聊天機器人目的是為了學習整個聊天機器人工作流&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[開發超簡單聊天機器人發布線上]]></title><description><![CDATA[開發一個超簡單的聊天機器人目的是為了學習整個聊天機器人工作流 實作一個從本地開發到上線發布的完整流程 發想 這個聊天機器人只要做一件事 - 用戶輸入什麼文字就回覆什麼文字 所以直接把專案名稱叫做 parrot…]]></description><link>https://hoyangtsai.github.io/develop-super-easy-chatbot-release-online/</link><guid isPermaLink="false">https://hoyangtsai.github.io/develop-super-easy-chatbot-release-online/</guid><pubDate>Thu, 22 Jul 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;開發一個超簡單的聊天機器人目的是為了學習整個聊天機器人工作流&lt;/p&gt;
 &lt;p&gt;實作一個從本地開發到上線發布的完整流程&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;h2 id=&quot;發想&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%99%BC%E6%83%B3&quot; aria-label=&quot;發想 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;發想&lt;/h2&gt;
@@ -1443,7 +1443,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a436add9c5199e8a74c46fb4b72f81d0/720e3/create-provider.png&quot;
+    href=&quot;/traverse/static/a436add9c5199e8a74c46fb4b72f81d0/720e3/create-provider.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1456,13 +1456,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;create provider&quot;
         title=&quot;create provider&quot;
-        src=&quot;/static/a436add9c5199e8a74c46fb4b72f81d0/f058b/create-provider.png&quot;
-        srcset=&quot;/static/a436add9c5199e8a74c46fb4b72f81d0/c26ae/create-provider.png 158w,
-/static/a436add9c5199e8a74c46fb4b72f81d0/6bdcf/create-provider.png 315w,
-/static/a436add9c5199e8a74c46fb4b72f81d0/f058b/create-provider.png 630w,
-/static/a436add9c5199e8a74c46fb4b72f81d0/40601/create-provider.png 945w,
-/static/a436add9c5199e8a74c46fb4b72f81d0/78612/create-provider.png 1260w,
-/static/a436add9c5199e8a74c46fb4b72f81d0/720e3/create-provider.png 1962w&quot;
+        src=&quot;/traverse/static/a436add9c5199e8a74c46fb4b72f81d0/f058b/create-provider.png&quot;
+        srcset=&quot;/traverse/static/a436add9c5199e8a74c46fb4b72f81d0/c26ae/create-provider.png 158w,
+/traverse/static/a436add9c5199e8a74c46fb4b72f81d0/6bdcf/create-provider.png 315w,
+/traverse/static/a436add9c5199e8a74c46fb4b72f81d0/f058b/create-provider.png 630w,
+/traverse/static/a436add9c5199e8a74c46fb4b72f81d0/40601/create-provider.png 945w,
+/traverse/static/a436add9c5199e8a74c46fb4b72f81d0/78612/create-provider.png 1260w,
+/traverse/static/a436add9c5199e8a74c46fb4b72f81d0/720e3/create-provider.png 1962w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1478,7 +1478,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6eb94e5ec6fa94c98c13e073fbd178db/81315/create-channel.png&quot;
+    href=&quot;/traverse/static/6eb94e5ec6fa94c98c13e073fbd178db/81315/create-channel.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1491,13 +1491,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;create channel&quot;
         title=&quot;create channel&quot;
-        src=&quot;/static/6eb94e5ec6fa94c98c13e073fbd178db/f058b/create-channel.png&quot;
-        srcset=&quot;/static/6eb94e5ec6fa94c98c13e073fbd178db/c26ae/create-channel.png 158w,
-/static/6eb94e5ec6fa94c98c13e073fbd178db/6bdcf/create-channel.png 315w,
-/static/6eb94e5ec6fa94c98c13e073fbd178db/f058b/create-channel.png 630w,
-/static/6eb94e5ec6fa94c98c13e073fbd178db/40601/create-channel.png 945w,
-/static/6eb94e5ec6fa94c98c13e073fbd178db/78612/create-channel.png 1260w,
-/static/6eb94e5ec6fa94c98c13e073fbd178db/81315/create-channel.png 1656w&quot;
+        src=&quot;/traverse/static/6eb94e5ec6fa94c98c13e073fbd178db/f058b/create-channel.png&quot;
+        srcset=&quot;/traverse/static/6eb94e5ec6fa94c98c13e073fbd178db/c26ae/create-channel.png 158w,
+/traverse/static/6eb94e5ec6fa94c98c13e073fbd178db/6bdcf/create-channel.png 315w,
+/traverse/static/6eb94e5ec6fa94c98c13e073fbd178db/f058b/create-channel.png 630w,
+/traverse/static/6eb94e5ec6fa94c98c13e073fbd178db/40601/create-channel.png 945w,
+/traverse/static/6eb94e5ec6fa94c98c13e073fbd178db/78612/create-channel.png 1260w,
+/traverse/static/6eb94e5ec6fa94c98c13e073fbd178db/81315/create-channel.png 1656w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1520,7 +1520,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/612fc1dca7689fbb411ee98a7c82869e/6ee58/webhook-url.png&quot;
+    href=&quot;/traverse/static/612fc1dca7689fbb411ee98a7c82869e/6ee58/webhook-url.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1533,13 +1533,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;webhook url&quot;
         title=&quot;webhook url&quot;
-        src=&quot;/static/612fc1dca7689fbb411ee98a7c82869e/f058b/webhook-url.png&quot;
-        srcset=&quot;/static/612fc1dca7689fbb411ee98a7c82869e/c26ae/webhook-url.png 158w,
-/static/612fc1dca7689fbb411ee98a7c82869e/6bdcf/webhook-url.png 315w,
-/static/612fc1dca7689fbb411ee98a7c82869e/f058b/webhook-url.png 630w,
-/static/612fc1dca7689fbb411ee98a7c82869e/40601/webhook-url.png 945w,
-/static/612fc1dca7689fbb411ee98a7c82869e/78612/webhook-url.png 1260w,
-/static/612fc1dca7689fbb411ee98a7c82869e/6ee58/webhook-url.png 1640w&quot;
+        src=&quot;/traverse/static/612fc1dca7689fbb411ee98a7c82869e/f058b/webhook-url.png&quot;
+        srcset=&quot;/traverse/static/612fc1dca7689fbb411ee98a7c82869e/c26ae/webhook-url.png 158w,
+/traverse/static/612fc1dca7689fbb411ee98a7c82869e/6bdcf/webhook-url.png 315w,
+/traverse/static/612fc1dca7689fbb411ee98a7c82869e/f058b/webhook-url.png 630w,
+/traverse/static/612fc1dca7689fbb411ee98a7c82869e/40601/webhook-url.png 945w,
+/traverse/static/612fc1dca7689fbb411ee98a7c82869e/78612/webhook-url.png 1260w,
+/traverse/static/612fc1dca7689fbb411ee98a7c82869e/6ee58/webhook-url.png 1640w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1554,7 +1554,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/36795f081e639a2371a03129ddcef2c8/ad00e/webhook-verify.png&quot;
+    href=&quot;/traverse/static/36795f081e639a2371a03129ddcef2c8/ad00e/webhook-verify.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1567,13 +1567,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;webhook verify&quot;
         title=&quot;webhook verify&quot;
-        src=&quot;/static/36795f081e639a2371a03129ddcef2c8/f058b/webhook-verify.png&quot;
-        srcset=&quot;/static/36795f081e639a2371a03129ddcef2c8/c26ae/webhook-verify.png 158w,
-/static/36795f081e639a2371a03129ddcef2c8/6bdcf/webhook-verify.png 315w,
-/static/36795f081e639a2371a03129ddcef2c8/f058b/webhook-verify.png 630w,
-/static/36795f081e639a2371a03129ddcef2c8/40601/webhook-verify.png 945w,
-/static/36795f081e639a2371a03129ddcef2c8/78612/webhook-verify.png 1260w,
-/static/36795f081e639a2371a03129ddcef2c8/ad00e/webhook-verify.png 1366w&quot;
+        src=&quot;/traverse/static/36795f081e639a2371a03129ddcef2c8/f058b/webhook-verify.png&quot;
+        srcset=&quot;/traverse/static/36795f081e639a2371a03129ddcef2c8/c26ae/webhook-verify.png 158w,
+/traverse/static/36795f081e639a2371a03129ddcef2c8/6bdcf/webhook-verify.png 315w,
+/traverse/static/36795f081e639a2371a03129ddcef2c8/f058b/webhook-verify.png 630w,
+/traverse/static/36795f081e639a2371a03129ddcef2c8/40601/webhook-verify.png 945w,
+/traverse/static/36795f081e639a2371a03129ddcef2c8/78612/webhook-verify.png 1260w,
+/traverse/static/36795f081e639a2371a03129ddcef2c8/ad00e/webhook-verify.png 1366w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1588,7 +1588,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/716849d8507ac9bcd115e16102be51b3/f2f8c/use-webhook.png&quot;
+    href=&quot;/traverse/static/716849d8507ac9bcd115e16102be51b3/f2f8c/use-webhook.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1601,13 +1601,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;use webhook&quot;
         title=&quot;use webhook&quot;
-        src=&quot;/static/716849d8507ac9bcd115e16102be51b3/f058b/use-webhook.png&quot;
-        srcset=&quot;/static/716849d8507ac9bcd115e16102be51b3/c26ae/use-webhook.png 158w,
-/static/716849d8507ac9bcd115e16102be51b3/6bdcf/use-webhook.png 315w,
-/static/716849d8507ac9bcd115e16102be51b3/f058b/use-webhook.png 630w,
-/static/716849d8507ac9bcd115e16102be51b3/40601/use-webhook.png 945w,
-/static/716849d8507ac9bcd115e16102be51b3/78612/use-webhook.png 1260w,
-/static/716849d8507ac9bcd115e16102be51b3/f2f8c/use-webhook.png 1490w&quot;
+        src=&quot;/traverse/static/716849d8507ac9bcd115e16102be51b3/f058b/use-webhook.png&quot;
+        srcset=&quot;/traverse/static/716849d8507ac9bcd115e16102be51b3/c26ae/use-webhook.png 158w,
+/traverse/static/716849d8507ac9bcd115e16102be51b3/6bdcf/use-webhook.png 315w,
+/traverse/static/716849d8507ac9bcd115e16102be51b3/f058b/use-webhook.png 630w,
+/traverse/static/716849d8507ac9bcd115e16102be51b3/40601/use-webhook.png 945w,
+/traverse/static/716849d8507ac9bcd115e16102be51b3/78612/use-webhook.png 1260w,
+/traverse/static/716849d8507ac9bcd115e16102be51b3/f2f8c/use-webhook.png 1490w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1623,7 +1623,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6df866083d8dc260a318401b4b586b47/6a5c3/line-id.png&quot;
+    href=&quot;/traverse/static/6df866083d8dc260a318401b4b586b47/6a5c3/line-id.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1636,13 +1636,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Line ID&quot;
         title=&quot;Line ID&quot;
-        src=&quot;/static/6df866083d8dc260a318401b4b586b47/f058b/line-id.png&quot;
-        srcset=&quot;/static/6df866083d8dc260a318401b4b586b47/c26ae/line-id.png 158w,
-/static/6df866083d8dc260a318401b4b586b47/6bdcf/line-id.png 315w,
-/static/6df866083d8dc260a318401b4b586b47/f058b/line-id.png 630w,
-/static/6df866083d8dc260a318401b4b586b47/40601/line-id.png 945w,
-/static/6df866083d8dc260a318401b4b586b47/78612/line-id.png 1260w,
-/static/6df866083d8dc260a318401b4b586b47/6a5c3/line-id.png 1646w&quot;
+        src=&quot;/traverse/static/6df866083d8dc260a318401b4b586b47/f058b/line-id.png&quot;
+        srcset=&quot;/traverse/static/6df866083d8dc260a318401b4b586b47/c26ae/line-id.png 158w,
+/traverse/static/6df866083d8dc260a318401b4b586b47/6bdcf/line-id.png 315w,
+/traverse/static/6df866083d8dc260a318401b4b586b47/f058b/line-id.png 630w,
+/traverse/static/6df866083d8dc260a318401b4b586b47/40601/line-id.png 945w,
+/traverse/static/6df866083d8dc260a318401b4b586b47/78612/line-id.png 1260w,
+/traverse/static/6df866083d8dc260a318401b4b586b47/6a5c3/line-id.png 1646w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1657,7 +1657,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/baf9c24ba0bf3e9c03f8914c93469193/6d2da/line-add.png&quot;
+    href=&quot;/traverse/static/baf9c24ba0bf3e9c03f8914c93469193/6d2da/line-add.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1670,11 +1670,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Line add&quot;
         title=&quot;Line add&quot;
-        src=&quot;/static/baf9c24ba0bf3e9c03f8914c93469193/f058b/line-add.png&quot;
-        srcset=&quot;/static/baf9c24ba0bf3e9c03f8914c93469193/c26ae/line-add.png 158w,
-/static/baf9c24ba0bf3e9c03f8914c93469193/6bdcf/line-add.png 315w,
-/static/baf9c24ba0bf3e9c03f8914c93469193/f058b/line-add.png 630w,
-/static/baf9c24ba0bf3e9c03f8914c93469193/6d2da/line-add.png 936w&quot;
+        src=&quot;/traverse/static/baf9c24ba0bf3e9c03f8914c93469193/f058b/line-add.png&quot;
+        srcset=&quot;/traverse/static/baf9c24ba0bf3e9c03f8914c93469193/c26ae/line-add.png 158w,
+/traverse/static/baf9c24ba0bf3e9c03f8914c93469193/6bdcf/line-add.png 315w,
+/traverse/static/baf9c24ba0bf3e9c03f8914c93469193/f058b/line-add.png 630w,
+/traverse/static/baf9c24ba0bf3e9c03f8914c93469193/6d2da/line-add.png 936w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1691,7 +1691,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/fcf51c91db55dc8c67052b5b26de8673/6d2da/line-greeting.png&quot;
+    href=&quot;/traverse/static/fcf51c91db55dc8c67052b5b26de8673/6d2da/line-greeting.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1704,11 +1704,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Line greeting&quot;
         title=&quot;Line greeting&quot;
-        src=&quot;/static/fcf51c91db55dc8c67052b5b26de8673/f058b/line-greeting.png&quot;
-        srcset=&quot;/static/fcf51c91db55dc8c67052b5b26de8673/c26ae/line-greeting.png 158w,
-/static/fcf51c91db55dc8c67052b5b26de8673/6bdcf/line-greeting.png 315w,
-/static/fcf51c91db55dc8c67052b5b26de8673/f058b/line-greeting.png 630w,
-/static/fcf51c91db55dc8c67052b5b26de8673/6d2da/line-greeting.png 936w&quot;
+        src=&quot;/traverse/static/fcf51c91db55dc8c67052b5b26de8673/f058b/line-greeting.png&quot;
+        srcset=&quot;/traverse/static/fcf51c91db55dc8c67052b5b26de8673/c26ae/line-greeting.png 158w,
+/traverse/static/fcf51c91db55dc8c67052b5b26de8673/6bdcf/line-greeting.png 315w,
+/traverse/static/fcf51c91db55dc8c67052b5b26de8673/f058b/line-greeting.png 630w,
+/traverse/static/fcf51c91db55dc8c67052b5b26de8673/6d2da/line-greeting.png 936w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1723,7 +1723,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6721e0f418d84903ab1fa9f070dbcd23/161ec/line-message-edit.png&quot;
+    href=&quot;/traverse/static/6721e0f418d84903ab1fa9f070dbcd23/161ec/line-message-edit.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1736,13 +1736,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Line message edit&quot;
         title=&quot;Line message edit&quot;
-        src=&quot;/static/6721e0f418d84903ab1fa9f070dbcd23/f058b/line-message-edit.png&quot;
-        srcset=&quot;/static/6721e0f418d84903ab1fa9f070dbcd23/c26ae/line-message-edit.png 158w,
-/static/6721e0f418d84903ab1fa9f070dbcd23/6bdcf/line-message-edit.png 315w,
-/static/6721e0f418d84903ab1fa9f070dbcd23/f058b/line-message-edit.png 630w,
-/static/6721e0f418d84903ab1fa9f070dbcd23/40601/line-message-edit.png 945w,
-/static/6721e0f418d84903ab1fa9f070dbcd23/78612/line-message-edit.png 1260w,
-/static/6721e0f418d84903ab1fa9f070dbcd23/161ec/line-message-edit.png 1840w&quot;
+        src=&quot;/traverse/static/6721e0f418d84903ab1fa9f070dbcd23/f058b/line-message-edit.png&quot;
+        srcset=&quot;/traverse/static/6721e0f418d84903ab1fa9f070dbcd23/c26ae/line-message-edit.png 158w,
+/traverse/static/6721e0f418d84903ab1fa9f070dbcd23/6bdcf/line-message-edit.png 315w,
+/traverse/static/6721e0f418d84903ab1fa9f070dbcd23/f058b/line-message-edit.png 630w,
+/traverse/static/6721e0f418d84903ab1fa9f070dbcd23/40601/line-message-edit.png 945w,
+/traverse/static/6721e0f418d84903ab1fa9f070dbcd23/78612/line-message-edit.png 1260w,
+/traverse/static/6721e0f418d84903ab1fa9f070dbcd23/161ec/line-message-edit.png 1840w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1761,7 +1761,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4d57bf7f3ccfba645fb4655340cf6e89/6d2da/line-chat.png&quot;
+    href=&quot;/traverse/static/4d57bf7f3ccfba645fb4655340cf6e89/6d2da/line-chat.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1774,11 +1774,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Line chat&quot;
         title=&quot;Line chat&quot;
-        src=&quot;/static/4d57bf7f3ccfba645fb4655340cf6e89/f058b/line-chat.png&quot;
-        srcset=&quot;/static/4d57bf7f3ccfba645fb4655340cf6e89/c26ae/line-chat.png 158w,
-/static/4d57bf7f3ccfba645fb4655340cf6e89/6bdcf/line-chat.png 315w,
-/static/4d57bf7f3ccfba645fb4655340cf6e89/f058b/line-chat.png 630w,
-/static/4d57bf7f3ccfba645fb4655340cf6e89/6d2da/line-chat.png 936w&quot;
+        src=&quot;/traverse/static/4d57bf7f3ccfba645fb4655340cf6e89/f058b/line-chat.png&quot;
+        srcset=&quot;/traverse/static/4d57bf7f3ccfba645fb4655340cf6e89/c26ae/line-chat.png 158w,
+/traverse/static/4d57bf7f3ccfba645fb4655340cf6e89/6bdcf/line-chat.png 315w,
+/traverse/static/4d57bf7f3ccfba645fb4655340cf6e89/f058b/line-chat.png 630w,
+/traverse/static/4d57bf7f3ccfba645fb4655340cf6e89/6d2da/line-chat.png 936w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1800,7 +1800,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/06aa815339d5439d92ad9278f942b811/6d2da/line-chat-repeat.png&quot;
+    href=&quot;/traverse/static/06aa815339d5439d92ad9278f942b811/6d2da/line-chat-repeat.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1813,11 +1813,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Line chat repeat&quot;
         title=&quot;Line chat repeat&quot;
-        src=&quot;/static/06aa815339d5439d92ad9278f942b811/f058b/line-chat-repeat.png&quot;
-        srcset=&quot;/static/06aa815339d5439d92ad9278f942b811/c26ae/line-chat-repeat.png 158w,
-/static/06aa815339d5439d92ad9278f942b811/6bdcf/line-chat-repeat.png 315w,
-/static/06aa815339d5439d92ad9278f942b811/f058b/line-chat-repeat.png 630w,
-/static/06aa815339d5439d92ad9278f942b811/6d2da/line-chat-repeat.png 936w&quot;
+        src=&quot;/traverse/static/06aa815339d5439d92ad9278f942b811/f058b/line-chat-repeat.png&quot;
+        srcset=&quot;/traverse/static/06aa815339d5439d92ad9278f942b811/c26ae/line-chat-repeat.png 158w,
+/traverse/static/06aa815339d5439d92ad9278f942b811/6bdcf/line-chat-repeat.png 315w,
+/traverse/static/06aa815339d5439d92ad9278f942b811/f058b/line-chat-repeat.png 630w,
+/traverse/static/06aa815339d5439d92ad9278f942b811/6d2da/line-chat-repeat.png 936w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1845,7 +1845,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a11f9f2a1fac6067f0b38f1718beae3f/d5b59/heroku-create.png&quot;
+    href=&quot;/traverse/static/a11f9f2a1fac6067f0b38f1718beae3f/d5b59/heroku-create.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1858,13 +1858,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Heroku create&quot;
         title=&quot;Heroku create&quot;
-        src=&quot;/static/a11f9f2a1fac6067f0b38f1718beae3f/f058b/heroku-create.png&quot;
-        srcset=&quot;/static/a11f9f2a1fac6067f0b38f1718beae3f/c26ae/heroku-create.png 158w,
-/static/a11f9f2a1fac6067f0b38f1718beae3f/6bdcf/heroku-create.png 315w,
-/static/a11f9f2a1fac6067f0b38f1718beae3f/f058b/heroku-create.png 630w,
-/static/a11f9f2a1fac6067f0b38f1718beae3f/40601/heroku-create.png 945w,
-/static/a11f9f2a1fac6067f0b38f1718beae3f/78612/heroku-create.png 1260w,
-/static/a11f9f2a1fac6067f0b38f1718beae3f/d5b59/heroku-create.png 1370w&quot;
+        src=&quot;/traverse/static/a11f9f2a1fac6067f0b38f1718beae3f/f058b/heroku-create.png&quot;
+        srcset=&quot;/traverse/static/a11f9f2a1fac6067f0b38f1718beae3f/c26ae/heroku-create.png 158w,
+/traverse/static/a11f9f2a1fac6067f0b38f1718beae3f/6bdcf/heroku-create.png 315w,
+/traverse/static/a11f9f2a1fac6067f0b38f1718beae3f/f058b/heroku-create.png 630w,
+/traverse/static/a11f9f2a1fac6067f0b38f1718beae3f/40601/heroku-create.png 945w,
+/traverse/static/a11f9f2a1fac6067f0b38f1718beae3f/78612/heroku-create.png 1260w,
+/traverse/static/a11f9f2a1fac6067f0b38f1718beae3f/d5b59/heroku-create.png 1370w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1880,7 +1880,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ac9306941860a33c87bc36e5841fe96f/2ed34/webhook-heroku-url.png&quot;
+    href=&quot;/traverse/static/ac9306941860a33c87bc36e5841fe96f/2ed34/webhook-heroku-url.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1893,13 +1893,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;webhook Heroku URL&quot;
         title=&quot;webhook Heroku URL&quot;
-        src=&quot;/static/ac9306941860a33c87bc36e5841fe96f/f058b/webhook-heroku-url.png&quot;
-        srcset=&quot;/static/ac9306941860a33c87bc36e5841fe96f/c26ae/webhook-heroku-url.png 158w,
-/static/ac9306941860a33c87bc36e5841fe96f/6bdcf/webhook-heroku-url.png 315w,
-/static/ac9306941860a33c87bc36e5841fe96f/f058b/webhook-heroku-url.png 630w,
-/static/ac9306941860a33c87bc36e5841fe96f/40601/webhook-heroku-url.png 945w,
-/static/ac9306941860a33c87bc36e5841fe96f/78612/webhook-heroku-url.png 1260w,
-/static/ac9306941860a33c87bc36e5841fe96f/2ed34/webhook-heroku-url.png 1776w&quot;
+        src=&quot;/traverse/static/ac9306941860a33c87bc36e5841fe96f/f058b/webhook-heroku-url.png&quot;
+        srcset=&quot;/traverse/static/ac9306941860a33c87bc36e5841fe96f/c26ae/webhook-heroku-url.png 158w,
+/traverse/static/ac9306941860a33c87bc36e5841fe96f/6bdcf/webhook-heroku-url.png 315w,
+/traverse/static/ac9306941860a33c87bc36e5841fe96f/f058b/webhook-heroku-url.png 630w,
+/traverse/static/ac9306941860a33c87bc36e5841fe96f/40601/webhook-heroku-url.png 945w,
+/traverse/static/ac9306941860a33c87bc36e5841fe96f/78612/webhook-heroku-url.png 1260w,
+/traverse/static/ac9306941860a33c87bc36e5841fe96f/2ed34/webhook-heroku-url.png 1776w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1914,7 +1914,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/69d6c7daed9c9d8d7302e314dd6ea010/bd48c/heroku-procfile.png&quot;
+    href=&quot;/traverse/static/69d6c7daed9c9d8d7302e314dd6ea010/bd48c/heroku-procfile.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1927,10 +1927,10 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Heroku procfile&quot;
         title=&quot;Heroku procfile&quot;
-        src=&quot;/static/69d6c7daed9c9d8d7302e314dd6ea010/bd48c/heroku-procfile.png&quot;
-        srcset=&quot;/static/69d6c7daed9c9d8d7302e314dd6ea010/c26ae/heroku-procfile.png 158w,
-/static/69d6c7daed9c9d8d7302e314dd6ea010/6bdcf/heroku-procfile.png 315w,
-/static/69d6c7daed9c9d8d7302e314dd6ea010/bd48c/heroku-procfile.png 488w&quot;
+        src=&quot;/traverse/static/69d6c7daed9c9d8d7302e314dd6ea010/bd48c/heroku-procfile.png&quot;
+        srcset=&quot;/traverse/static/69d6c7daed9c9d8d7302e314dd6ea010/c26ae/heroku-procfile.png 158w,
+/traverse/static/69d6c7daed9c9d8d7302e314dd6ea010/6bdcf/heroku-procfile.png 315w,
+/traverse/static/69d6c7daed9c9d8d7302e314dd6ea010/bd48c/heroku-procfile.png 488w&quot;
         sizes=&quot;(max-width: 488px) 100vw, 488px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1951,7 +1951,7 @@ release: echo &quot;Y&quot; | npx bottender line webhook set -w https://murmurin
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d30c980ddb0f2d3b19ccb905ce5c2c14/dd13c/heroku-config-vars.png&quot;
+    href=&quot;/traverse/static/d30c980ddb0f2d3b19ccb905ce5c2c14/dd13c/heroku-config-vars.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1964,13 +1964,13 @@ release: echo &quot;Y&quot; | npx bottender line webhook set -w https://murmurin
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Heroku config vars&quot;
         title=&quot;Heroku config vars&quot;
-        src=&quot;/static/d30c980ddb0f2d3b19ccb905ce5c2c14/f058b/heroku-config-vars.png&quot;
-        srcset=&quot;/static/d30c980ddb0f2d3b19ccb905ce5c2c14/c26ae/heroku-config-vars.png 158w,
-/static/d30c980ddb0f2d3b19ccb905ce5c2c14/6bdcf/heroku-config-vars.png 315w,
-/static/d30c980ddb0f2d3b19ccb905ce5c2c14/f058b/heroku-config-vars.png 630w,
-/static/d30c980ddb0f2d3b19ccb905ce5c2c14/40601/heroku-config-vars.png 945w,
-/static/d30c980ddb0f2d3b19ccb905ce5c2c14/78612/heroku-config-vars.png 1260w,
-/static/d30c980ddb0f2d3b19ccb905ce5c2c14/dd13c/heroku-config-vars.png 2572w&quot;
+        src=&quot;/traverse/static/d30c980ddb0f2d3b19ccb905ce5c2c14/f058b/heroku-config-vars.png&quot;
+        srcset=&quot;/traverse/static/d30c980ddb0f2d3b19ccb905ce5c2c14/c26ae/heroku-config-vars.png 158w,
+/traverse/static/d30c980ddb0f2d3b19ccb905ce5c2c14/6bdcf/heroku-config-vars.png 315w,
+/traverse/static/d30c980ddb0f2d3b19ccb905ce5c2c14/f058b/heroku-config-vars.png 630w,
+/traverse/static/d30c980ddb0f2d3b19ccb905ce5c2c14/40601/heroku-config-vars.png 945w,
+/traverse/static/d30c980ddb0f2d3b19ccb905ce5c2c14/78612/heroku-config-vars.png 1260w,
+/traverse/static/d30c980ddb0f2d3b19ccb905ce5c2c14/dd13c/heroku-config-vars.png 2572w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1991,7 +1991,7 @@ release: echo &quot;Y&quot; | npx bottender line webhook set -w https://murmurin
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3532ec889eac5db2f92a3b765286b363/6d2da/line-hello-heroku.png&quot;
+    href=&quot;/traverse/static/3532ec889eac5db2f92a3b765286b363/6d2da/line-hello-heroku.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2004,11 +2004,11 @@ release: echo &quot;Y&quot; | npx bottender line webhook set -w https://murmurin
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Line hello Heroku&quot;
         title=&quot;Line hello Heroku&quot;
-        src=&quot;/static/3532ec889eac5db2f92a3b765286b363/f058b/line-hello-heroku.png&quot;
-        srcset=&quot;/static/3532ec889eac5db2f92a3b765286b363/c26ae/line-hello-heroku.png 158w,
-/static/3532ec889eac5db2f92a3b765286b363/6bdcf/line-hello-heroku.png 315w,
-/static/3532ec889eac5db2f92a3b765286b363/f058b/line-hello-heroku.png 630w,
-/static/3532ec889eac5db2f92a3b765286b363/6d2da/line-hello-heroku.png 936w&quot;
+        src=&quot;/traverse/static/3532ec889eac5db2f92a3b765286b363/f058b/line-hello-heroku.png&quot;
+        srcset=&quot;/traverse/static/3532ec889eac5db2f92a3b765286b363/c26ae/line-hello-heroku.png 158w,
+/traverse/static/3532ec889eac5db2f92a3b765286b363/6bdcf/line-hello-heroku.png 315w,
+/traverse/static/3532ec889eac5db2f92a3b765286b363/f058b/line-hello-heroku.png 630w,
+/traverse/static/3532ec889eac5db2f92a3b765286b363/6d2da/line-hello-heroku.png 936w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2026,7 +2026,7 @@ release: echo &quot;Y&quot; | npx bottender line webhook set -w https://murmurin
 &lt;h2 id=&quot;follow-up&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#follow-up&quot; aria-label=&quot;follow up permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Follow-up&lt;/h2&gt;
 &lt;p&gt;最近開發新的聊天機器人發現跑在 Heooku 的應用，伺服器的時區為 UTC+0&lt;/p&gt;
 &lt;p&gt;像如果要修改成我的時區，需要執行以下命令&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;heroku config:add &lt;span class=&quot;token assign-left variable&quot;&gt;TZ&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Asia/Taipei&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Excel 取得一列中最後一個非空的值]]></title><description><![CDATA[在網路上找到一個公式是可以將一個單元 (cell) 的值設定成某一列的數據中最後一個非空的值 在這之前先了解一下 LOOKUP 公式 如果想知道一個值在一列數據中落在哪一個單元 (cell) 就可以用到 LOOKUP…]]></description><link>https://hoyangtsai.github.io/traverse/excel-get-value-of-last-non-empty-cell/</link><guid isPermaLink="false">https://hoyangtsai.github.io/traverse/excel-get-value-of-last-non-empty-cell/</guid><pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;在網路上找到一個公式是可以將一個單元 (cell) 的值設定成某一列的數據中最後一個非空的值&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;heroku config:add &lt;span class=&quot;token assign-left variable&quot;&gt;TZ&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Asia/Taipei&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Excel 取得一列中最後一個非空的值]]></title><description><![CDATA[在網路上找到一個公式是可以將一個單元 (cell) 的值設定成某一列的數據中最後一個非空的值 在這之前先了解一下 LOOKUP 公式 如果想知道一個值在一列數據中落在哪一個單元 (cell) 就可以用到 LOOKUP…]]></description><link>https://hoyangtsai.github.io/excel-get-value-of-last-non-empty-cell/</link><guid isPermaLink="false">https://hoyangtsai.github.io/excel-get-value-of-last-non-empty-cell/</guid><pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;在網路上找到一個公式是可以將一個單元 (cell) 的值設定成某一列的數據中最後一個非空的值&lt;/p&gt;
 &lt;p&gt;在這之前先了解一下 LOOKUP 公式&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;p&gt;如果想知道一個值在一列數據中落在哪一個單元 (cell) 就可以用到 LOOKUP&lt;/p&gt;
@@ -2214,7 +2214,7 @@ release: echo &quot;Y&quot; | npx bottender line webhook set -w https://murmurin
 &lt;li&gt;&lt;a href=&quot;https://exceljet.net/formula/get-value-of-last-non-empty-cell&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Get value of last non-empty cell&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://support.office.com/zh-tw/f1/topic/csh?HelpId=xlmain11.chm60076&amp;#x26;NS=MACEXCEL&amp;#x26;Version=90&amp;#x26;Lcid=1028&amp;#x26;UiLcid=1028&amp;#x26;EntryPoint=True&amp;#x26;testtransaction=0&amp;#x26;feedback=0&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;LOOKUP 函數&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[圖片最佳化]]></title><description><![CDATA[網頁優化/最佳化，圖片壓縮是不可忽視的一塊。
-透過 PageSpeed Insights 分析可以為你的網頁打分數。 圖片壓縮程式 根據 Google PageSpeed Insights 建議對於 JPEG 檔案壓縮可以使用 jpegtran 或 jpegoptim…]]></description><link>https://hoyangtsai.github.io/traverse/image-optimization/</link><guid isPermaLink="false">https://hoyangtsai.github.io/traverse/image-optimization/</guid><pubDate>Sat, 12 Dec 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;網頁優化/最佳化，圖片壓縮是不可忽視的一塊。&lt;br&gt;
+透過 PageSpeed Insights 分析可以為你的網頁打分數。 圖片壓縮程式 根據 Google PageSpeed Insights 建議對於 JPEG 檔案壓縮可以使用 jpegtran 或 jpegoptim…]]></description><link>https://hoyangtsai.github.io/image-optimization/</link><guid isPermaLink="false">https://hoyangtsai.github.io/image-optimization/</guid><pubDate>Sat, 12 Dec 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;網頁優化/最佳化，圖片壓縮是不可忽視的一塊。&lt;br&gt;
 透過 &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;PageSpeed Insights&lt;/a&gt; 分析可以為你的網頁打分數。&lt;br&gt;&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;h2 id=&quot;圖片壓縮程式&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%9C%96%E7%89%87%E5%A3%93%E7%B8%AE%E7%A8%8B%E5%BC%8F&quot; aria-label=&quot;圖片壓縮程式 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;圖片壓縮程式&lt;/h2&gt;
@@ -2277,7 +2277,7 @@ brew &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; optipng&l
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; -name &lt;span class=&quot;token string&quot;&gt;&quot;*.jpg&quot;&lt;/span&gt; -exec jpegoptim -o -p --strip-all &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt; -name &lt;span class=&quot;token string&quot;&gt;&quot;*.png&quot;&lt;/span&gt; -exec optipng -clobber -preserve -strip all &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&quot;參考資料&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99&quot; aria-label=&quot;參考資料 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;參考資料&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/docs/insights/OptimizeImages&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;PageSpeed Insights - 最佳化圖片&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mac 用 Homebrew 安裝 MariaDB]]></title><description><![CDATA[最近我在檢查 Mac Mini 的 server 工作是否正常的時候發現 MySQL 資料庫又掛了 不是流量太大或電腦有問題，而是 MySQL 無法啟動 試著打  終端機印出  網路搜尋到的方法 像是  列出 mysql 程序把它砍掉 或是刪除  都無法啟動 MySQL…]]></description><link>https://hoyangtsai.github.io/traverse/mac-using-homebrew-install-mariadb/</link><guid isPermaLink="false">https://hoyangtsai.github.io/traverse/mac-using-homebrew-install-mariadb/</guid><pubDate>Wed, 09 Dec 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;最近我在檢查 Mac Mini 的 server 工作是否正常的時候發現 MySQL 資料庫又掛了&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/docs/insights/OptimizeImages&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;PageSpeed Insights - 最佳化圖片&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mac 用 Homebrew 安裝 MariaDB]]></title><description><![CDATA[最近我在檢查 Mac Mini 的 server 工作是否正常的時候發現 MySQL 資料庫又掛了 不是流量太大或電腦有問題，而是 MySQL 無法啟動 試著打  終端機印出  網路搜尋到的方法 像是  列出 mysql 程序把它砍掉 或是刪除  都無法啟動 MySQL…]]></description><link>https://hoyangtsai.github.io/mac-using-homebrew-install-mariadb/</link><guid isPermaLink="false">https://hoyangtsai.github.io/mac-using-homebrew-install-mariadb/</guid><pubDate>Wed, 09 Dec 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;最近我在檢查 Mac Mini 的 server 工作是否正常的時候發現 MySQL 資料庫又掛了&lt;/p&gt;
 &lt;p&gt;不是流量太大或電腦有問題，而是 MySQL 無法啟動&lt;/p&gt;
 &lt;p&gt;試著打 &lt;code class=&quot;language-text&quot;&gt;mysql.server start&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;終端機印出 &lt;code class=&quot;language-text&quot;&gt;ERROR! The server quit without updating PID file (/usr/local/mysql/data/...pid)&lt;/code&gt;&lt;/p&gt;
@@ -2355,7 +2355,7 @@ launchctl load -w homebrew.mxcl.mariadb.plist&lt;/code&gt;&lt;/pre&gt;&lt;/div&g
 &lt;li&gt;&lt;a href=&quot;http://www.interworx.com/community/mariadb-vs-mysql-whats-the-difference/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;MariaDB vs. MySQL: What’s The Difference?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://mariadb.com/blog/installing-mariadb-10010-mac-os-x-homebrew&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Installing MariaDB 10.0.10 on Mac OS X with Homebrew&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://mariadb.com/kb/en/mariadb/building-mariadb-on-mac-os-x-using-homebrew/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Building MariaDB on Mac OS X Using Homebrew&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[GitHub 架設 Jekyll 網站]]></title><description><![CDATA[GitHub 原本就支援使用 Jekyll 建置網站，無需上傳 Jekyll 開發過程所產生的靜態網頁，只要在本地端將網站開發完成，將設定檔、sass 樣式表和一些 HTML 的模版上傳到 GitHub repository…]]></description><link>https://hoyangtsai.github.io/traverse/github-setting-up-jekyll-site/</link><guid isPermaLink="false">https://hoyangtsai.github.io/traverse/github-setting-up-jekyll-site/</guid><pubDate>Fri, 04 Dec 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;GitHub&lt;/a&gt; 原本就支援使用 &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Jekyll&lt;/a&gt; 建置網站，無需上傳 Jekyll 開發過程所產生的靜態網頁，只要在本地端將網站開發完成，將設定檔、sass 樣式表和一些 HTML 的模版上傳到 GitHub repository 就會自動編譯產生靜態網頁內容。&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[GitHub 架設 Jekyll 網站]]></title><description><![CDATA[GitHub 原本就支援使用 Jekyll 建置網站，無需上傳 Jekyll 開發過程所產生的靜態網頁，只要在本地端將網站開發完成，將設定檔、sass 樣式表和一些 HTML 的模版上傳到 GitHub repository…]]></description><link>https://hoyangtsai.github.io/github-setting-up-jekyll-site/</link><guid isPermaLink="false">https://hoyangtsai.github.io/github-setting-up-jekyll-site/</guid><pubDate>Fri, 04 Dec 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;GitHub&lt;/a&gt; 原本就支援使用 &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Jekyll&lt;/a&gt; 建置網站，無需上傳 Jekyll 開發過程所產生的靜態網頁，只要在本地端將網站開發完成，將設定檔、sass 樣式表和一些 HTML 的模版上傳到 GitHub repository 就會自動編譯產生靜態網頁內容。&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;h2 id=&quot;環境建置&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%92%B0%E5%A2%83%E5%BB%BA%E7%BD%AE&quot; aria-label=&quot;環境建置 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;環境建置&lt;/h2&gt;
 &lt;p&gt;如果要在本地端開發 Jekyll 架構的網站，首先要有 ruby 環境&lt;br&gt;
@@ -2411,7 +2411,7 @@ guard &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;to
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a39068c09c265b23c964f96cafed490c/9d76a/ruby_guard_processes.png&quot;
+    href=&quot;/traverse/static/a39068c09c265b23c964f96cafed490c/9d76a/ruby_guard_processes.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2424,11 +2424,11 @@ guard &lt;span class=&quot;token string-literal&quot;&gt;&lt;span class=&quot;to
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ruby guard processes&quot;
         title=&quot;ruby guard processes&quot;
-        src=&quot;/static/a39068c09c265b23c964f96cafed490c/f058b/ruby_guard_processes.png&quot;
-        srcset=&quot;/static/a39068c09c265b23c964f96cafed490c/c26ae/ruby_guard_processes.png 158w,
-/static/a39068c09c265b23c964f96cafed490c/6bdcf/ruby_guard_processes.png 315w,
-/static/a39068c09c265b23c964f96cafed490c/f058b/ruby_guard_processes.png 630w,
-/static/a39068c09c265b23c964f96cafed490c/9d76a/ruby_guard_processes.png 829w&quot;
+        src=&quot;/traverse/static/a39068c09c265b23c964f96cafed490c/f058b/ruby_guard_processes.png&quot;
+        srcset=&quot;/traverse/static/a39068c09c265b23c964f96cafed490c/c26ae/ruby_guard_processes.png 158w,
+/traverse/static/a39068c09c265b23c964f96cafed490c/6bdcf/ruby_guard_processes.png 315w,
+/traverse/static/a39068c09c265b23c964f96cafed490c/f058b/ruby_guard_processes.png 630w,
+/traverse/static/a39068c09c265b23c964f96cafed490c/9d76a/ruby_guard_processes.png 829w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
