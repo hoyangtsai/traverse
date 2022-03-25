@@ -6,7 +6,7 @@ import Toggle from './toggle'
 // import sun from '../images/sun.png'
 import { DEFAULT_CONFIG } from './config'
 
-import * as styles from './Layout.module.css';
+import * as styles from './layout.module.css';
 
 const inTouches = [
   {
