@@ -8,11 +8,12 @@ module.exports = {
       summary: `What comes up the mind make it happen.`,
     },
     description: `Dev, Life-style`,
-    siteUrl: `https://hoyangtsai.github.io/traverse`,
+    siteUrl: `https://hoyangtsai.github.io`,
     social: {
       twitter: `hoyangtsai`,
     },
   },
+  pathPrefix: `/traverse`,
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
