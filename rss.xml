@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev, Life-style]]></description><link>https://hoyangtsai.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Mar 2022 17:02:47 GMT</lastBuildDate><item><title><![CDATA[Javascript algorithm: Quickselect]]></title><description><![CDATA[When I saw the article Javascript Algorithms: Quicksort inspires me to write a similar article of quickselect, because quickselect is…]]></description><link>https://hoyangtsai.github.io/javascript-algorithm-quickselect/</link><guid isPermaLink="false">https://hoyangtsai.github.io/javascript-algorithm-quickselect/</guid><pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When I saw the article &lt;a href=&quot;https://wsvincent.com/javascript-algorithms-quicksort/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Javascript Algorithms: Quicksort&lt;/a&gt; inspires me to write a similar article of quickselect, because quickselect is related to quicksort sorting algorithm.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev, Life-style]]></description><link>https://hoyangtsai.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 Apr 2022 19:01:05 GMT</lastBuildDate><item><title><![CDATA[Javascript algorithm: Quickselect]]></title><description><![CDATA[When I saw the article Javascript Algorithms: Quicksort inspires me to write a similar article of quickselect, because quickselect is…]]></description><link>https://hoyangtsai.github.io/javascript-algorithm-quickselect/</link><guid isPermaLink="false">https://hoyangtsai.github.io/javascript-algorithm-quickselect/</guid><pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When I saw the article &lt;a href=&quot;https://wsvincent.com/javascript-algorithms-quicksort/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Javascript Algorithms: Quicksort&lt;/a&gt; inspires me to write a similar article of quickselect, because quickselect is related to quicksort sorting algorithm.&lt;/p&gt;
 &lt;p&gt;Quicksort was developed by Tony Hoars, thus quickselect is known as Hoare’s selection algorithm.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Quickselect is a selection algorithm to find the kth smallest element in an unordered list&lt;/p&gt;
@@ -2213,6 +2213,440 @@ release: echo &quot;Y&quot; | npx bottender line webhook set -w https://murmurin
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://exceljet.net/formula/get-value-of-last-non-empty-cell&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Get value of last non-empty cell&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://support.office.com/zh-tw/f1/topic/csh?HelpId=xlmain11.chm60076&amp;#x26;NS=MACEXCEL&amp;#x26;Version=90&amp;#x26;Lcid=1028&amp;#x26;UiLcid=1028&amp;#x26;EntryPoint=True&amp;#x26;testtransaction=0&amp;#x26;feedback=0&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;LOOKUP 函數&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Macbook Air M1 心得]]></title><description><![CDATA[從 2009 年 Macbook 開始踏入 Mac OS 這個領域 沒有參與過 PowerPC 轉換 Intel 這個歷史時刻 Macbook 是從 2006 年開始進行這次的轉換 Intel 環境支援已經算完整 也是因為當時筆電的設計 鋁合金機身和 Mac OS…]]></description><link>https://hoyangtsai.github.io/macbook-air-m1-review/</link><guid isPermaLink="false">https://hoyangtsai.github.io/macbook-air-m1-review/</guid><pubDate>Tue, 02 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;從 2009 年 Macbook 開始踏入 Mac OS 這個領域&lt;/p&gt;
+&lt;p&gt;沒有參與過 PowerPC 轉換 Intel 這個歷史時刻&lt;/p&gt;
+&lt;p&gt;Macbook 是從 2006 年開始進行這次的轉換&lt;/p&gt;
+&lt;p&gt;Intel 環境支援已經算完整&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;也是因為當時筆電的設計&lt;/p&gt;
+&lt;p&gt;鋁合金機身和 Mac OS 使用體驗讓我從此愛上蘋果電腦&lt;/p&gt;
+&lt;p&gt;回顧 WWDC 2005 賈伯斯簡單解釋為什麼轉換 Intel 晶片&lt;/p&gt;
+&lt;p&gt;主要是電源效能&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/traverse/static/ce72018af38cd48b5fc85d4b0fd5cf6f/13a9a/wwdc-2005-2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAByUlEQVQoz41STWsUQRB93dM92z32zkxP90zPzGY+stlNJEs2HrwEQYPgCmERD5E1uoIkojfBf+APELyLCCI55BeIiB78Zbqum0DIwXcoHkW9KupVAQuQVSQr/t+4spwQorXWiTbG6ES73DVtE0XRpSoOYhaE5/ASMHsuttYWRd60Td3URVkEQcA5vzTDf3B3ttM6qCkN9xEdAKCUMsYWhFDqUULI33bwGFvmV6D88WSyu56jO6X6PpJDAEopKSXnnPs+p5DZMH30qTj6rKfvmQwvdk2LQdW/mZcNcXMkD+FOCBDFMfe5zz3R8X0KUY6yFz/Sk+9mdsqC+ELMZGjK7cj0kD6DnaF8DXjG9oTsAhJEAVQUu+74W3b81c6+eHJpClvo+3UbJG2zVvF8juw5Nt55PFa6L1W5t27uDNNxrmR1y7365V7+TJ+c8W5LSEiYARHYrCsQVjvb6W5CjmAOItuYYttVozf3+h/mW28nTg9uu6NT9/TMHn685kZC9UTYep3wigur0Gpb6bSO3DBrxkl5PSu3yv6NjZ39fLCXN+NsbdvV4yC0OD/Dv/ci3tILyaAFYgHfZ57o+oHuBJGQKlCxCm2UlH9M+Q2JGTJhZp2LyQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;wwdc 2015&quot;
+        title=&quot;wwdc 2015&quot;
+        src=&quot;/traverse/static/ce72018af38cd48b5fc85d4b0fd5cf6f/f058b/wwdc-2005-2.png&quot;
+        srcset=&quot;/traverse/static/ce72018af38cd48b5fc85d4b0fd5cf6f/c26ae/wwdc-2005-2.png 158w,
+/traverse/static/ce72018af38cd48b5fc85d4b0fd5cf6f/6bdcf/wwdc-2005-2.png 315w,
+/traverse/static/ce72018af38cd48b5fc85d4b0fd5cf6f/f058b/wwdc-2005-2.png 630w,
+/traverse/static/ce72018af38cd48b5fc85d4b0fd5cf6f/13a9a/wwdc-2005-2.png 637w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Apple WWDC 2005&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;直到現在為什麼又從 Intel 切換回 arm 晶片&lt;/p&gt;
+&lt;p&gt;也是因為 power efficiency&lt;/p&gt;
+&lt;p&gt;更小的功耗、更快的處理效能&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/traverse/static/12e5751f22ab5d24ffea6b7761da2548/8963a/cpu-consumption.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 59.49367088607595%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsTAAALEwEAmpwYAAABHUlEQVQoz5WSSW7DMAxFxUGjZU0t7CbqMrE3PUEXBdL7H6pwHMeOUXQgtBAokv+RlGiaptZ6Pg+n02kYBkQUfzetddu2OeeUUikFhCApgR5KwGL7ZOeandr58PoSy5Tzq7JzjojmOwF2ymeU8Ih2qHUcx5zzFG/dinDnIaBOp8BWAKCYXAxopLJKH7v+83Lp+h6FeM/1qOONa0mGoJJEhqtDKxVCSDHGMB1r7KyEiH3MluSqPLGxV+wmKuNSSiEEqRQu7Wwnh8xEdCOflQkVAMQYc860ydkNGRG7p2dr7X4NpZS795utXI0BP3J9sx0KWOOY2RgDAN77H1ZDiMk4ex3N0gbiXEJKmVLa4tyaItJa/+/zrbTM3ntm3j18AUwiDPrEZaZhAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;CPU 效能耗電量對比&quot;
+        title=&quot;CPU 效能耗電量對比&quot;
+        src=&quot;/traverse/static/12e5751f22ab5d24ffea6b7761da2548/f058b/cpu-consumption.png&quot;
+        srcset=&quot;/traverse/static/12e5751f22ab5d24ffea6b7761da2548/c26ae/cpu-consumption.png 158w,
+/traverse/static/12e5751f22ab5d24ffea6b7761da2548/6bdcf/cpu-consumption.png 315w,
+/traverse/static/12e5751f22ab5d24ffea6b7761da2548/f058b/cpu-consumption.png 630w,
+/traverse/static/12e5751f22ab5d24ffea6b7761da2548/40601/cpu-consumption.png 945w,
+/traverse/static/12e5751f22ab5d24ffea6b7761da2548/78612/cpu-consumption.png 1260w,
+/traverse/static/12e5751f22ab5d24ffea6b7761da2548/8963a/cpu-consumption.png 1918w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/traverse/static/41eb55e567a8f0cc64631a8c2646d431/ec5f6/cpu-efficiency.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 63.291139240506325%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAx0lEQVQoz52SQQ7CIBBFmZkPiIDFYGONq5rGE7j3BK68/11M21SNaWv1LeE/5ieMqqqqruumaYwx6ldCiCmlnLOIzMSIaOQUgPqbXh5/eMAwleWOXGiT7xfMPNe2C1fO3a+3uD9/jpmXezTR0WYja6WUZeGnv0RuHWLuWpxW8RIOovgH2WvL1CbzJm19fE12zgEQEQDee+kAUBQFBrYp9X/JgHqvHWMUESISER8CDxhrv/RaWHtydbTWPA11AHp8F2jBcKKRzAM0dgc6cZgkCwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;CPU 每瓦效能&quot;
+        title=&quot;CPU 每瓦效能&quot;
+        src=&quot;/traverse/static/41eb55e567a8f0cc64631a8c2646d431/f058b/cpu-efficiency.png&quot;
+        srcset=&quot;/traverse/static/41eb55e567a8f0cc64631a8c2646d431/c26ae/cpu-efficiency.png 158w,
+/traverse/static/41eb55e567a8f0cc64631a8c2646d431/6bdcf/cpu-efficiency.png 315w,
+/traverse/static/41eb55e567a8f0cc64631a8c2646d431/f058b/cpu-efficiency.png 630w,
+/traverse/static/41eb55e567a8f0cc64631a8c2646d431/40601/cpu-efficiency.png 945w,
+/traverse/static/41eb55e567a8f0cc64631a8c2646d431/78612/cpu-efficiency.png 1260w,
+/traverse/static/41eb55e567a8f0cc64631a8c2646d431/ec5f6/cpu-efficiency.png 1852w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.apple.com/tw/mac/m1/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Apple.com&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在 WWDC 2005 也提到從 PowerPC 遷移至 Intel&lt;/p&gt;
+&lt;p&gt;Apple 即將進入第三次的轉換&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/traverse/static/094d572d58aa777556e33cce37f8aa45/6af66/wwdc-2005-transition.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACPklEQVQoz32SzU8TURTFnwjz3n0fLZR+0GkpnekMMyO0lmlLS7GtbaktFUJa0hYxJJCIhgUgGyIhEPyKgaAkxo3KHlf+De40kYV/kgJGdia/nNzFvSc5ORdRoEAAyJUCwURwwRlnlAkuBGMOzgUXXTe6KFDhEEChz9lLgRJMEKPs4gw4XLpgTPwDsmFaEW14QJbzxVa5+lBR1U5nYdg0YsbEQnVNDgxyzoEAcrs9BBOgAkAAIZgwvz+k6aNhZcTnCyfS7TulleCQ2Wgu6aYd1fOLlXU5GHEIFxCKDg6eI4Q476PgAoIpcw8NxXV9XFVSwWDy9PT008fPqlaYzDdULZvMVMq1lqLYrv4IAEftB496MAFwMCYTIjmdqmFU7URzzG5FY+3z81/ff/xMp59sbr3PFx6PxmqTuTklnJXlDKNOFE/XA4MaA8q4SsDh9cVi8aWxxPJYYnUkvjozvdOYPbBTG8XKMzu12Vk+Wtv+cNteUbVZLtxovNAuVTouJ2bU4kwLhJKZ3Eb5/va9mf18Za9RebpQ36+3Dl+efK3Nv9h68+Xd2bdUdv3W6GJvrw95A6oZTQkOlPk5VSNWOVfdzdd2y7Ova3NHteZhvfV2ev5kau642jwuzryaKO3kpvaSkxsuVxARfJGYUebxeNz9/XLIGlTHQ2pCGc4oekYzs8bIXStWNqKliFXQrKJmFsN6TjEKXm8QMcqvqqZAKVAsSbinW/rLzWuk6xlL3VjqZkDR1WP949KC/R+43PnT8297p2kl5Y1DggAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;WWDC 2005 轉換&quot;
+        title=&quot;WWDC 2005 轉換&quot;
+        src=&quot;/traverse/static/094d572d58aa777556e33cce37f8aa45/f058b/wwdc-2005-transition.png&quot;
+        srcset=&quot;/traverse/static/094d572d58aa777556e33cce37f8aa45/c26ae/wwdc-2005-transition.png 158w,
+/traverse/static/094d572d58aa777556e33cce37f8aa45/6bdcf/wwdc-2005-transition.png 315w,
+/traverse/static/094d572d58aa777556e33cce37f8aa45/f058b/wwdc-2005-transition.png 630w,
+/traverse/static/094d572d58aa777556e33cce37f8aa45/6af66/wwdc-2005-transition.png 640w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Apple WWDC 2005&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;第二次屬於軟體系統架構的升級&lt;/p&gt;
+&lt;p&gt;排除軟體的轉換&lt;/p&gt;
+&lt;p&gt;身為果粉肯定不能錯過第三次的硬體的轉換&lt;/p&gt;
+&lt;p&gt;更何況蘋果的電腦已經從我讀書的工具成為我生財的工具&lt;/p&gt;
+&lt;p&gt;現在是靠 Macintosh 麥金塔系統開發程式&lt;/p&gt;
+&lt;p&gt;我不開發 iOS / Ｍac Apps 但是因為 unix-like 確實是比較開發友好的系統&lt;/p&gt;
+&lt;p&gt;說到身為一個軟體開發者&lt;/p&gt;
+&lt;p&gt;我看了很多的 M1 晶片的評測影片&lt;/p&gt;
+&lt;p&gt;大部分都談論剪片有多順、影片導出有多快&lt;/p&gt;
+&lt;p&gt;比拼最新的 Macbook 16” 或甚至 Mac Pro 的&lt;/p&gt;
+&lt;p&gt;對我來說實際意義不大&lt;/p&gt;
+&lt;p&gt;當第一次開啟 Intel 版本 App 詢問是否安裝 Rosetta&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/traverse/static/081602412318344ed0ce921b8c6f1817/21b4d/install-rosetta.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.89873417721519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAACZklEQVQoz2M4sHQyGjq4bOrBZVMPLZ+2dX7f7oUTzm2Ye3L9rKqsuNywgCx/7yAvjwAbWwcZVWlOPoZrC/pgqPfa/N4bC/quzO64NKv91oKeyfkpyf7uNclhQaamZtIyNtLyDtJK5kISenxCsrx8Avw8DHdmtkPQ7VkdN+f2XJ7e8eb0wS83Lny+fvH6oUMrl61csWjJkkVLZ06Z6mtpaSAtayQkYqGiYKqvqqapxtDS2wBFfY31/c1d03q279lz/tKV23fvX7tx4+XLl29ev/388fPL16+6euqae+s65/ZuntN1tan4UnEGQ1hnQ2hHQ1hHQ1hnQ0h7bfyE9hu3b7969uLunfv37j569ODRo/sPXz17fvXceRdjUy93lxWzuy5PbHrcWrEwIYzBoqPRsr3BvL3Rsr3RvK3Brqvl/vOXnz9/f/vx67sPX15//Pz2/bvzD3/suPikfFLLwonNh9qqHrdWzE0MtzLUYlCrrVZoqldrqpdvbZRvrtfoaI5aNKdz/6byhsqslJS++dPnTOw8uHPDnk0rDs7v311TsDAtpisiwM3D2shcl8HRzE7KyFY1NIaztIItp0CivMJxck/j2rmtVfmN4UETY8O74sPnRwXFaGqaq6gqS4pxsLKJacirGauLcHEyNNvYWQrLS+taCaZl27Y2Za+Y3bJm3tTpPVund82pLCgL8k93c/M2MI2ws4uxsUmws3HQUnM3UHOQlJTnFWawlVExEZJRltUSjowP7mqZf3jDvmv7th9cs3rBpLUzulfM6I6yt/c3MauMDO1Pjl9eXlDq5ugsKaUuIKoqLAEAHR8lZrVcewoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;安裝 Rosetta&quot;
+        title=&quot;安裝 Rosetta&quot;
+        src=&quot;/traverse/static/081602412318344ed0ce921b8c6f1817/f058b/install-rosetta.png&quot;
+        srcset=&quot;/traverse/static/081602412318344ed0ce921b8c6f1817/c26ae/install-rosetta.png 158w,
+/traverse/static/081602412318344ed0ce921b8c6f1817/6bdcf/install-rosetta.png 315w,
+/traverse/static/081602412318344ed0ce921b8c6f1817/f058b/install-rosetta.png 630w,
+/traverse/static/081602412318344ed0ce921b8c6f1817/40601/install-rosetta.png 945w,
+/traverse/static/081602412318344ed0ce921b8c6f1817/78612/install-rosetta.png 1260w,
+/traverse/static/081602412318344ed0ce921b8c6f1817/21b4d/install-rosetta.png 1280w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;一旦安裝 Rosetta 之後&lt;/p&gt;
+&lt;p&gt;很難分辨正在使用的 App 是 made for Intel or made for Apple silicon&lt;/p&gt;
+&lt;p&gt;everything it just works 操作很流暢&lt;/p&gt;
+&lt;p&gt;我覺得對普羅大眾來說比較有感的是&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;鍵盤輸入感受&lt;/li&gt;
+&lt;li&gt;電池續航力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;鍵盤輸入&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E9%8D%B5%E7%9B%A4%E8%BC%B8%E5%85%A5&quot; aria-label=&quot;鍵盤輸入 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;鍵盤輸入&lt;/h2&gt;
+&lt;p&gt;我上一台 Macbook 是公司提供的最基本款的 2017 Macbook Pro 13” 256GB 硬碟 / 8GB 記憶體&lt;/p&gt;
+&lt;p&gt;鍵盤是不知道第幾代的 butterfly keyboard 蝶式鍵盤&lt;/p&gt;
+&lt;p&gt;Apple 很努力想改進他們所謂更輕薄的鍵盤&lt;/p&gt;
+&lt;p&gt;但是輸入體驗依舊是很難打&lt;/p&gt;
+&lt;p&gt;所以在新版的 M1 晶片 Macbook Pro / Air 改回傳統式的剪刀式鍵盤&lt;/p&gt;
+&lt;p&gt;輸入體驗上更輕彈好按&lt;/p&gt;
+&lt;h2 id=&quot;電池續航力&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E9%9B%BB%E6%B1%A0%E7%BA%8C%E8%88%AA%E5%8A%9B&quot; aria-label=&quot;電池續航力 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;電池續航力&lt;/h2&gt;
+&lt;p&gt;在印象中 2009 年的第一台 Macbook 確實相較之前的 Windows 筆電續航更久&lt;/p&gt;
+&lt;p&gt;大概有 2 ~ 3 小時的電池續航&lt;/p&gt;
+&lt;p&gt;而那時候的 Windows 筆電有個 2 小時就要偷笑了&lt;/p&gt;
+&lt;p&gt;但是不知道是不是因為現在我都是用電腦做工作量更多的事&lt;/p&gt;
+&lt;p&gt;每次發佈會上說的電腦都會有什麼 6 小時的電力續航&lt;/p&gt;
+&lt;p&gt;我實際用下來都大概只有 2 ~ 3 小時&lt;/p&gt;
+&lt;p&gt;沒什麼進步&lt;/p&gt;
+&lt;p&gt;直到我換到這台 Macbook Air M1 使用才感受到什麼叫真的叫低工耗&lt;/p&gt;
+&lt;p&gt;在工作量大的情況下可以有 6 小時以上的使用時間&lt;/p&gt;
+&lt;p&gt;如果只是在咖啡廳瀏覽網站、聽音樂、讀/寫文件一整天&lt;/p&gt;
+&lt;p&gt;現在可以很肯定的說不需要帶充電器出門&lt;/p&gt;
+&lt;p&gt;我上一台自己的 Macbook Air 是 2014 年 13吋版本&lt;/p&gt;
+&lt;p&gt;升級到 Macbook Air M1 超級有感&lt;/p&gt;
+&lt;p&gt;多了獨立喇叭、TouchID&lt;/p&gt;
+&lt;p&gt;優點&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;電池續航久&lt;/li&gt;
+&lt;li&gt;流暢&lt;/li&gt;
+&lt;li&gt;操作速度快
+&lt;ul&gt;
+&lt;li&gt;文件變更&lt;/li&gt;
+&lt;li&gt;執行程式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;可攜性更高，使用一整天不需要帶充電器&lt;/li&gt;
+&lt;li&gt;鍵盤好打，新的剪刀鍵盤而不是難打的蝶式鍵盤&lt;/li&gt;
+&lt;li&gt;如果是買 Macbook Air  沒有 Touch bar 但速度沒有犧牲&lt;/li&gt;
+&lt;li&gt;可以執行部分 iOS App&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;缺點&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;少部分 app 會閃退，甚至 Proxifier 會導致系統無預警重啟&lt;/li&gt;
+&lt;li&gt;遇過一次進入螢幕保護之後無法喚醒&lt;/li&gt;
+&lt;li&gt;蘋果第一台 ARM 架構電腦，後面會有效能更強大的機器陸續推出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;updates&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#updates&quot; aria-label=&quot;updates permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Updates&lt;/h2&gt;
+&lt;p&gt;如果可以等的人可以期待2021年的 Mac 電腦更新&lt;/p&gt;
+&lt;p&gt;最近看到的爆料&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;會有 14” 和 16” 吋 Arm 版本的 Macbook Air/Pro&lt;/li&gt;
+&lt;li&gt;外型會有新的設計，像是 iPhone 12 平面設計？！&lt;/li&gt;
+&lt;li&gt;螢幕更亮、對比度更高，使用 Micro-LED&lt;/li&gt;
+&lt;li&gt;比現在最多 4 個 Thunderbolt 雷電接口，更多類型的接口，像是 SD Card 或 HDMI&lt;/li&gt;
+&lt;li&gt;充電將回歸 Magsafe 磁吸設計&lt;/li&gt;
+&lt;li&gt;移除 Touch Bar&lt;/li&gt;
+&lt;li&gt;其他機型 iMac 將會有全新的設計&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[蘋果晶片相容情況]]></title><description><![CDATA[在 youtube 上看了很多關於蘋果晶片的評測 幾乎一致獲得好評 但是大部分都是針對文字工作或影片創作者的使用心得 分享一篇給開發者看的 簡單一個結論 由於 arm 架構的 SoC 在硬體模組間溝通更加快速 執行程式和續航力上表現都是大幅成長 環境配置 先從 App Store…]]></description><link>https://hoyangtsai.github.io/apple-silicon-compatibility/</link><guid isPermaLink="false">https://hoyangtsai.github.io/apple-silicon-compatibility/</guid><pubDate>Sun, 24 Jan 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;在 youtube 上看了很多關於蘋果晶片的評測&lt;/p&gt;
+&lt;p&gt;幾乎一致獲得好評&lt;/p&gt;
+&lt;p&gt;但是大部分都是針對文字工作或影片創作者的使用心得&lt;/p&gt;
+&lt;p&gt;分享一篇給開發者看的&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;簡單一個結論&lt;/p&gt;
+&lt;p&gt;由於 arm 架構的 SoC 在硬體模組間溝通更加快速&lt;/p&gt;
+&lt;p&gt;執行程式和續航力上表現都是大幅成長&lt;/p&gt;
+&lt;h2 id=&quot;環境配置&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%92%B0%E5%A2%83%E9%85%8D%E7%BD%AE&quot; aria-label=&quot;環境配置 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;環境配置&lt;/h2&gt;
+&lt;p&gt;先從 App Store 下載的 Xcode 軟體&lt;/p&gt;
+&lt;p&gt;下載完成之後打開同意協議讓 Xcode 完全正常啟動過一次&lt;/p&gt;
+&lt;p&gt;沒有用 Xcode 開發 Mac/iOS App 就可以關掉了 😆&lt;/p&gt;
+&lt;p&gt;打開終端機執行下面命令&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;xcode-select --install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;就會安裝一些 Xcode 附加的開發工具，像是 ruby, git…等等&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;終端機&lt;/p&gt;
+&lt;p&gt;個人習慣使用 &lt;a href=&quot;https://iterm2.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;iTerm2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;用 iTerm2 就可以在社群貢獻的 &lt;a href=&quot;https://github.com/mbadolato/iTerm2-Color-Schemes&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;iTem2-Color-Schemes&lt;/a&gt; 找自己喜歡的樣式&lt;/p&gt;
+&lt;p&gt;Shell 使用 &lt;a href=&quot;https://ohmyz.sh/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Oh My Zsh&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;社群也提供很多方便的&lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;外掛&lt;/a&gt;和&lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh/wiki/Themes&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;主題&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;多樣主題樣式打造屬於自己的終端機&lt;/p&gt;
+&lt;p&gt;個人化終端機看起來更有個性&lt;/p&gt;
+&lt;p&gt;後續專門寫一篇文章介紹&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Homebrew&lt;/p&gt;
+&lt;p&gt;安裝套件管理工具 &lt;a href=&quot;https://brew.sh/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Homebrew&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;執行首頁的安裝命令會阻擋安裝&lt;/p&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/traverse/static/a516956f72561f450cd0a37f498eabec/1cfc2/homebrew-arm-not-support.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 70.88607594936708%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAB10lEQVQ4y62STWsTQRjHn33GZF/SZXfzTkJqyWY3wbhvWYLGJkiaSA+ltSJKS/BQqh499OLBLyB4q6Dg1aN6ENyLH8ibH0AX55Fd1/pSe4j0gR/PzH+YHzPDwOdnj+DpnZ3W4v58eGUyHUyvz8LJZJqysXEj3N+/Fx4ePgwPDh6Ee3uLcD7fTPPZbDNlOp0PtrZuDnd3bzePjh4DfHr1BK5e6r4bjhzqOx45l13yPJ8cxyPX9Wl9fUJBMCDPC6jfd6jTscmyumnPxrzb7ZFpWq+3t29BUqgWjUg3SqSurMSiKPJCocAVRU67LMs8ySRJzLp0kicoihJLkkS53IW3kBWuXVyLVldbpKpqrGkaLxaL3DAMrus6L5fLXFVVDgBnEQMAIeIvYavVitrtNtm2Hdu2Tb1ejyzLSuZkmiY1m02q1+tUKpWoWq1So9Hg+XyezhTqmhaZnQ7VqtW4Uqmkm2q1Gum6TowxEkWRcrlcSjJOEATh38LxeIwAECXhz8UlOC10XRcR8fyEge+jIAjnKAyCv4V8Sf4U+j9O+CETfgWAb0vyJRO+SYXXRqPkDT8uedVTIOL7k2/DGFsg4ktEPEbE50twnPGCMXYXfisGABIAyP+JlDngO6gL+uPKlU4nAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Homebrew ARM not support&quot; title=&quot;Homebrew ARM not support&quot; src=&quot;/traverse/static/a516956f72561f450cd0a37f498eabec/f058b/homebrew-arm-not-support.png&quot; srcset=&quot;/traverse/static/a516956f72561f450cd0a37f498eabec/c26ae/homebrew-arm-not-support.png 158w,
+/traverse/static/a516956f72561f450cd0a37f498eabec/6bdcf/homebrew-arm-not-support.png 315w,
+/traverse/static/a516956f72561f450cd0a37f498eabec/f058b/homebrew-arm-not-support.png 630w,
+/traverse/static/a516956f72561f450cd0a37f498eabec/1cfc2/homebrew-arm-not-support.png 900w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;p&gt;其實 brew 相關功能並沒有不相容的問題&lt;/p&gt;
+&lt;p&gt;主要的問題是你要安裝的套件是否支援 &lt;strong&gt;arm64-darwin&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;可以在 &lt;a href=&quot;https://formulae.brew.sh/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://formulae.brew.sh&lt;/a&gt; 查套件的 Bottle (binary packet) 是否支援 Apple Silicon&lt;/p&gt;
+&lt;p&gt;homebrew 團隊不負責修復&lt;/p&gt;
+&lt;p&gt;需要你提 issue 到該安裝的套件&lt;/p&gt;
+&lt;p&gt;基本上主流的套件都已支援&lt;/p&gt;
+&lt;p&gt;詳情可以追蹤：&lt;a href=&quot;https://github.com/Homebrew/brew/issues/10152&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://github.com/Homebrew/brew/issues/10152&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;p.s. 2021/01/24 測試已經不封鎖安裝腳本&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nodejs&lt;/p&gt;
+&lt;p&gt;node 15.3 以上原生支援 arm64&lt;/p&gt;
+&lt;p&gt;之前一直是用 &lt;a href=&quot;https://hoyangtsai.github.io/blog/2016/07/26/install-multiple-version-of-nodejs/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;nvm&lt;/a&gt; 管理 nodejs 版本安裝&lt;/p&gt;
+&lt;p&gt;後來又看到 &lt;a href=&quot;https://asdf-vm.com/#/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;asdf&lt;/a&gt; 可以管理多種開發語言 (deno, ruby, python, nodejs) 的版本安裝&lt;/p&gt;
+&lt;p&gt;但試著安裝 nodejs 出現需要 GunPG 驗證工具&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;➜ asdf &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; nodejs latest:15
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                Dload  Upload   Total   Spent    Left  Speed
+&lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;3811&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;3811&lt;/span&gt;    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;3480&lt;/span&gt;      &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; --:--:--  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;:00:01 --:--:--  &lt;span class=&quot;token number&quot;&gt;3480&lt;/span&gt;
+You should &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; GnuPG to verify the authenticity of the downloaded archives: https://www.gnupg.org/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;所以又回去用 nvm 安裝 nodejs&lt;/p&gt;
+&lt;p&gt;結果遇到另外一個狀況&lt;/p&gt;
+&lt;p&gt;因為開發的專案有使用 sass-loader&lt;/p&gt;
+&lt;p&gt;執行 &lt;code class=&quot;language-text&quot;&gt;npm installl&lt;/code&gt; 會印出一些警告訊息一直無法完成安裝&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; warnings generated.
+  c++ -o Release/obj.target/libsass/src/libsass/src/ast_fwd_decl.o &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;/src/libsass/src/ast_fwd_decl.cpp &lt;span class=&quot;token string&quot;&gt;&apos;-DNODE_GYP_MODULE_NAME=libsass&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-DUSING_UV_SHARED=1&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-DUSING_V8_SHARED=1&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-DV8_DEPRECATION_WARNINGS=1&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-DV8_DEPRECATION_WARNINGS&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-DV8_IMMINENT_DEPRECATION_WARNINGS&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-D_DARWIN_USE_64_BIT_INODE=1&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-D_LARGEFILE_SOURCE&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-D_FILE_OFFSET_BITS=64&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-DOPENSSL_NO_PINSHARED&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-DOPENSSL_THREADS&apos;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;-DLIBSASS_VERSION=&quot;3.5.5&quot;&apos;&lt;/span&gt; -I/Users/xxx/Library/Caches/node-gyp/15.4.0/include/node -I/Users/xxx/Library/Caches/node-gyp/15.4.0/src -I/Users/xxx/Library/Caches/node-gyp/15.4.0/deps/openssl/config -I/Users/xxx/Library/Caches/node-gyp/15.4.0/deps/openssl/openssl/include -I/Users/xxx/Library/Caches/node-gyp/15.4.0/deps/uv/include -I/Users/xxx/Library/Caches/node-gyp/15.4.0/deps/zlib -I/Users/xxx/Library/Caches/node-gyp/15.4.0/deps/v8/include -I&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;/src/libsass/include  -O3 -gdwarf-2 -mmacosx-version-min&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10.7&lt;/span&gt; -arch arm64 -Wall -Wendif-labels -W -Wno-unused-parameter -std&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;c++11 -stdlib&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;libc++ -fno-strict-aliasing -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/ast_fwd_decl.o.d.raw   -c
+In &lt;span class=&quot;token function&quot;&gt;file&lt;/span&gt; included from &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;/src/libsass/src/ast_fwd_decl.cpp:1:
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;/src/libsass/src/ast.hpp:1614:25: warning: loop variable &lt;span class=&quot;token string&quot;&gt;&apos;numerator&apos;&lt;/span&gt; of &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;const
+      std::__1::basic_string&amp;lt;char&gt;&apos;&lt;/span&gt; creates a copy from &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;const std::__1::basic_string&amp;lt;char&gt;&apos;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;-Wrange-loop-analysis&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;const auto numerator &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; numerators&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                        ^
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;/src/libsass/src/ast.hpp:1614:14: note: use reference &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;const std::__1::basic_string&amp;lt;char&gt; &amp;amp;&apos;&lt;/span&gt; to prevent
+      copying
+        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;const auto numerator &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; numerators&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            ^~~~~~~~~~~~~~~~~~~~~~
+                        &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;/src/libsass/src/ast.hpp:1616:25: warning: loop variable &lt;span class=&quot;token string&quot;&gt;&apos;denominator&apos;&lt;/span&gt; of &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;const
+      std::__1::basic_string&amp;lt;char&gt;&apos;&lt;/span&gt; creates a copy from &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;const std::__1::basic_string&amp;lt;char&gt;&apos;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;-Wrange-loop-analysis&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;const auto denominator &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; denominators&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                        ^
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;/src/libsass/src/ast.hpp:1616:14: note: use reference &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;const std::__1::basic_string&amp;lt;char&gt; &amp;amp;&apos;&lt;/span&gt; to prevent
+      copying
+        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;const auto denominator &lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; denominators&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            ^~~~~~~~~~~~~~~~~~~~~~~~
+                        &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;還到 node-sass 反饋 &lt;a href=&quot;https://github.com/sass/node-sass/issues/3033&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;issues&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;結果再退回安裝 node 12 版本&lt;/p&gt;
+&lt;p&gt;如果要安裝 node 15.3 以下的版本&lt;/p&gt;
+&lt;p&gt;到應用程式目錄找到 iTerm 右鍵打開&lt;strong&gt;取得資訊&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;勾選 ☑️ 使用 Rosetta 打開&lt;/p&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/traverse/static/2fa53b84ebfe79f7bf07a2fc0b26a9e6/cbfa4/rosetta.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 147.46835443037975%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAdABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB8ayNo4gmieQJwn//xAAbEAACAwADAAAAAAAAAAAAAAABEQADMQIQIf/aAAgBAQABBQLgl5DtWEiHasJcOuPr/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8BKf/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABkQAAEFAAAAAAAAAAAAAAAAACAAAREhMf/aAAgBAQAGPwK2WDJf/8QAHBAAAgIDAQEAAAAAAAAAAAAAAAERMSFRcRCR/9oACAEBAAE/Ic2BnL4X9ISkcm5LxM9GMsXiZU2iW35//9oADAMBAAIAAwAAABC/yLD/xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QIYn/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxAh/8QAHBABAQEBAQADAQAAAAAAAAAAAREAITFRYaHx/9oACAEBAAE/EAoBfZUwL2f0TQRIVDMOkbwAj5jxPg4c36XBUo8uXJ5+lwaGPsZv62evd//Z&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Rosetta&quot; title=&quot;Rosetta&quot; src=&quot;/traverse/static/2fa53b84ebfe79f7bf07a2fc0b26a9e6/828fb/rosetta.jpg&quot; srcset=&quot;/traverse/static/2fa53b84ebfe79f7bf07a2fc0b26a9e6/ff44c/rosetta.jpg 158w,
+/traverse/static/2fa53b84ebfe79f7bf07a2fc0b26a9e6/a6688/rosetta.jpg 315w,
+/traverse/static/2fa53b84ebfe79f7bf07a2fc0b26a9e6/828fb/rosetta.jpg 630w,
+/traverse/static/2fa53b84ebfe79f7bf07a2fc0b26a9e6/cbfa4/rosetta.jpg 754w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;p&gt;結束 iTerm 重新打開就可以安裝 node 12 了&lt;/p&gt;
+&lt;p&gt;安裝完成之後可取消勾選 Rosetta 打開&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;p.s. 2021/01/24 使用 node 15.6.0 再次嘗試安裝 node-sass 已經成功了&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;yarn&lt;/p&gt;
+&lt;p&gt;可以正常安裝使用&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ruby&lt;/p&gt;
+&lt;p&gt;用 &lt;a href=&quot;https://asdf-vm.com/#/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;asdf&lt;/a&gt; 安裝其他的版本執行 jekyll 的專案或 compass sass 編譯工具都沒有問題&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Docker - 已兼容&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;p&gt;也是在 youtube 上看到有用原生支援的 Zulu JDK 編譯已有的專案和 Rosetta 模式的版本做比較&lt;/p&gt;
+&lt;p&gt;IntelliJ IDEA 也已經原生支援&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VS Code&lt;/p&gt;
+&lt;p&gt;穩定版可以在 Resetta 模式使用&lt;/p&gt;
+&lt;p&gt;或者可以選擇 Insider 版本原生支援&lt;/p&gt;
+&lt;p&gt;之後穩定版也會原生支援&lt;/p&gt;
+&lt;p&gt;詳情可以追蹤：&lt;a href=&quot;https://github.com/microsoft/vscode/issues/106770&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://github.com/microsoft/vscode/issues/106770&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Photoshop&lt;/p&gt;
+&lt;p&gt;Adobe 很多軟體已經為 Apple 晶片準備推出原生支援的版本&lt;/p&gt;
+&lt;p&gt;其中包括 Photoshop&lt;/p&gt;
+&lt;p&gt;目前處於 beta 階段&lt;/p&gt;
+&lt;p&gt;但還是可以用 Rosetta 模式使用 Intel 版本&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sketch - 版本 70 以上原生支援&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Apache&lt;/p&gt;
+&lt;p&gt;運行蘋果晶片的 Mac 系統一樣有內建 httpd&lt;/p&gt;
+&lt;p&gt;只是 macOS Server 5.7.1 版本之後從操作介面中移除 &lt;a href=&quot;https://support.apple.com/en-us/HT208312&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://support.apple.com/en-us/HT208312&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不嫌麻煩的可以手動配置&lt;/p&gt;
+&lt;p&gt;懶惰如我習慣使用 GUI 管理網頁服務&lt;/p&gt;
+&lt;p&gt;改用第三方的網站管理工具 &lt;a href=&quot;https://www.mamp.info/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;MAMP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在 Rosetta 模式下運行也沒有問題&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Git&lt;/p&gt;
+&lt;p&gt;其實 git 安裝 Xcode 就內建了&lt;/p&gt;
+&lt;p&gt;當然是原生支援&lt;/p&gt;
+&lt;p&gt;有時候還是用 GUI app 來的方便&lt;/p&gt;
+&lt;p&gt;之前一直是用 &lt;a href=&quot;https://www.sourcetreeapp.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Souretree&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;但是隨著版本更新感覺越用越慢&lt;/p&gt;
+&lt;p&gt;後來試著改用 &lt;a href=&quot;https://git-fork.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Fork&lt;/a&gt; 感覺順很多&lt;/p&gt;
+&lt;p&gt;而且 Fork 是原生支援&lt;/p&gt;
+&lt;p&gt;Sourcetree 是 Rosetta 模式執行 Intel 版本&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Android Studio &amp;#x26; Flutter&lt;/p&gt;
+&lt;p&gt;之前試玩了一下 Flutter 2，進行一系列的環境設置，過程一切順利&lt;br&gt;
+Android 模擬器於 Android 11.0 (R) SDK platform 30 已支援蘋果晶片&lt;br&gt;
+詳細資料和後續 issue 可以追蹤 &lt;a href=&quot;https://github.com/google/android-emulator-m1-preview&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;google/android-emulator-m1-preview&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Miscellaneous&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Profixier 3.4 會導致無預警重新開機&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其他沒提到的也可以在以下兩個網站找一下相容情況&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://isapplesiliconready.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://isapplesiliconready.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://doesitarm.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://doesitarm.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[圖片最佳化]]></title><description><![CDATA[網頁優化/最佳化，圖片壓縮是不可忽視的一塊。
 透過 PageSpeed Insights 分析可以為你的網頁打分數。 圖片壓縮程式 根據 Google PageSpeed Insights 建議對於 JPEG 檔案壓縮可以使用 jpegtran 或 jpegoptim…]]></description><link>https://hoyangtsai.github.io/image-optimization/</link><guid isPermaLink="false">https://hoyangtsai.github.io/image-optimization/</guid><pubDate>Sat, 12 Dec 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;網頁優化/最佳化，圖片壓縮是不可忽視的一塊。&lt;br&gt;
 透過 &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;PageSpeed Insights&lt;/a&gt; 分析可以為你的網頁打分數。&lt;br&gt;&lt;/p&gt;

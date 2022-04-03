@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/tags/nvm/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/apple-silicon-compatibility/"},"frontmatter":{"title":"蘋果晶片相容情況","date":"January 24, 2021"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"nvm"}},
+    "staticQueryHashes": []}
