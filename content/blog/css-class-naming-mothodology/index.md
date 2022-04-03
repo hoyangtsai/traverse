@@ -3,8 +3,7 @@ title: CSS Class 命名方法論
 description: 優雅的 CSS Class 命名，提供三種基礎命名規範
 date: 2021-12-23
 tags: [front-end]
-published: true
-comments: true
+donation: false
 ---
 
 身為Compass框架創建人，Sass核心團隊成員的 Chris Eppstein 曾這麼說過。

@@ -1,0 +1,40 @@
+.donation {
+  padding: 1rem 0;
+}
+
+.donateChina {
+  margin: 1rem 0 0;
+}
+
+.donatePaypal {
+  margin: 1rem 0 0;
+}
+
+.linePayQRcode {
+  display: block;
+}
+
+.linePayBtn {
+  display: none;
+  width: 250px;
+  padding-left: 12px;
+  height: 69px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 30%), 0 2px 6px 2px rgba(60, 64, 67, 15%);
+  margin: 1rem 0 0;
+  background: #FFF;
+  img {
+    margin: 0;
+  }
+}
+
+
+@media screen and (max-device-width: 768px) {
+  .linePayQRcode {
+    display: none;
+  }
+  .linePayBtn {
+    display: inline-block;
+  }
+}

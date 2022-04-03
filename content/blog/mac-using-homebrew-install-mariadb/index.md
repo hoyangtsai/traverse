@@ -2,9 +2,8 @@
 date: 2015-12-09
 title: Mac 用 Homebrew 安裝 MariaDB
 description: Homebrew 套件管理安裝資料庫
-published: true
-comments: true
 tags: [homebrew, mysql, mariadb]
+donation: false
 ---
 
 最近我在檢查 Mac Mini 的 server 工作是否正常的時候發現 MySQL 資料庫又掛了

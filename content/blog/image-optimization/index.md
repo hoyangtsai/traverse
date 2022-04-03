@@ -1,11 +1,9 @@
 ---
-layout: post
 date: 2015-12-12
 title: 圖片最佳化
-published: true
-comments: true
 tags: [front-end, homebrew]
 description: jpg, png等圖片格式壓縮最佳化
+donation: false
 ---
 
 網頁優化/最佳化，圖片壓縮是不可忽視的一塊。<br>

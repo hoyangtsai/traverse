@@ -2,9 +2,8 @@
 date: 2022-01-03
 title: "Javascript algorithm: Quickselect"
 description: A method of picking up kth smallest/largest element
-published: true
-comments: false
 tags: [algorithm, javascript]
+donation: false
 ---
 
 When I saw the article [Javascript Algorithms: Quicksort](https://wsvincent.com/javascript-algorithms-quicksort/) inspires me to write a similar article of quickselect, because quickselect is related to quicksort sorting algorithm.

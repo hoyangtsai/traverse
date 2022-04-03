@@ -1,11 +1,9 @@
 ---
-layout: post
 date: 2015-12-04
 title: GitHub 架設 Jekyll 網站
 description: 入門教學用 Github 當伺服器架設 blog 部落格
-published: true
-comments: true
 tags: [gettingStarted, jekyll, bundler, ruby]
+donation: true
 ---
 
 [GitHub](https://github.com/) 原本就支援使用 [Jekyll](http://jekyllrb.com/) 建置網站，無需上傳 Jekyll 開發過程所產生的靜態網頁，只要在本地端將網站開發完成，將設定檔、sass 樣式表和一些 HTML 的模版上傳到 GitHub repository 就會自動編譯產生靜態網頁內容。

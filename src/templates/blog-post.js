@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import { kebabCase } from "lodash"
 import Layout from "../components/layout"
 import Seo from "components/seo"
+import Donation from "components/donation";
 
 import * as styles from './blog-post.module.css';
 
@@ -10,6 +11,8 @@ const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+
+  console.log('post.title :>> ', post);
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -30,6 +33,7 @@ const BlogPostTemplate = ({ data, location }) => {
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
+        {post.frontmatter.donation && <Donation />}
         <hr />
         <footer>
           <div className={styles.postTag}>
@@ -94,6 +98,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         tags
+        donation
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

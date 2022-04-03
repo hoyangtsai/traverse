@@ -2,9 +2,8 @@
 date: 2021-06-13
 title: Excel 取得一列中最後一個非空的值
 description: Excel 取得一列中最後一個非空的值
-published: true
-comments: true
 tags: [excel]
+donation: false
 ---
 
 在網路上找到一個公式是可以將一個單元 (cell) 的值設定成某一列的數據中最後一個非空的值

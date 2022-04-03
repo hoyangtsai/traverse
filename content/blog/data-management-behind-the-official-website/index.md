@@ -3,8 +3,7 @@ title: 產品官網背後的數據管理
 description: 官網 SEO 搜索引擎優化，數據靜態化管理
 date: 2021-12-10
 tags: [SEO, front-end]
-published: true
-comments: true
+donation: false
 ---
 
 [騰訊微加信用卡](https://wepluscard.qq.com/mdft/index.shtml)官網是一個可以在手機、平板和桌面等多終端上瀏覽的產品官網，除了留言反饋的地方沒有其他與用戶的數據交互，所以在沒用後端資源的情況下，希望網站內容可以根據信用卡的合作內容彈性的修改。
