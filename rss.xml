@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev, Life-style]]></description><link>https://hoyangtsai.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 Apr 2022 19:01:05 GMT</lastBuildDate><item><title><![CDATA[Javascript algorithm: Quickselect]]></title><description><![CDATA[When I saw the article Javascript Algorithms: Quicksort inspires me to write a similar article of quickselect, because quickselect is…]]></description><link>https://hoyangtsai.github.io/javascript-algorithm-quickselect/</link><guid isPermaLink="false">https://hoyangtsai.github.io/javascript-algorithm-quickselect/</guid><pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When I saw the article &lt;a href=&quot;https://wsvincent.com/javascript-algorithms-quicksort/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Javascript Algorithms: Quicksort&lt;/a&gt; inspires me to write a similar article of quickselect, because quickselect is related to quicksort sorting algorithm.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev, Life-style]]></description><link>https://hoyangtsai.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 04 Apr 2022 06:47:07 GMT</lastBuildDate><item><title><![CDATA[Javascript algorithm: Quickselect]]></title><description><![CDATA[When I saw the article Javascript Algorithms: Quicksort inspires me to write a similar article of quickselect, because quickselect is…]]></description><link>https://hoyangtsai.github.io/javascript-algorithm-quickselect/</link><guid isPermaLink="false">https://hoyangtsai.github.io/javascript-algorithm-quickselect/</guid><pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When I saw the article &lt;a href=&quot;https://wsvincent.com/javascript-algorithms-quicksort/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Javascript Algorithms: Quicksort&lt;/a&gt; inspires me to write a similar article of quickselect, because quickselect is related to quicksort sorting algorithm.&lt;/p&gt;
 &lt;p&gt;Quicksort was developed by Tony Hoars, thus quickselect is known as Hoare’s selection algorithm.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Quickselect is a selection algorithm to find the kth smallest element in an unordered list&lt;/p&gt;
@@ -2647,7 +2647,411 @@ Android 模擬器於 Android 11.0 (R) SDK platform 30 已支援蘋果晶片&lt;b
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://isapplesiliconready.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://isapplesiliconready.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://doesitarm.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://doesitarm.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[圖片最佳化]]></title><description><![CDATA[網頁優化/最佳化，圖片壓縮是不可忽視的一塊。
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Tomcat 服務器環境設置]]></title><description><![CDATA[環境設置 安裝 JAVA SDK CentOS 用下面指令安裝 JDK 版本 執行  檢查版本 順帶一提，如果安裝多個 JAVA 版本，可以用下面命令切換 JAVA 版本 MacOS 使用 Homebrew…]]></description><link>https://hoyangtsai.github.io/tomcat-server-setup/</link><guid isPermaLink="false">https://hoyangtsai.github.io/tomcat-server-setup/</guid><pubDate>Sat, 18 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;環境設置&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%92%B0%E5%A2%83%E8%A8%AD%E7%BD%AE&quot; aria-label=&quot;環境設置 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;環境設置&lt;/h2&gt;
+&lt;h3 id=&quot;安裝-java-sdk&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%AE%89%E8%A3%9D-java-sdk&quot; aria-label=&quot;安裝 java sdk permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;安裝 JAVA SDK&lt;/h3&gt;
+&lt;p&gt;CentOS 用下面指令安裝 JDK 版本&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;yum &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; java-1.8.0-openjdk-devel&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;執行 &lt;code class=&quot;language-text&quot;&gt;java -version&lt;/code&gt; 檢查版本&lt;/p&gt;
+&lt;p&gt;順帶一提，如果安裝多個 JAVA 版本，可以用下面命令切換 JAVA 版本&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;alternatives --config java&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;MacOS 使用 Homebrew 安裝&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;brew tap adoptopenjdk/openjdk
+brew cask &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; adoptopenjdk8&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;可以透過修改環境變量 &lt;code class=&quot;language-text&quot;&gt;.bash_profile&lt;/code&gt; 或 &lt;code class=&quot;language-text&quot;&gt;.zshrc&lt;/code&gt; 更換版本&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;JAVA_HOME&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;/usr/libexec/java_home -v &lt;span class=&quot;token number&quot;&gt;1.8&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;JAVA_HOME&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;/usr/libexec/java_home -v &lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;新增環境變量&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%96%B0%E5%A2%9E%E7%92%B0%E5%A2%83%E8%AE%8A%E9%87%8F&quot; aria-label=&quot;新增環境變量 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;新增環境變量&lt;/h3&gt;
+&lt;p&gt;默認 java 安裝路徑在 &lt;code class=&quot;language-text&quot;&gt;/usr/lib/jvm/java-1.8.0&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在 &lt;code class=&quot;language-text&quot;&gt;~/.bashrc&lt;/code&gt; 或 &lt;code class=&quot;language-text&quot;&gt;~/.bash_profile&lt;/code&gt; 新增以下內容&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;JAVA_HOME&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/usr/lib/jvm/java-1.8.0
+&lt;span class=&quot;token assign-left variable&quot;&gt;JRE_HOME&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$JAVA_HOME&lt;/span&gt;/jre
+&lt;span class=&quot;token assign-left variable&quot;&gt;CLASSPATH&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;.:&lt;span class=&quot;token variable&quot;&gt;$JAVA_HOME&lt;/span&gt;/lib/dt.jar:&lt;span class=&quot;token variable&quot;&gt;$JAVA_HOME&lt;/span&gt;/lib/tools.jar:&lt;span class=&quot;token variable&quot;&gt;$JRE_HOME&lt;/span&gt;/lib
+&lt;span class=&quot;token assign-left variable&quot;&gt;&lt;span class=&quot;token environment constant&quot;&gt;PATH&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$JAVA_HOME&lt;/span&gt;/bin:&lt;span class=&quot;token variable&quot;&gt;$JRE_HOME&lt;/span&gt;/bin:&lt;span class=&quot;token environment constant&quot;&gt;$PATH&lt;/span&gt;
+&lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; JAVA_HOME JRE_HOME CLASSHOME &lt;span class=&quot;token environment constant&quot;&gt;PATH&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;更新環境變量&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;source&lt;/span&gt; ~/.bashrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;檢查-tomcat-配置&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E6%AA%A2%E6%9F%A5-tomcat-%E9%85%8D%E7%BD%AE&quot; aria-label=&quot;檢查 tomcat 配置 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;檢查 tomcat 配置&lt;/h3&gt;
+&lt;p&gt;到 tomcat 目錄的 bin 路徑下，使用 &lt;code class=&quot;language-text&quot;&gt;./configtest.sh&lt;/code&gt; 檢查配置，前幾行應該看起來像下面配置&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@VM_centos /etc/tomcat/bin&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;$ ./configtest.sh
+Using CATALINA_BASE:   /etc/tomcat
+Using CATALINA_HOME:   /etc/tomcat
+Using CATALINA_TMPDIR: /etc/tomcat/temp
+Using JRE_HOME:        /usr/lib/jvm/java-1.8.0/jre
+Using CLASSPATH:       /etc/tomcat/bin/bootstrap.jar:/etc/tomcat/bin/tomcat-juli.jar
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;安裝-maven&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%AE%89%E8%A3%9D-maven&quot; aria-label=&quot;安裝 maven permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;安裝 Maven&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;yum &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; maven&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;maven 默認安裝在家目錄的 &lt;code class=&quot;language-text&quot;&gt;.m2/&lt;/code&gt; 路徑下&lt;/p&gt;
+&lt;p&gt;在安裝路徑下新增 &lt;code class=&quot;language-text&quot;&gt;~/.m2/settings.xml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;視開發環境情況設定 mirror 鏡像、proxy 代理、第三方 repository 庫&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;xml&quot;&gt;&lt;pre class=&quot;language-xml&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;settings&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;xmlns&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;http://maven.apache.org/SETTINGS/1.0.0&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token attr-name&quot;&gt;&lt;span class=&quot;token namespace&quot;&gt;xmlns:&lt;/span&gt;xsi&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;http://www.w3.org/2001/XMLSchema-instance&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token attr-name&quot;&gt;&lt;span class=&quot;token namespace&quot;&gt;xsi:&lt;/span&gt;schemaLocation&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;mirrors&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;mirror&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;nexus-tencentyun&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;mirrorOf&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;central&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;mirrorOf&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Nexus tencentyun&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;https://mirrors.tencent.com/nexus/repository/maven-public/&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;mirror&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;mirrors&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;proxies&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;proxy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;httpproxy&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;active&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;true&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;active&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;protocol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;http&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;protocol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;host&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;IP OR Domain&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;host&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;port&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;PORT&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;port&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;username&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;username&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;password&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;password&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;nonProxyHosts&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;localhost|127.0.0.1&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;nonProxyHosts&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;proxy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;proxy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;httpsproxy&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;active&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;true&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;active&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;protocol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;https&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;protocol&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;host&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;IP OR Domain&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;host&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;port&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;PORT&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;port&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;nonProxyHosts&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;localhost|127.0.0.1&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;nonProxyHosts&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;proxy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;proxies&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;profiles&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;profile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;activation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;activeByDefault&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;true&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;activeByDefault&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;activation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;repositories&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;repository&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;tencent&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;https://mirrors.tencent.com/nexus/repository/maven-public/&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;url&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;releases&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+            &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;enabled&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;true&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;enabled&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;releases&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;snapshots&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+            &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;enabled&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;false&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;enabled&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;snapshots&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;repository&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;repositories&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;profile&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;profiles&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;settings&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;編譯項目&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%B7%A8%E8%AD%AF%E9%A0%85%E7%9B%AE&quot; aria-label=&quot;編譯項目 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;編譯項目&lt;/h3&gt;
+&lt;p&gt;下載依賴 jar 並編譯項目&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;mvn clean pacakge -DskipTests -Ptest -U&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;執行完成後把 target 目錄下的 .war 檔案複製到 tomcat/webapps&lt;/p&gt;
+&lt;h3 id=&quot;啟動服務&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%95%9F%E5%8B%95%E6%9C%8D%E5%8B%99&quot; aria-label=&quot;啟動服務 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;啟動服務&lt;/h3&gt;
+&lt;p&gt;到 tomcat/bin 目錄下執行 &lt;code class=&quot;language-text&quot;&gt;./catalina.sh run&lt;/code&gt; 檢查第一次執行是否有報錯&lt;/p&gt;
+&lt;p&gt;之後執行 &lt;code class=&quot;language-text&quot;&gt;./startup.sh&lt;/code&gt; 在背景啟動服務&lt;/p&gt;
+&lt;p&gt;瀏覽器訪問 &lt;a href=&quot;http://ip:port/project_name/index.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;http://ip:port/project_name/index.html&lt;/a&gt;， 如果可以訪問表示服務啟動成功&lt;/p&gt;
+&lt;h3 id=&quot;編輯器-ide&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E7%B7%A8%E8%BC%AF%E5%99%A8-ide&quot; aria-label=&quot;編輯器 ide permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;編輯器 (IDE)&lt;/h3&gt;
+&lt;p&gt;安装 &lt;a href=&quot;https://www.jetbrains.com/idea/download/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;IntelliJ IDEA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;建議安裝 Ultimate 版本才有內建 Tomcat 配置功能，和更多完整功能&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/traverse/static/6e41475403e943d83072eb27bb39c876/098d4/tomcat-server-local.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.82278481012659%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAABxklEQVQoz1WRSW7cMBBFdR1nk5VhtySSNbCqOKvbMewAWeX+lwjYchoJ8EBw8/GHWiRlyYXFWCxQ3AOKiuWa26j9KP2o/dBcUm25drEslojNYjGpywbU337EVIDVIV28D1o4D1JDqzQpoJmskBVH4kgjy820Ei870Hj/YE0XF7aAqweMVseVxKJllLQDO4qeJLCEqEDcAA7VirhsAdtxJU2rhy3gCWm22krvMZXAwpbYsqSiuZKYRzpZ9oDHaGT5FK8ePMXZIqqUGlOebndClBAFxSZqILr4gL+Oa+6HQz7FgSX3YaXlPso4tLQyrqkNtkSa/KwQA4vD2ZmP22fu4yH2FCXX0qeMrcQ0YctsCdVOsWfxU4zc3j+01Edsh2yla6laKoieCVHMStPSrM431c6aFkc0Pt/69Uaim4c9oAOabjY3Y0sxTU9PcdZmOYE477q8etRxxdxfAj87fHZzbRQNFPHvVBDlDPUPYQuwfN/wEm3Pt6cX+PaKTy/g5s6FxEgnKLYD7UjuP3gHWhDpZz/aPfbq/Oq850iW7vEiRPHEa/gy3AKsDzwsjzFJDaLA/ZL3npP50fR1Z5bcRm4Hi0L78LfffwCW3c+8mtc/BwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Tomcat local&quot;
+        title=&quot;Tomcat local&quot;
+        src=&quot;/traverse/static/6e41475403e943d83072eb27bb39c876/f058b/tomcat-server-local.png&quot;
+        srcset=&quot;/traverse/static/6e41475403e943d83072eb27bb39c876/c26ae/tomcat-server-local.png 158w,
+/traverse/static/6e41475403e943d83072eb27bb39c876/6bdcf/tomcat-server-local.png 315w,
+/traverse/static/6e41475403e943d83072eb27bb39c876/f058b/tomcat-server-local.png 630w,
+/traverse/static/6e41475403e943d83072eb27bb39c876/40601/tomcat-server-local.png 945w,
+/traverse/static/6e41475403e943d83072eb27bb39c876/78612/tomcat-server-local.png 1260w,
+/traverse/static/6e41475403e943d83072eb27bb39c876/098d4/tomcat-server-local.png 2142w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/traverse/static/fe14f4438ad9b55d899c1ae6b2e3c496/29007/tomcat-new-config.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 83.54430379746836%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA7klEQVQ4y+WS227DIAxA81G7JAZfITSXqm3W9A/2tv9/nxI6qUpaZd3rpCMEhiMby8XxPKa2VwsWYkZDLRabrj8MH/vDKbWd2BRcUzSVE8AX1jfSV5pWIAGSErn0VHqqkHNkTaEke+8HdKOHM8IRHbC6GS/mxdzPcU0BYshSE2UCETx+vZQ9K7CWbJmKzT0l5wpRntCucjYl1BLT9EOSxYtFk+5kXl9kUAOHSBbJAllEDXfkR0hMqetj04XU1G2v9e42x4YMJBVulf03/pss1yGZd7ds9H8eJHNsRdg1v8wGJKhxGC+xP70PX9Xx8xuMa/u6DbWIKwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Tomcat new config&quot;
+        title=&quot;Tomcat new config&quot;
+        src=&quot;/traverse/static/fe14f4438ad9b55d899c1ae6b2e3c496/f058b/tomcat-new-config.png&quot;
+        srcset=&quot;/traverse/static/fe14f4438ad9b55d899c1ae6b2e3c496/c26ae/tomcat-new-config.png 158w,
+/traverse/static/fe14f4438ad9b55d899c1ae6b2e3c496/6bdcf/tomcat-new-config.png 315w,
+/traverse/static/fe14f4438ad9b55d899c1ae6b2e3c496/f058b/tomcat-new-config.png 630w,
+/traverse/static/fe14f4438ad9b55d899c1ae6b2e3c496/40601/tomcat-new-config.png 945w,
+/traverse/static/fe14f4438ad9b55d899c1ae6b2e3c496/78612/tomcat-new-config.png 1260w,
+/traverse/static/fe14f4438ad9b55d899c1ae6b2e3c496/29007/tomcat-new-config.png 1600w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/traverse/static/e28d3cd5f294dcd14719d3b9b5571f8e/29007/tomcat-server-path.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 83.54430379746836%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAyUlEQVQ4y+3SwW7DIAzGcd6qWrMEMAYMNglhWdsH6K3vf6+yqlJ2WKT1XOknX6z/7VO1fcXE1mHIkmRMMtLPzWNtp0tbTszClEaimDhsZVE+cS4TUuZ5SVOjUqnUKDXKhLkA4Oxcc3AGg550SObJEq9xyBK5uEBIiaQ8RBFiISnah8GH3keD3m6Aj2oAfOit084bDFvahd7Ck/sNVaftcTA7Om3/oj4N7Lz3veN3vMu8Eq+DXTcLnYZ/xMfB9Bbn5Ru5Hubbx3S9Awt/AWDq0TAJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Tomcat server path&quot;
+        title=&quot;Tomcat server path&quot;
+        src=&quot;/traverse/static/e28d3cd5f294dcd14719d3b9b5571f8e/f058b/tomcat-server-path.png&quot;
+        srcset=&quot;/traverse/static/e28d3cd5f294dcd14719d3b9b5571f8e/c26ae/tomcat-server-path.png 158w,
+/traverse/static/e28d3cd5f294dcd14719d3b9b5571f8e/6bdcf/tomcat-server-path.png 315w,
+/traverse/static/e28d3cd5f294dcd14719d3b9b5571f8e/f058b/tomcat-server-path.png 630w,
+/traverse/static/e28d3cd5f294dcd14719d3b9b5571f8e/40601/tomcat-server-path.png 945w,
+/traverse/static/e28d3cd5f294dcd14719d3b9b5571f8e/78612/tomcat-server-path.png 1260w,
+/traverse/static/e28d3cd5f294dcd14719d3b9b5571f8e/29007/tomcat-server-path.png 1600w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/traverse/static/cb5c14d33d157178f867005b9ecc8ab7/c27e7/tomcat-config-step1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.82278481012659%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAABf0lEQVQoz4WSy44UMQxF65OAFdQjsR0779SzawbBBiEQK1YwPwA/jlI1arVaI0Y6imTrXsex00hILk1kA9rQI/fIyNY4H8voYrIhsfck9gTFKmLjvPhI4pr36Uf++id++fsuP71NT2/ibyVFYpZpJ5+0YbIepJYjF3qgTuOVpkMql6XMG/kI4ltNAxoUC2yBpQe85dbZKmg6wPHhscxrW+Pn7JVb9R3VPCDt+16WTUIa0LyoU8SK+K7nw6xxm5e8rD4VEvf/2+7NPXH5+DmW6Yy75+bp4FWzxnnb4jhrI9dsq3RFv/bmHnDcLnmcUWzNKgAQwyNR0cCt1l0t8QKt0k2HUh6/Tcuap8XnUYF2su4Pv3L+yVg+KHXozsnf0/QA62XSLJ2GHqjVOBgDbBQR1F/lgC1ZR+IGMD3QgJU6ecCmU2oaE4dUnUq3gxJrXSpkvXHhOL0ivm7xXBgayy40xgUUz4dOs6AREcc+GFfNJ8BWG9HEPo8hT7EUnj/R5fs/BS3L+bgu444AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Tomcat config step1&quot;
+        title=&quot;Tomcat config step1&quot;
+        src=&quot;/traverse/static/cb5c14d33d157178f867005b9ecc8ab7/f058b/tomcat-config-step1.png&quot;
+        srcset=&quot;/traverse/static/cb5c14d33d157178f867005b9ecc8ab7/c26ae/tomcat-config-step1.png 158w,
+/traverse/static/cb5c14d33d157178f867005b9ecc8ab7/6bdcf/tomcat-config-step1.png 315w,
+/traverse/static/cb5c14d33d157178f867005b9ecc8ab7/f058b/tomcat-config-step1.png 630w,
+/traverse/static/cb5c14d33d157178f867005b9ecc8ab7/40601/tomcat-config-step1.png 945w,
+/traverse/static/cb5c14d33d157178f867005b9ecc8ab7/78612/tomcat-config-step1.png 1260w,
+/traverse/static/cb5c14d33d157178f867005b9ecc8ab7/c27e7/tomcat-config-step1.png 2144w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/traverse/static/7bacf101973c1ee40440932b1736c553/7e4a6/tomcat-config-step2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 103.79746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAACXBIWXMAABYlAAAWJQFJUiTwAAABS0lEQVQ4y+3TzU7CQBDA8T6MBkg8Q7cf291pyxbKdrtd2qVIS/GKB/RRfAffQg010ecyhZgYD8jVhOSXSSaZ/3EMpXWSyVRlmBLig0cpY2GeKyG4UlJKkQpe5IqxEIAEAfzgGzmL67RcJbqM56tEL3gRilWU1VPVRLIepxWTVShu43xD48WQ8BFNDoRJJoZOH9nuU+322cM+2raT4rlfv/aadtC0/abtHed6P9i899b76+rt4OVq/XGTPRkzFi/lci11oxaVKEqheXGHmRqRmUn5LwiSbwLRiWFS3ySAKFjURxRsAAzgeMTG3mkW9gyXgI2p7dFudoh1XP9iYWI4BM45vcSX+N/EYBOwMD03Rq5nOhi5noOx7Vgd7Hax1X3SKQ6BiAsuVTSNR2OFsq2l7oesMDAELvVPwxBwmc11OUsSNNF2sXP0A5ouvwCw20mpgf/nEAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Tomcat config step2&quot;
+        title=&quot;Tomcat config step2&quot;
+        src=&quot;/traverse/static/7bacf101973c1ee40440932b1736c553/f058b/tomcat-config-step2.png&quot;
+        srcset=&quot;/traverse/static/7bacf101973c1ee40440932b1736c553/c26ae/tomcat-config-step2.png 158w,
+/traverse/static/7bacf101973c1ee40440932b1736c553/6bdcf/tomcat-config-step2.png 315w,
+/traverse/static/7bacf101973c1ee40440932b1736c553/f058b/tomcat-config-step2.png 630w,
+/traverse/static/7bacf101973c1ee40440932b1736c553/40601/tomcat-config-step2.png 945w,
+/traverse/static/7bacf101973c1ee40440932b1736c553/7e4a6/tomcat-config-step2.png 952w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/traverse/static/37f505a544d1ae56bc84973fcda02600/098d4/tomcat-config-step3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.82278481012659%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAABfklEQVQoz5WS3YoUQQyF62XUaxcZnO7qqiRVSf10d1VPzYy76p144xOoKPjq0j0z6IKiCx8hEA4JJ0dxyiFPxAG8aCANhCw+xDyXME6SR06JRDYCSQDnnSSOmSSql4MzczPj8cVrfL6DZzur0XMepTQKyRIRM3p2Ii4EDdBbewOUBpxOZV6aCwk5doPW6Z19+LFv33bL97vpy930+U98fRU/qR6o3L+Zl9ZZ7Az0W+0sdWalt+5vdIaUQTqfz6WdJI0Dut5ib2Gr/6AzoAagYz1MS7vYti3/fzH58vB+LLWH69lPEGug2tpYFnB8GzxFPLfTVBfkoIH6q2035wzsLXa3/jFWaZT5/mNtbaqHNJcBnUayjld8sI4dEqGz5IfHaHRqADyeiyHuBnvZZtDhGjj2aZKYi3Oj58ACkvA3rA+qN1Dn7NOogTpj94Oxntf0cViRCBxQInLUVzt+vUP5LaU+JhcieAHPFOKWNkEOG3LpwUuea67LVBdX39rDh5+FeczP936vjQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Tomcat config step3&quot;
+        title=&quot;Tomcat config step3&quot;
+        src=&quot;/traverse/static/37f505a544d1ae56bc84973fcda02600/f058b/tomcat-config-step3.png&quot;
+        srcset=&quot;/traverse/static/37f505a544d1ae56bc84973fcda02600/c26ae/tomcat-config-step3.png 158w,
+/traverse/static/37f505a544d1ae56bc84973fcda02600/6bdcf/tomcat-config-step3.png 315w,
+/traverse/static/37f505a544d1ae56bc84973fcda02600/f058b/tomcat-config-step3.png 630w,
+/traverse/static/37f505a544d1ae56bc84973fcda02600/40601/tomcat-config-step3.png 945w,
+/traverse/static/37f505a544d1ae56bc84973fcda02600/78612/tomcat-config-step3.png 1260w,
+/traverse/static/37f505a544d1ae56bc84973fcda02600/098d4/tomcat-config-step3.png 2142w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/traverse/static/659554626dcce3bb4c130e24586d2b51/098d4/tomcat-config-step4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.82278481012659%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB10lEQVQoz0VSS27dMAz0ZdquuymaZ0siKVLUX35OXtKiu6L3P0MhO2mBAcEFScxwZpGUNVcSBQ4b0AaEHFhT6UNLlZQlZQpKIZxVwbMPkUMk1uWr8bYdtjx/+Y6fv8Gnb26VLHVITBQihehDRAleo9dogFaHBr3X5LwsG2B96W0/vCYUvVlA0ViaI0Yvzsvm8GI04XBzaIklFceyrED97bXtx83hzcLqcHUoqcTaymgh1UkyZtIoqYRSMegGtJ63Fov0eDz68RJSMehvFk5Wk3BIRUuLpT5UXpkeQrvwEN6FkyqGuBig53Gv+3G97ck4FK3jTlOqptotsSPmU+Tq4L8EwMUQ9x+/Sh8rvNM2yBxzrC3kkmqXmDmmiwuKWvITng3SsgGN4yh9h3l47gNLbnvbj9i618inW5JyyFVSuU5cdS6346WOHeX8hJ3EpkmiPN1SDDMCwOJ1mseavCaOCTgsG4b29mccRx331LpBvwHF2uX81jmXvSaD3hJP/f6qYoAWA/j86JbkZtzl03QS/Zz2/A+XogkHV7M6WFYLo2VOZQO6WfdkrGORmOkU5j8UUoinve+BWc+oLTMAMwbzn5c2mklMKOEDejXAIbeR+72O3Y+f7v77L6HJ0WGR55hfAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Tomcat config step4&quot;
+        title=&quot;Tomcat config step4&quot;
+        src=&quot;/traverse/static/659554626dcce3bb4c130e24586d2b51/f058b/tomcat-config-step4.png&quot;
+        srcset=&quot;/traverse/static/659554626dcce3bb4c130e24586d2b51/c26ae/tomcat-config-step4.png 158w,
+/traverse/static/659554626dcce3bb4c130e24586d2b51/6bdcf/tomcat-config-step4.png 315w,
+/traverse/static/659554626dcce3bb4c130e24586d2b51/f058b/tomcat-config-step4.png 630w,
+/traverse/static/659554626dcce3bb4c130e24586d2b51/40601/tomcat-config-step4.png 945w,
+/traverse/static/659554626dcce3bb4c130e24586d2b51/78612/tomcat-config-step4.png 1260w,
+/traverse/static/659554626dcce3bb4c130e24586d2b51/098d4/tomcat-config-step4.png 2142w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;non-root-user-additional&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#non-root-user-additional&quot; aria-label=&quot;non root user additional permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;non-root user (Additional)&lt;/h2&gt;
+&lt;h3 id=&quot;add-tomcat-serivce&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#add-tomcat-serivce&quot; aria-label=&quot;add tomcat serivce permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Add tomcat serivce&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Unit&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+Description=Apache Tomcat Web Application Container
+After=syslog.target network.target
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Service&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+Type=forking
+
+Environment=JAVA_HOME=/usr/lib/jvm/java&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;1.8.0&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;openjdk&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;1.8.0.71&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;2.b15.el7_2.x86_64/jre
+Environment=CATALINA_PID=/etc/tomcat/temp/tomcat.pid
+Environment=CATALINA_HOME=/etc/tomcat
+Environment=CATALINA_BASE=/etc/tomcat
+Environment=&apos;CATALINA_OPTS=&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;Xms512M &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;Xmx1024M &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;server &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;XX&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;+UseParallelGC&apos;
+Environment=&apos;JAVA_OPTS=&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;Djava.awt.headless=true &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;Djava.security.egd=file&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;/dev/./urandom&apos;
+
+ExecStart=/etc/tomcat/bin/startup.sh
+ExecStop=/bin/kill &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;15 $MAINPID
+
+User=tomcat
+Group=tomcat
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Install&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+WantedBy=multi&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;user.target&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;reload-systemd&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reload-systemd&quot; aria-label=&quot;reload systemd permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Reload systemd&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;systemctl daemon-reload&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;add-tomcat-group-and-user&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#add-tomcat-group-and-user&quot; aria-label=&quot;add tomcat group and user permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Add tomcat group and user&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;groupadd&lt;/span&gt; tomcat
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; /opt/tomcat
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useradd&lt;/span&gt; -s /bin/nologin -g tomcat -d /opt/tomcat tomcat&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;setup-proper-permission&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#setup-proper-permission&quot; aria-label=&quot;setup proper permission permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Setup proper permission&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; /opt/tomcat
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chgrp&lt;/span&gt; -R tomcat conf
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; g+rwx conf
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; g+r conf/*
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chown&lt;/span&gt; -R tomcat logs/ temp/ webapps/ work/
+
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chgrp&lt;/span&gt; -R tomcat bin
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chgrp&lt;/span&gt; -R tomcat lib
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; g+rwx bin
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; g+r bin/*&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;參考&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%E5%8F%83%E8%80%83&quot; aria-label=&quot;參考 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;參考&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://linuxize.com/post/install-java-on-centos-7/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://linuxize.com/post/install-java-on-centos-7/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/98057/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/98057/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.vultr.com/docs/how-to-install-apache-tomcat-8-on-centos-7#Step_8__Start_and_test_Apache_Tomcat&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.vultr.com/docs/how-to-install-apache-tomcat-8-on-centos-7#Step_8__Start_and_test_Apache_Tomcat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.gtwang.org/linux/centos-linux-7-install-apache-tomcat-9-tutorial/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://blog.gtwang.org/linux/centos-linux-7-install-apache-tomcat-9-tutorial/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[VS Code 多行註解時前面不會插入星號]]></title><description><![CDATA[當 VS Code 漸漸取代 Sublime 成爲一些開發者最愛的 coding 編輯器 往回看 Sublime 時代有 DocBlockr 這種插件可以自動在 function 前面自動插入含傳入和傳出參數的多行註解 再看現在 VS Code 相對 Sublime…]]></description><link>https://hoyangtsai.github.io/vs-code-multi-line-comment-not-insert-asterisk/</link><guid isPermaLink="false">https://hoyangtsai.github.io/vs-code-multi-line-comment-not-insert-asterisk/</guid><pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;當 VS Code 漸漸取代 Sublime 成爲一些開發者最愛的 coding 編輯器&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;往回看 Sublime 時代有 &lt;a href=&quot;https://packagecontrol.io/packages/DocBlockr&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;DocBlockr&lt;/a&gt; 這種插件可以自動在 function 前面自動插入含傳入和傳出參數的多行註解&lt;/p&gt;
+&lt;p&gt;再看現在 VS Code 相對 Sublime 需要消耗更多電腦資源，所以希望保持安裝的延伸模組盡可能少，只要能在定義函數 (function) 前面寫註解時按下 enter 可以在前面補上星號就好&lt;/p&gt;
+&lt;p&gt;但是視乎最平常的功能，不知道從何時開始就不工作了，一開始以為是安裝的延伸模組衝突導致多行註解在換行時不會自動插入星號，最後找到問題是在喜好設定-文字編輯器 Editor: Auto Indent (自動縮排) 設定為 brackets 而導致的&lt;/p&gt;
+&lt;p&gt;順便在網路上搜尋一下有關 auto indent 的功用，其實 auto indent 可以和 editor.defaultFormatter 做搭配使用。
+editor.defaultFormatter 預設為 null，如果要變更格式化工具，建議透過 JSON 檔案編輯喜好設定，因為這樣才可以針對不同的程式語言設定支援的格式化工具。
+最新版的 VS Code 已經內建支援很多程式語言的格式化工具，可以打開預設設定 Default Settings (JSON) 搜尋 defaultFormatter 查看支援的程式語言，&lt;code class=&quot;language-text&quot;&gt;vscode&lt;/code&gt; 和 &lt;code class=&quot;language-text&quot;&gt;ms-vscode&lt;/code&gt; 開頭的就是內建的。&lt;/p&gt;
+&lt;p&gt;現在額外的格式化工具比較流行的有兩個 &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Beautify&lt;/a&gt;
+和 &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Prettier&lt;/a&gt;，從裡面選擇其中一個作為開發 vue 的格式化工具，一樣原則盡量保持少量的延伸模組。&lt;/p&gt;
+&lt;p&gt;以下 editor.defaultFormatter 設定提供參考&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;[javascript]&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;editor.defaultFormatter&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;vscode.typescript-language-features&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;[json]&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;editor.defaultFormatter&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;vscode.json-language-features&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;[vue]&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;editor.defaultFormatter&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;esbenp.prettier-vscode&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;[css]&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;editor.defaultFormatter&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;vscode.css-language-features&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;[html]&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;editor.defaultFormatter&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;vscode.html-language-features&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[圖片最佳化]]></title><description><![CDATA[網頁優化/最佳化，圖片壓縮是不可忽視的一塊。
 透過 PageSpeed Insights 分析可以為你的網頁打分數。 圖片壓縮程式 根據 Google PageSpeed Insights 建議對於 JPEG 檔案壓縮可以使用 jpegtran 或 jpegoptim…]]></description><link>https://hoyangtsai.github.io/image-optimization/</link><guid isPermaLink="false">https://hoyangtsai.github.io/image-optimization/</guid><pubDate>Sat, 12 Dec 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;網頁優化/最佳化，圖片壓縮是不可忽視的一塊。&lt;br&gt;
 透過 &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;PageSpeed Insights&lt;/a&gt; 分析可以為你的網頁打分數。&lt;br&gt;&lt;/p&gt;
 &lt;!-- more --&gt;

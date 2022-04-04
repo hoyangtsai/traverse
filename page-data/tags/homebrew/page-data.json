@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/tags/homebrew/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":3,"edges":[{"node":{"fields":{"slug":"/apple-silicon-compatibility/"},"frontmatter":{"title":"蘋果晶片相容情況","date":"January 24, 2021"}}},{"node":{"fields":{"slug":"/image-optimization/"},"frontmatter":{"title":"圖片最佳化","date":"December 12, 2015"}}},{"node":{"fields":{"slug":"/mac-using-homebrew-install-mariadb/"},"frontmatter":{"title":"Mac 用 Homebrew 安裝 MariaDB","date":"December 09, 2015"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"homebrew"}},
+    "result": {"data":{"allMarkdownRemark":{"totalCount":4,"edges":[{"node":{"fields":{"slug":"/apple-silicon-compatibility/"},"frontmatter":{"title":"蘋果晶片相容情況","date":"January 24, 2021"}}},{"node":{"fields":{"slug":"/tomcat-server-setup/"},"frontmatter":{"title":"Tomcat 服務器環境設置","date":"April 18, 2020"}}},{"node":{"fields":{"slug":"/image-optimization/"},"frontmatter":{"title":"圖片最佳化","date":"December 12, 2015"}}},{"node":{"fields":{"slug":"/mac-using-homebrew-install-mariadb/"},"frontmatter":{"title":"Mac 用 Homebrew 安裝 MariaDB","date":"December 09, 2015"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"homebrew"}},
     "staticQueryHashes": []}
