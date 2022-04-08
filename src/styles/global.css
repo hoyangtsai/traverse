@@ -11,7 +11,7 @@
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
   --maxWidth-full: "100%";
-  --maxWidth-wrapper: var(--maxWidth-2xl);
+  --maxWidth-wrapper: var(--maxWidth-3xl);
   --spacing-px: "1px";
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -235,6 +235,16 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
+}
+
+/* Image */
+
+figure {
+  margin: 0;
+}
+
+.gatsby-resp-image-wrapper .gatsby-resp-image-image {
+  object-fit: contain;
 }
 
 /* Custom classes */

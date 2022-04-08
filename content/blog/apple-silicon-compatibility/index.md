@@ -140,7 +140,7 @@ xcode-select --install
 
   勾選 ☑️ 使用 Rosetta 打開
 
-  <img src="./img/rosetta.jpg" alt="Rosetta" width="377" height="auto" />
+  ![Rosetta](img/rosetta.jpg)
 
   結束 iTerm 重新打開就可以安裝 node 12 了
 

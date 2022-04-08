@@ -1,17 +1,16 @@
 ---
-layout: post
-title: Macbook Air M1 心得
-description: 使用 Macbook Air M1 超過一個月的心得
+title: MacBook Air M1 心得
+description: 使用 MacBook Air M1 超過一個月的心得
 date: 2021-03-02
 tags: [mac]
 donation: true
 ---
 
-從 2009 年 Macbook 開始踏入 Mac OS 這個領域
+從 2009 年 MacBook 開始踏入 Mac OS 這個領域
 
 沒有參與過 PowerPC 轉換 Intel 這個歷史時刻
 
-Macbook 是從 2006 年開始進行這次的轉換
+MacBook 是從 2006 年開始進行這次的轉換
 
 Intel 環境支援已經算完整
 
@@ -64,7 +63,7 @@ Apple 即將進入第三次的轉換
 
 大部分都談論剪片有多順、影片導出有多快
 
-比拼最新的 Macbook 16" 或甚至 Mac Pro 的
+比拼最新的 MacBook 16" 或甚至 Mac Pro 的
 
 對我來說實際意義不大
 
@@ -85,7 +84,7 @@ everything it just works 操作很流暢
 
 ## 鍵盤輸入
 
-我上一台 Macbook 是公司提供的最基本款的 2017 Macbook Pro 13" 256GB 硬碟 / 8GB 記憶體
+我上一台 MacBook 是公司提供的最基本款的 2017 MacBook Pro 13" 256GB 硬碟 / 8GB 記憶體
 
 鍵盤是不知道第幾代的 butterfly keyboard 蝶式鍵盤
 
@@ -93,13 +92,13 @@ Apple 很努力想改進他們所謂更輕薄的鍵盤
 
 但是輸入體驗依舊是很難打
 
-所以在新版的 M1 晶片 Macbook Pro / Air 改回傳統式的剪刀式鍵盤
+所以在新版的 M1 晶片 MacBook Pro / Air 改回傳統式的剪刀式鍵盤
 
 輸入體驗上更輕彈好按
 
 ## 電池續航力
 
-在印象中 2009 年的第一台 Macbook 確實相較之前的 Windows 筆電續航更久
+在印象中 2009 年的第一台 MacBook 確實相較之前的 Windows 筆電續航更久
 
 大概有 2 ~ 3 小時的電池續航
 
@@ -113,7 +112,7 @@ Apple 很努力想改進他們所謂更輕薄的鍵盤
 
 沒什麼進步
 
-直到我換到這台 Macbook Air M1 使用才感受到什麼叫真的叫低工耗
+直到我換到這台 MacBook Air M1 使用才感受到什麼叫真的叫低工耗
 
 在工作量大的情況下可以有 6 小時以上的使用時間
 
@@ -121,9 +120,9 @@ Apple 很努力想改進他們所謂更輕薄的鍵盤
 
 現在可以很肯定的說不需要帶充電器出門
 
-我上一台自己的 Macbook Air 是 2014 年 13吋版本
+我上一台自己的 MacBook Air 是 2014 年 13吋版本
 
-升級到 Macbook Air M1 超級有感
+升級到 MacBook Air M1 超級有感
 
 多了獨立喇叭、TouchID
 
@@ -136,7 +135,7 @@ Apple 很努力想改進他們所謂更輕薄的鍵盤
   - 執行程式
 - 可攜性更高，使用一整天不需要帶充電器
 - 鍵盤好打，新的剪刀鍵盤而不是難打的蝶式鍵盤
-- 如果是買 Macbook Air  沒有 Touch bar 但速度沒有犧牲
+- 如果是買 MacBook Air  沒有 Touch bar 但速度沒有犧牲
 - 可以執行部分 iOS App
 
 缺點
@@ -151,10 +150,10 @@ Apple 很努力想改進他們所謂更輕薄的鍵盤
 
 最近看到的爆料
 
-- 會有 14" 和 16" 吋 Arm 版本的 Macbook Air/Pro
+- 會有 14" 和 16" 吋 Arm 版本的 MacBook Air/Pro
 - 外型會有新的設計，像是 iPhone 12 平面設計？！
 - 螢幕更亮、對比度更高，使用 Micro-LED
 - 比現在最多 4 個 Thunderbolt 雷電接口，更多類型的接口，像是 SD Card 或 HDMI
-- 充電將回歸 Magsafe 磁吸設計
+- 充電將回歸 MagSafe 磁吸設計
 - 移除 Touch Bar
 - 其他機型 iMac 將會有全新的設計

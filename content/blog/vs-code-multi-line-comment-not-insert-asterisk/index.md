@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2020-04-11
 title: VS Code 多行註解時前面不會插入星號
 description: 解決困擾已久多行註解不會自動插入星號

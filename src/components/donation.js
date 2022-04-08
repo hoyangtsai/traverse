@@ -25,7 +25,7 @@ const Donation = () => {
         </div>
         {/* Paypal */}
         <div className={styles.donatePaypal}>
-          <a href="https://www.paypal.me/hoyangtsai" target="_blank">
+          <a href="https://www.paypal.me/hoyangtsai" target="_blank" rel="noreferrer">
             <StaticImage width={115} height={44} layout="fixed" src="https://checkout.paypal.com/pwpp/1.6.1/images/pay-with-paypal.png" alt="paypal donation" />
           </a>
         </div>

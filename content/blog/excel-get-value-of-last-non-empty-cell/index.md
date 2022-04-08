@@ -14,7 +14,7 @@ donation: false
 
 如果想知道一個值在一列數據中落在哪一個單元 (cell) 就可以用到 LOOKUP
 
-```excel
+```txt
 =LOOKUP(查找值, 查找陣列, [結果陣列])
 ```
 
@@ -87,13 +87,13 @@ donation: false
 
 取得一列中最後一個非空的值的公式
 
-```excel
+```txt
 =LOOKUP(1,1/(A:A<>""),A:A)
 ```
 
 如果是表格，可以指定某一列名稱
 
-```excel
+```txt
 =LOOKUP(1,1/(表格1[合計股]<>""),表格1[合計股])
 ```
 

@@ -44,7 +44,19 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 630,
+              maxWidth: 720,
+              linkImagesToOriginal: false,
+              backgroundColor: 'none',
+              wrapperStyle: ({ aspectRatio }) => {
+                let styles = 'margin: initial;';
+                if (aspectRatio < 1) {
+                  // portrait
+                  styles += 'max-width: 60%;';
+                } else {
+                  // landscape
+                }
+                return styles;
+              }
             },
           },
           {
