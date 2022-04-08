@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/tags/nodejs/",
+    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/install-multiple-version-of-nodejs/"},"frontmatter":{"title":"安裝多版本 Node.js","date":"July 26, 2016"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"nodejs"}},
+    "staticQueryHashes": []}

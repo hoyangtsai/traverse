@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/tags/front-end/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":3,"edges":[{"node":{"fields":{"slug":"/css-class-naming-mothodology/"},"frontmatter":{"title":"CSS Class 命名方法論","date":"December 23, 2021"}}},{"node":{"fields":{"slug":"/data-management-behind-the-official-website/"},"frontmatter":{"title":"產品官網背後的數據管理","date":"December 10, 2021"}}},{"node":{"fields":{"slug":"/image-optimization/"},"frontmatter":{"title":"圖片最佳化","date":"December 12, 2015"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"front-end"}},
+    "result": {"data":{"allMarkdownRemark":{"totalCount":4,"edges":[{"node":{"fields":{"slug":"/css-class-naming-mothodology/"},"frontmatter":{"title":"CSS Class 命名方法論","date":"December 23, 2021"}}},{"node":{"fields":{"slug":"/data-management-behind-the-official-website/"},"frontmatter":{"title":"產品官網背後的數據管理","date":"December 10, 2021"}}},{"node":{"fields":{"slug":"/flexbox/"},"frontmatter":{"title":"Flexbox 使用指南","date":"February 25, 2016"}}},{"node":{"fields":{"slug":"/image-optimization/"},"frontmatter":{"title":"圖片最佳化","date":"December 12, 2015"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"front-end"}},
     "staticQueryHashes": []}
