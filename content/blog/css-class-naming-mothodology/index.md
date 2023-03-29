@@ -6,24 +6,24 @@ tags: [front-end]
 donation: false
 ---
 
-身為Compass框架創建人，Sass核心團隊成員的 Chris Eppstein 曾這麼說過。
+身為 Compass 框架創建人，SASS 核心團隊成員的 Chris Eppstein 曾這麼說過。
 > CSS is simple. It's simple to understand. But CSS is not simple to use or maintain.
 
 <!-- more -->
 
-CSS看似簡單，但怎麼樣才能稱得上好的CSS程式碼呢？
+CSS 看似簡單，但怎麼樣才能稱得上好的 CSS 程式碼呢？
 
 剛開始接觸前端的時候，所撰寫的程式碼無非是以專案為導向，以自己來說，接到一個需求莫過於經歷：接到需求 -> 拆解需求 -> 完成需求。對於一個 HTML5 領域的新人來說，最直接簡單的方式就是透過 Google 來解決問題和學習，當時根本不懂什麼是複用性，寫出許多重複的程式碼
 
 ```css{2,5,8,11}
 .box-1 {
-    border: 1px solid I#ccc;
+    border: 1px solid #ccc;
     width: 120px;
     height: 120px;
     border-radius: 10px;
 }
 .box-2 {
-    border: 1px solid I#ccc;
+    border: 1px solid #ccc;
     width: 200px;
     height: 200px;
     border-radius: 10px;
