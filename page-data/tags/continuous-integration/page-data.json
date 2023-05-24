@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tag-js",
-    "path": "/tags/continuous-integration/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/develop-super-easy-chatbot-release-online/"},"frontmatter":{"title":"開發超簡單聊天機器人發布線上","date":"July 22, 2021"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"continuous integration"}},
-    "staticQueryHashes": []}
+{"componentChunkName":"component---src-templates-tag-js","path":"/tags/continuous-integration/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/develop-super-easy-chatbot-release-online/"},"frontmatter":{"title":"開發超簡單聊天機器人發布線上","date":"July 22, 2021"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"continuous integration"}},"staticQueryHashes":[]}

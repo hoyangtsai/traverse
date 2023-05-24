@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tag-js",
-    "path": "/tags/algorithm/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/javascript-algorithm-quickselect/"},"frontmatter":{"title":"Javascript algorithm: Quickselect","date":"January 03, 2022"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"algorithm"}},
-    "staticQueryHashes": []}
+{"componentChunkName":"component---src-templates-tag-js","path":"/tags/algorithm/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/javascript-algorithm-quickselect/"},"frontmatter":{"title":"Javascript algorithm: Quickselect","date":"January 03, 2022"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"algorithm"}},"staticQueryHashes":[]}

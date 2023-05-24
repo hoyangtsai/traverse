@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tag-js",
-    "path": "/tags/mariadb/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/mac-using-homebrew-install-mariadb/"},"frontmatter":{"title":"Mac 用 Homebrew 安裝 MariaDB","date":"December 09, 2015"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"mariadb"}},
-    "staticQueryHashes": []}
+{"componentChunkName":"component---src-templates-tag-js","path":"/tags/mariadb/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/mac-using-homebrew-install-mariadb/"},"frontmatter":{"title":"Mac 用 Homebrew 安裝 MariaDB","date":"December 09, 2015"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"mariadb"}},"staticQueryHashes":[]}

@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-tag-js",
-    "path": "/tags/tomcat/",
-    "result": {"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/tomcat-server-setup/"},"frontmatter":{"title":"Tomcat 服務器環境設置","date":"April 18, 2020"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"tomcat"}},
-    "staticQueryHashes": []}
+{"componentChunkName":"component---src-templates-tag-js","path":"/tags/tomcat/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/tomcat-server-setup/"},"frontmatter":{"title":"Tomcat 服務器環境設置","date":"April 18, 2020"}}}]},"site":{"siteMetadata":{"title":"Traverse"}}},"pageContext":{"tag":"tomcat"}},"staticQueryHashes":[]}
