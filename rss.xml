@@ -1,4 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev, Life-style]]></description><link>https://hoyangtsai.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 24 May 2023 17:04:17 GMT</lastBuildDate><item><title><![CDATA[Javascript algorithm: Quickselect]]></title><description><![CDATA[When I saw the article Javascript Algorithms: Quicksort inspires me to write a similar article of quickselect, because quickselect is…]]></description><link>https://hoyangtsai.github.io/javascript-algorithm-quickselect/</link><guid isPermaLink="false">https://hoyangtsai.github.io/javascript-algorithm-quickselect/</guid><pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When I saw the article &lt;a href=&quot;https://wsvincent.com/javascript-algorithms-quicksort/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Javascript Algorithms: Quicksort&lt;/a&gt; inspires me to write a similar article of quickselect, because quickselect is related to quicksort sorting algorithm.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev, Life-style]]></description><link>https://hoyangtsai.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Jul 2023 11:15:11 GMT</lastBuildDate><item><title><![CDATA[uBlock Origin 黑魔法隱藏 Youtube Shorts 短影片]]></title><description><![CDATA[uBlock Origin 已經是裝 Chrome 系瀏覽器必備擴充程式 預設功能已經可以阻擋多種網頁廣告和 youtube 影片廣告 還可以安裝第三方提供的 AdBlock list 像是 EasyList、AdGuard Filters…]]></description><link>https://hoyangtsai.github.io/uBlock-origin-1p-filters/</link><guid isPermaLink="false">https://hoyangtsai.github.io/uBlock-origin-1p-filters/</guid><pubDate>Tue, 25 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?utm_source=app-launcher&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;uBlock Origin&lt;/a&gt; 已經是裝 Chrome 系瀏覽器必備擴充程式&lt;/p&gt;
+&lt;p&gt;預設功能已經可以阻擋多種網頁廣告和 youtube 影片廣告&lt;/p&gt;
+&lt;p&gt;還可以安裝第三方提供的 AdBlock list&lt;/p&gt;
+&lt;p&gt;像是 &lt;a href=&quot;https://easylist.to/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;EasyList&lt;/a&gt;、&lt;a href=&quot;https://adguard.com/kb/general/ad-filtering/adguard-filters/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;AdGuard Filters&lt;/a&gt;…等&lt;/p&gt;
+&lt;p&gt;更加分的是可以「自訂靜態過濾規格」隱藏特定網頁不想看到的區塊&lt;/p&gt;
+&lt;p&gt;如現在 youtube 首頁也有短影片&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; margin: initial;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 76.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAHMqKFDG//EABoQAAICAwAAAAAAAAAAAAAAAAABAgMREhP/2gAIAQEAAQUCreBDZGzWLtOp/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BR//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAIBBQAAAAAAAAAAAAAAAAAyARESIjFh/9oACAEBAAY/ApwuEkQp0U0f/8QAGhABAAMBAQEAAAAAAAAAAAAAAQARQTFhgf/aAAgBAQABPyFBye5A5dCXsl9WxswUAoDjEOvjP//aAAwDAQACAAMAAAAQMM//xAAYEQADAQEAAAAAAAAAAAAAAAAAARExUf/aAAgBAwEBPxBJTSOn/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EKmP/8QAHRABAAMAAgMBAAAAAAAAAAAAAQARIUFxMVGR8P/aAAgBAQABPxB+1tYxdy8XxS8n7ZkaRSPv5GxzFw1AKXGg9Xex4Qc8Uk//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Youtube Shorts&quot;
+        title=&quot;Youtube Shorts&quot;
+        src=&quot;/traverse/static/ab552ce0d54105edc457622bbf1e5f45/80e3c/youtube-shorts.jpg&quot;
+        srcset=&quot;/traverse/static/ab552ce0d54105edc457622bbf1e5f45/4ec73/youtube-shorts.jpg 180w,
+/traverse/static/ab552ce0d54105edc457622bbf1e5f45/158ba/youtube-shorts.jpg 360w,
+/traverse/static/ab552ce0d54105edc457622bbf1e5f45/80e3c/youtube-shorts.jpg 720w,
+/traverse/static/ab552ce0d54105edc457622bbf1e5f45/47311/youtube-shorts.jpg 1080w,
+/traverse/static/ab552ce0d54105edc457622bbf1e5f45/644c5/youtube-shorts.jpg 1440w,
+/traverse/static/ab552ce0d54105edc457622bbf1e5f45/61936/youtube-shorts.jpg 3064w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;從工具列點 uBlock 圖示右下角打開控制台到「自訂靜態過濾規格」&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; margin: initial;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 81.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAHl3BKif//EABcQAQEBAQAAAAAAAAAAAAAAABEAATH/2gAIAQEAAQUCt7qsujf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAWEAADAAAAAAAAAAAAAAAAAAAAIDH/2gAIAQEABj8CWn//xAAbEAADAAIDAAAAAAAAAAAAAAAAAREhMXGRsf/aAAgBAQABPyFbOkakeORS9Gw8QaNfB//aAAwDAQACAAMAAAAQ18//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEBAQEBAQEAAAAAAAAAAAABEQAxIZHB/9oACAEBAAE/EITeXBCEA+8/dwnXngy0j7kj2LO3JDFc/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Open dashbaord&quot;
+        title=&quot;Open dashbaord&quot;
+        src=&quot;/traverse/static/c8fe88b02fbef770dcf1b31894e79b99/80e3c/open-dashboard.jpg&quot;
+        srcset=&quot;/traverse/static/c8fe88b02fbef770dcf1b31894e79b99/4ec73/open-dashboard.jpg 180w,
+/traverse/static/c8fe88b02fbef770dcf1b31894e79b99/158ba/open-dashboard.jpg 360w,
+/traverse/static/c8fe88b02fbef770dcf1b31894e79b99/80e3c/open-dashboard.jpg 720w,
+/traverse/static/c8fe88b02fbef770dcf1b31894e79b99/47311/open-dashboard.jpg 1080w,
+/traverse/static/c8fe88b02fbef770dcf1b31894e79b99/45687/open-dashboard.jpg 1262w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;輸入下面規則可以隱藏首頁 Shorts 區塊&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer:has-text(shorts)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;再輸入下面規則可以隱藏 Youtube 導航 Shorts 入口&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer:has(a[title=&quot;Shorts&quot;])
+www.youtube.com##ytd-mini-guide-entry-renderer.ytd-mini-guide-renderer:has(a[title=&quot;Shorts&quot;])&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;這下 Youtube 首頁清爽多了&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; margin: initial;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 80.55555555555556%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHKonohRA//xAAaEAADAQADAAAAAAAAAAAAAAABAhEAAxIT/9oACAEBAAEFAkHbBZnAqEjelHI9b//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAIBBAMAAAAAAAAAAAAAAAABEQIDEjIhIzP/2gAIAQEABj8C4pkWVpweTNsRdjN2z//EABwQAQACAgMBAAAAAAAAAAAAAAEAESExQVFhgf/aAAgBAQABPyFQiPyB9oqCwArmWgVXmKsJWrCJ0Dc//9oADAMBAAIAAwAAABCnP//EABYRAQEBAAAAAAAAAAAAAAAAABEAIf/aAAgBAwEBPxAxm//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8QTthf/8QAHRABAQACAQUAAAAAAAAAAAAAAREAMSFBYZGhwf/aAAgBAQABPxAdOd9HGWV+VQvvBt5RyL33hqKlAc63hQiiAB5wcs4Knwz/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Youtube Home&quot;
+        title=&quot;Youtube Home&quot;
+        src=&quot;/traverse/static/f6d40ee9d73301d1f4b99d9840ad941f/80e3c/youtube-home.jpg&quot;
+        srcset=&quot;/traverse/static/f6d40ee9d73301d1f4b99d9840ad941f/4ec73/youtube-home.jpg 180w,
+/traverse/static/f6d40ee9d73301d1f4b99d9840ad941f/158ba/youtube-home.jpg 360w,
+/traverse/static/f6d40ee9d73301d1f4b99d9840ad941f/80e3c/youtube-home.jpg 720w,
+/traverse/static/f6d40ee9d73301d1f4b99d9840ad941f/47311/youtube-home.jpg 1080w,
+/traverse/static/f6d40ee9d73301d1f4b99d9840ad941f/644c5/youtube-home.jpg 1440w,
+/traverse/static/f6d40ee9d73301d1f4b99d9840ad941f/61936/youtube-home.jpg 3064w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;更多自訂規則說明參考 &lt;a href=&quot;https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Procedural cosmetic filters · gorhill/uBlock Wiki&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Javascript algorithm: Quickselect]]></title><description><![CDATA[When I saw the article Javascript Algorithms: Quicksort inspires me to write a similar article of quickselect, because quickselect is…]]></description><link>https://hoyangtsai.github.io/javascript-algorithm-quickselect/</link><guid isPermaLink="false">https://hoyangtsai.github.io/javascript-algorithm-quickselect/</guid><pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When I saw the article &lt;a href=&quot;https://wsvincent.com/javascript-algorithms-quicksort/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Javascript Algorithms: Quicksort&lt;/a&gt; inspires me to write a similar article of quickselect, because quickselect is related to quicksort sorting algorithm.&lt;/p&gt;
 &lt;p&gt;Quicksort was developed by Tony Hoars, thus quickselect is known as Hoare’s selection algorithm.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Quickselect is a selection algorithm to find the kth smallest element in an unordered list&lt;/p&gt;
