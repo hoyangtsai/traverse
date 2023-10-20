@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev, Life-style]]></description><link>https://hoyangtsai.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Jul 2023 11:15:11 GMT</lastBuildDate><item><title><![CDATA[uBlock Origin 黑魔法隱藏 Youtube Shorts 短影片]]></title><description><![CDATA[uBlock Origin 已經是裝 Chrome 系瀏覽器必備擴充程式 預設功能已經可以阻擋多種網頁廣告和 youtube 影片廣告 還可以安裝第三方提供的 AdBlock list 像是 EasyList、AdGuard Filters…]]></description><link>https://hoyangtsai.github.io/uBlock-origin-1p-filters/</link><guid isPermaLink="false">https://hoyangtsai.github.io/uBlock-origin-1p-filters/</guid><pubDate>Tue, 25 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?utm_source=app-launcher&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;uBlock Origin&lt;/a&gt; 已經是裝 Chrome 系瀏覽器必備擴充程式&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev, Life-style]]></description><link>https://hoyangtsai.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 20 Oct 2023 16:28:04 GMT</lastBuildDate><item><title><![CDATA[Boyer-Moore majority voting algorithm]]></title><description><![CDATA[Boyer-Moore majority voting algorithm 是一個用線性時間和常數空間尋找元素序列中佔多數的元素 <https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm…]]></description><link>https://hoyangtsai.github.io/boyer-moore-majority-voting-algorithm/</link><guid isPermaLink="false">https://hoyangtsai.github.io/boyer-moore-majority-voting-algorithm/</guid><pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Boyer-Moore majority voting algorithm 是一個用&lt;strong&gt;線性時間&lt;/strong&gt;和&lt;strong&gt;常數空間&lt;/strong&gt;尋找元素序列中佔多數的元素&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x3C;&lt;a href=&quot;https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;可以解決的問題，如 Leetcode &lt;a href=&quot;https://leetcode.com/problems/majority-element/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;169. Majority Element&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;Given an array nums of size n, return the majority element.
+
+The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+
+Example 1:
+
+Input: nums = [3,2,3]
+Output: 3
+Example 2:
+
+Input: nums = [2,2,1,1,1,2,2]
+Output: 2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;比較簡單直覺的做法是用一個 hash table 紀錄每個數字出現的次數和最大的計數&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/**
+ * @param {number[]} nums
+ * @return {number}
+ */&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;majorityElement&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counts &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; candidate &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; maxCount &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; n &lt;span class=&quot;token keyword&quot;&gt;of&lt;/span&gt; nums&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;counts&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;has&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      counts&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    counts&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; counts&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// if the number&apos;s count greater than the maxCount&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// The current number is the majority of the element&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;counts&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; maxCount&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      maxCount &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; counts&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      candidate &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; n&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; candidate&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;這個解法的複雜度為&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Time Complexity: O(n)&lt;/li&gt;
+&lt;li&gt;Space Complexity: O(n)，需要一個 n 陣列長度的 map 紀錄每個數字出現次數。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果要用 &lt;strong&gt;O(1) Space&lt;/strong&gt; 解決這個問題就要用到 Boyer-Moore majority voting algorithm&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/**
+ * @param {number[]} nums
+ * @return {number}
+ */&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;majorityElement&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;nums&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; count &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; candidate &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; n &lt;span class=&quot;token keyword&quot;&gt;of&lt;/span&gt; nums&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// when count is zero takes any number as a candidate&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;count &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      candidate &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; n&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// if the current number is not the candidate number&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;// the count subtracts 1, vice versa adds 1&lt;/span&gt;
+    count &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; n &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; candidate &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; candidate&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;其他相關問題&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/majority-element-ii/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;229. Majority Element II&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;1150. Check If a Number Is Majority Element in a Sorted Array&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[uBlock Origin 黑魔法隱藏 Youtube Shorts 短影片]]></title><description><![CDATA[uBlock Origin 已經是裝 Chrome 系瀏覽器必備擴充程式 預設功能已經可以阻擋多種網頁廣告和 youtube 影片廣告 還可以安裝第三方提供的 AdBlock list 像是 EasyList、AdGuard Filters…]]></description><link>https://hoyangtsai.github.io/uBlock-origin-1p-filters/</link><guid isPermaLink="false">https://hoyangtsai.github.io/uBlock-origin-1p-filters/</guid><pubDate>Tue, 25 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?utm_source=app-launcher&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;uBlock Origin&lt;/a&gt; 已經是裝 Chrome 系瀏覽器必備擴充程式&lt;/p&gt;
 &lt;p&gt;預設功能已經可以阻擋多種網頁廣告和 youtube 影片廣告&lt;/p&gt;
 &lt;p&gt;還可以安裝第三方提供的 AdBlock list&lt;/p&gt;
 &lt;p&gt;像是 &lt;a href=&quot;https://easylist.to/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;EasyList&lt;/a&gt;、&lt;a href=&quot;https://adguard.com/kb/general/ad-filtering/adguard-filters/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;AdGuard Filters&lt;/a&gt;…等&lt;/p&gt;
