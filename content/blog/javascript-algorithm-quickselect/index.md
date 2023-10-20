@@ -106,9 +106,9 @@ function quickselect(nums, l, r, kSmallest) {
 }
 ```
 
-It has O(N) average time complexity, O(N^2) in the worst case.
+It has $O(N)$ average time complexity, $O(N^2)$ in the worst case.
 
-## Practice
+## Relevant problems
 
-- [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-- [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
+- [215. Kth Largest Element in an Array - Leetcode](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [347. Top K Frequent Elements - Leetcode](https://leetcode.com/problems/top-k-frequent-elements/description/)
