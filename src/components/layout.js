@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Helmet from 'react-helmet';
 import Toggle from './toggle'
 // import moon from '../images/moon.png'
@@ -8,30 +8,42 @@ import { DEFAULT_CONFIG } from './config'
 
 import * as styles from './layout.module.css';
 
-const inTouches = [
-  {
+const Layout = ({ location, title, children }) => {
+  const data = useStaticQuery(graphql`
+    query BioQuery {
+      site {
+        siteMetadata {
+          social {
+            twitter
+            github
+            linkedin
+          }
+        }
+      }
+    }
+  `)
+
+  const social = data.site.siteMetadata?.social;
+
+  const getInTouches = [];
+  social?.twitter && getInTouches.push({
     name: 'Twitter',
     url: 'https://twitter.com/hoyangtsai'
-  },
-  {
+  })
+  social?.github && getInTouches.push({
     name: 'Github',
     url: 'https://github.com/hoyangtsai'
-  },
-  {
+  })
+  social?.linkedin && getInTouches.push({
     name: 'Linkedin',
     url: 'https://www.linkedin.com/in/hoyangtsai/'
-  }
-]
+  })
 
-const Layout = ({ data, location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header
 
   const [state, setState] = React.useState({theme: null});
-  // this.state = {
-  //   theme: null,
-  // };
 
   const { colorMode } = DEFAULT_CONFIG;
   const { switchConfig } = colorMode;  
@@ -97,8 +109,8 @@ const Layout = ({ data, location, title, children }) => {
         <div className={styles.rss}>
           <a href={`./rss.xml`} target="_blank" rel="noreferrer">RSS</a>
         </div>
-        <ul className={styles.inTouches}>
-          {inTouches.map((info, index) => <li className={styles.inTouchesItem} key={index}><a href={info.url} target="_blank" rel="noreferrer">{info.name}</a></li>)}
+        <ul className={styles.getInTouches}>
+          {getInTouches.map((info, index) => <li className={styles.getInTouchesItem} key={index}><a href={info.url} target="_blank" rel="noreferrer">{info.name}</a></li>)}
         </ul>
       </footer>
     </div>

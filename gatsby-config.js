@@ -11,6 +11,8 @@ module.exports = {
     siteUrl: `https://hoyangtsai.github.io`,
     social: {
       twitter: `hoyangtsai`,
+      github: `hoyangtsai`,
+      linkedin: `hoyangtsai`,
     },
   },
   pathPrefix: `/traverse`,

@@ -2,7 +2,7 @@
 date: 2022-01-03
 title: "Javascript algorithm: Quickselect"
 description: A method of picking up kth smallest/largest element
-tags: [algorithm, javascript]
+tags: [algorithm]
 donation: false
 ---
 
