@@ -7,7 +7,7 @@ tags: [algorithm]
 
 Boyer-Moore majority voting algorithm 是一個用**線性時間**和**常數空間**尋找元素序列中佔多數的元素
 
-> <https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm
+> <https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm>
 
 可以解決的問題，如 Leetcode [169. Majority Element](https://leetcode.com/problems/majority-element/)
 
