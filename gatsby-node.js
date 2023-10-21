@@ -11,30 +11,25 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
-    `
-      {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: ASC }
-          limit: 1000
-        ) {
-          nodes {
-            id
-            fields {
-              slug
-            }
-            frontmatter {
-              tags
-              donation
-            }
+    `{
+      allMarkdownRemark(sort: {frontmatter: {date: ASC}}, limit: 1000) {
+        nodes {
+          id
+          fields {
+            slug
           }
-        }
-        tagsGroup: allMarkdownRemark(limit: 2000) {
-          group(field: frontmatter___tags) {
-            fieldValue
+          frontmatter {
+            tags
+            donation
           }
         }
       }
-    `
+      tagsGroup: allMarkdownRemark(limit: 2000) {
+        group(field: {frontmatter: {tags: SELECT}}) {
+          fieldValue
+        }
+      }
+    }`
   )
 
   if (result.errors) {

@@ -16,6 +16,7 @@ module.exports = {
     },
   },
   pathPrefix: `/traverse`,
+  trailingSlash: `always`,
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
@@ -82,6 +83,13 @@ module.exports = {
               target: '_blank',
             },
           },
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+              strict: `ignore`
+            }
+          }
         ],
       },
     },
@@ -129,25 +137,21 @@ module.exports = {
                 })
               })
             },
-            query: `
-              {
-                allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
-                ) {
-                  nodes {
-                    excerpt
-                    html
-                    fields {
-                      slug
-                    }
-                    frontmatter {
-                      title
-                      date
-                    }
+            query: `{
+              allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
+                nodes {
+                  excerpt
+                  html
+                  fields {
+                    slug
+                  }
+                  frontmatter {
+                    title
+                    date
                   }
                 }
               }
-            `,
+            }`,
             output: "/rss.xml",
             title: "RSS Feed",
           },
